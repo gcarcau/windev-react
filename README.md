@@ -1,3 +1,54 @@
+# Playbook — Front & Back en React (options recommandées)
+
+Ce dépôt sert de modèle pour migrer une application WinDev/HFSQL vers une stack où le front et le back sont conçus autour de l'écosystème React/TypeScript.
+Deux approches recommandées (choisir selon besoins projet) :
+
+- **Option A — Fullstack React (monorepo) : Next.js (App Router)**
+	- Front + API routes dans le même projet Next.js : partage facile des types, SSR/SSG si besoin, bon pour SEO et déploiement simplifié (Vercel, Node).
+- **Option B — Séparation front / API (best-of-breed)**
+	- Front : React + Vite (SPA) ou Next.js si SSR désiré.
+	- API : Node.js (Fastify / Express) ou NestJS pour structure, ou tRPC si tu veux un contrat TypeScript strict entre front et back.
+Pourquoi ces choix ?
+
+- Next.js = solution fullstack éprouvée (pages/API intégrées, partage types, SSR si besoin).
+- Vite + API séparée = flexibilité, builds très rapides pour le front et liberté de choix pour l'API.
+- tRPC = productivité maximale si tu veux typage end-to-end sans boilerplate d'API REST.
+
+Structure conseillée (monorepo pnpm):
+apps/
+	web/    # React (Vite or Next.js)
+	api/    # API Node (Express/Fastify/NestJS) or Next.js API routes
+packages/ # types/shared utils
+origine/  # sources WinDev, captures, exports
+docs/
+Commandes de démarrage (exemples) :
+
+```bash
+pnpm install
+pnpm --filter web build
+pnpm --filter api build
+pnpm lint
+Recommandations rapides :
+
+- Si tu veux un **développement très rapide** et un rendu SPA statique : `Vite + React` pour le front, API `Fastify/Express/NestJS` pour le back.
+- Si tu veux **unifier front et back** (partage de types, SSR, déploiement simple) : `Next.js` (App Router) avec Prisma et NextAuth.
+- Pour un API TypeScript typé de bout en bout : considère `tRPC` (monorepo) ou GraphQL selon les besoins.
+
+Voir aussi les documents du playbook pour la méthode (cartographie, ADR, roadmap, passation) présents dans `templates/` et `docs/`.
+
+**Option B — Mise en place (séparation front / API)**
+
+Pour démarrer localement avec l'approche séparée (Vite front + API Fastify) :
+
+```bash
+pnpm install
+pnpm dev:web    # lance le front (Vite)
+pnpm dev:api    # lance l'API (Fastify)
+```
+
+Le front appelle `/api/health`. En dev, configure un proxy (vite) ou lance l'API sur `http://localhost:3000` et ouvre `http://localhost:5173` pour le front.
+
+Si tu veux que je crée la configuration Vite proxy et un script `dev` unique (concurrently), dis-le moi et je l'ajoute.
 # Playbook — Migration WinDev/HFSQL → React, pilotée par IA
 
 Adaptation du playbook [windev-vers-dotnet](https://github.com/migration-windev/windev-vers-dotnet) à une cible **React** (front) + **API REST/GraphQL** (back) + base de données moderne, pilotée par deux assistants IA Claude (Cowork = le cerveau, Claude Code = les mains), l'humain validant à chaque étape.
