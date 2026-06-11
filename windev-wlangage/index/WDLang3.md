@@ -1,0 +1,1921 @@
+# WDLang3 — 1740 rubriques
+
+## ce_presentation
+
+- [Communication avec WINDEV Mobile](../pages/3023039.md)
+- [WINDEV Mobile : Partage des éléments WINDEV](../pages/3023045.md)
+- [WINDEV Mobile : Plateformes, processeurs et systèmes d'exploitation](../pages/3023030.md)
+- [WINDEV Mobile : Présentation](../pages/3023025.md)
+
+## fonctions_action_rapide
+
+- [<Variable ActionRapide>.Ajoute (Fonction)](../pages/1410090385.md) — *<QuickAction variable>.Add*
+- [<Variable ActionRapide>.Epingle (Fonction)](../pages/1410090409.md) — *<QuickAction variable>.Pin*
+- [<Variable ActionRapide>.Supprime (Fonction)](../pages/1410090386.md) — *<QuickAction variable>.Remove*
+- [ActionRapide (Type de variable)](../pages/1410090054.md) — *QuickAction*
+- [ActionRapideAjoute (Fonction)](../pages/1410090053.md) — *QuickActionAdd*
+- [ActionRapideEpingle (Fonction)](../pages/1410090069.md) — *QuickActionPin*
+- [ActionRapideListe (Fonction)](../pages/1410090067.md) — *QuickActionList*
+- [ActionRapideSupprime (Fonction)](../pages/1410090064.md) — *QuickActionRemove*
+- [ActionRapideSupprimeTout (Fonction)](../pages/1410090068.md) — *QuickActionRemoveAll*
+- [App shortcuts (raccourcis d'application)](../pages/1410090381.md)
+- [Fonctions de gestion des raccourcis d'application (app shortcuts)](../pages/1410090380.md)
+- [Fonctions de gestion des raccourcis d'application (app shortcuts) (syntaxe préfixée)](../pages/1410090388.md)
+
+## fonctions_album
+
+- [AlbumSauve (Fonction)](../pages/1000020191.md) — *AlbumSave*
+- [AlbumSélecteur (Fonction)](../pages/1000020186.md) — *AlbumPicker*
+- [Constantes de gestion des albums](../pages/1000020193.md)
+- [Fonctions de gestion de l'album de photos](../pages/1000020192.md)
+- [PhotoLanceAppli (Fonction)](../pages/1000021601.md) — *PhotoRunApp*
+- [Procédure WLangage associée à la fonction AlbumSélecteur](../pages/1000024658.md)
+
+## fonctions_apple_watch
+
+- [awEnvoieEtRécupèreInfo (Fonction)](../pages/1000022116.md) — *awSendAndGetInfo*
+- [awEnvoieInfo (Fonction)](../pages/1000022117.md) — *awSendInfo*
+- [awProcédureRéceptionEtEnvoiInfo (Fonction)](../pages/1000022118.md) — *awProcedureGetAndSendInfo*
+- [awProcédureRéceptionInfo (Fonction)](../pages/1000022119.md) — *awProcedureGetInfo*
+- [Fonctions spécifiques à la communication iOS - Apple Watch](../pages/1000022159.md)
+
+## fonctions_auth_token
+
+- [<AuthToken>.Déconnecte (Fonction)](../pages/1410090671.md) — *<AuthToken>.Logout*
+- [<AuthToken>.RenouvelleToken (Fonction)](../pages/1000026285.md) — *<AuthToken>.RefreshToken*
+- [<AuthToken>.Révoque (Fonction)](../pages/1410090672.md) — *<AuthToken>.Revoke*
+- [<Variable AuthToken>.OpenIDLitIdentité (Fonction)](../pages/1000023629.md) — *<AuthToken variable>.OpenIDReadIdentity*
+- [AuthDéconnecte (Fonction)](../pages/1410090538.md) — *AuthLogout*
+- [AuthIdentifie (Fonction)](../pages/1000022219.md) — *AuthIdentify*
+- [AuthImporteToken (Fonction)](../pages/1410089557.md) — *AuthImportToken*
+- [AuthIntrospecteToken (Fonction)](../pages/1410090841.md) — *AuthIntrospectToken*
+- [AuthRenouvelleToken (Fonction)](../pages/1000026168.md) — *AuthRefreshToken*
+- [AuthRécupèreInfoUtilisateur (Fonction)](../pages/1410090919.md) — *AuthGetUserInfo*
+- [AuthRévoqueToken (Fonction)](../pages/1410090634.md) — *AuthRevokeToken*
+- [AuthToken (Type de variable)](../pages/1000022220.md) — *AuthToken*
+- [AuthVérifieAuthentification (Fonction)](../pages/1410090756.md) — *AuthVerifyAuthentication*
+- [Déclarer une application WINDEV dans le portail Azure](../pages/1410091357.md)
+- [Fonctions de gestion des protocoles OAuth et OpenID](../pages/1000023575.md)
+- [Fonctions de gestion des protocoles OAuth et OpenID (syntaxe préfixée)](../pages/1000023630.md)
+- [JWTCréeAssertion (Fonction)](../pages/1410091014.md) — *JWTCreateAssertion*
+- [JWTParamètres (Type de variable)](../pages/1410089572.md) — *JWTParameters*
+- [OAuth2Paramètres (Type de variable)](../pages/1000022212.md) — *OAuth2Parameters*
+- [OpenIDIdentité (Type de variable)](../pages/1000023567.md) — *OpenIDIdentity*
+- [OpenIDLitIdentité (Fonction)](../pages/1000023573.md) — *OpenIDReadIdentity*
+- [OpenIDParamètres (Type de variable)](../pages/1000023561.md) — *OpenIDParameters*
+- [Procédure WLangage appelée par la fonction AuthIdentifie](../pages/1000025107.md)
+
+## fonctions_authentification
+
+- [DoubleAuthGénèreCléTOTP (Fonction)](../pages/1000025974.md) — *TwoFactorAuthenticationGenerateTOTPKey*
+- [DoubleAuthGénèreLien (Fonction)](../pages/1000025975.md) — *TwoFactorAuthenticationGenerateLink*
+- [DoubleAuthVérifieCode (Fonction)](../pages/1000025976.md) — *TwoFactorAuthenticationCheckCode*
+- [Fonctions de gestion de la double authentification](../pages/1000026326.md)
+- [Intégrez la double authentification dans vos applications](../pages/1000026325.md)
+
+## fonctions_beacon
+
+- [BeaconArrêteDétectionEnArrièrePlan (Fonction)](../pages/1000023114.md) — *BeaconStopBackgroundDetection*
+- [BeaconArrêteDétectionPrécise (Fonction)](../pages/1000023116.md) — *BeaconStopPreciseDetection*
+- [BeaconDétecteEnArrièrePlan (Fonction)](../pages/1000023112.md) — *BeaconDetectBackground*
+- [BeaconDétectePrécis (Fonction)](../pages/1000023115.md) — *BeaconDetectPrecise*
+- [beaconGroupe (Type de variable)](../pages/1000023105.md) — *beaconGroup*
+- [beaconInfoDétection (Type de variable)](../pages/1000023109.md) — *beaconDetectionInfo*
+- [BeaconListeDétectionEnArrièrePlan (Fonction)](../pages/1000023113.md) — *BeaconListBackgroundDetection*
+- [Constantes de gestion des balises Beacon](../pages/1000023428.md)
+- [Détecter des balises Beacon](../pages/1000023429.md)
+- [Fonctions Beacon](../pages/1000023427.md)
+
+## fonctions_bluetooth
+
+- [BTAccepteConnexion (Fonction)](../pages/1000017128.md) — *BTAcceptConnection*
+- [BTActive (Fonction)](../pages/1000019359.md) — *BTActivate*
+- [BTActiveService (Fonction)](../pages/1000017142.md) — *BTEnableService*
+- [BTChangeConnectivité (Fonction)](../pages/1000017130.md) — *BTChangeConnectivity*
+- [BTChangeVisibilité (Fonction)](../pages/1000017129.md) — *BTChangeVisibility*
+- [BTConnectePériphérique (Fonction)](../pages/1000017146.md) — *BTConnectDevice*
+- [BTDéconnectePériphérique (Fonction)](../pages/1000017147.md) — *BTDisconnectDevice*
+- [BTDésactiveService (Fonction)](../pages/1000017143.md) — *BTDisableService*
+- [BTEstVisible (Fonction)](../pages/1000017127.md) — *BTIsVisible*
+- [BTEtat (Fonction)](../pages/1000019360.md) — *BTStatus*
+- [BTInfoPériphérique (Fonction)](../pages/1000017133.md) — *BTInfoDevice*
+- [BTInfoRadio (Fonction)](../pages/1000017126.md) — *BTInfoRadio*
+- [BTListePériphérique (Fonction)](../pages/1000017132.md) — *BTListDevice*
+- [BTListeRadio (Fonction)](../pages/1000017125.md) — *BTListRadio*
+- [BTListeService (Fonction)](../pages/1000017141.md) — *BTListService*
+- [BTOuvrePropriétésPériphérique (Fonction)](../pages/1000017134.md) — *BTOpenDeviceProperties*
+- [BTPile (Fonction)](../pages/1000017229.md) — *BTStack*
+- [BTSélecteurPériphérique (Fonction)](../pages/1000017135.md) — *BTSelectDevice*
+- [Constantes Bluetooth](../pages/1000017174.md)
+- [Fonctions Bluetooth](../pages/1000017173.md)
+- [Gestion des clés bluetooth](../pages/1000017231.md)
+- [Procédure WLangage appelée par la fonction BTEtat](../pages/1000025313.md)
+
+## fonctions_btle
+
+- [<btlePéripherique>.Initialise (Fonction)](../pages/1410087649.md) — *<btleDevice>.Initialize*
+- [<Variable btleCaractéristique>.ChangementValeur (Fonction)](../pages/1000022171.md) — *<btleCharacteristic variable>.ChangeOfValue*
+- [<Variable btleCaractéristique>.EcritValeur (Fonction)](../pages/1000022172.md) — *<btleCharacteristic variable>.WriteValue*
+- [<Variable btleCaractéristique>.LitValeur (Fonction)](../pages/1000022173.md) — *<btleCharacteristic variable>.ReadValue*
+- [<Variable btleCaractéristique>.RécupèreUnDescripteur (Fonction)](../pages/1000022218.md) — *<btleCharacteristic variable>.GetADescriptor*
+- [<Variable btleDescripteur>.EcritValeur (Fonction)](../pages/1000022199.md) — *<btleDescriptor variable>.WriteValue*
+- [<Variable btleDescripteur>.LitValeur (Fonction)](../pages/1000022200.md) — *<btleDescriptor variable>.ReadValue*
+- [<Variable btlePériphérique>.Connecte (Fonction)](../pages/1000022195.md) — *<btleDevice variable>.Connect*
+- [<Variable btlePériphérique>.Déconnecte (Fonction)](../pages/1000022196.md) — *<btleDevice variable>.Disconnect*
+- [<Variable btlePériphérique>.EtatConnexion (Fonction)](../pages/1000022202.md) — *<btleDevice variable>.ConnectionStatus*
+- [<Variable btlePériphérique>.RécupèreTousServices (Fonction)](../pages/1000022216.md) — *<btleDevice variable>.GetAllServices*
+- [<Variable btlePériphérique>.RécupèreUnService (Fonction)](../pages/1000022222.md) — *<btleDevice variable>.GetAService*
+- [<Variable btleService>.RécupèreToutesCaractéristiques (Fonction)](../pages/1000022217.md) — *<btleService variable>.GetAllCharacteristics*
+- [<Variable btleService>.RécupèreUneCaractéristique (Fonction)](../pages/1000022221.md) — *<btleService variable>.GetACharacteristic*
+- [btleCaractéristique (Type de variable)](../pages/1000022060.md) — *btleCharacteristic*
+- [BTLECaractéristiqueChangementValeur (Fonction)](../pages/1000022071.md) — *BTLECharacteristicChangeOfValue*
+- [BTLECaractéristiqueEcritValeur (Fonction)](../pages/1000022070.md) — *BTLECharacteristicWriteValue*
+- [BTLECaractéristiqueLitValeur (Fonction)](../pages/1000022069.md) — *BTLECharacteristicReadValue*
+- [BTLEConnecte (Fonction)](../pages/1000021884.md) — *BTLEConnect*
+- [btleDescripteur (Type de variable)](../pages/1000022064.md) — *btleDescriptor*
+- [BTLEDescripteurEcritValeur (Fonction)](../pages/1000022073.md) — *BTLEDescriptorWriteValue*
+- [BTLEDescripteurLitValeur (Fonction)](../pages/1000022072.md) — *BTLEDescriptorReadValue*
+- [BTLEDéconnecte (Fonction)](../pages/1000021883.md) — *BTLEDisconnect*
+- [BTLEEtat (Fonction)](../pages/1000021885.md) — *BTLEStatus*
+- [BTLEEtatConnexion (Fonction)](../pages/1000022068.md) — *BTLEConnectionStatus*
+- [BTLEInitialise (Fonction)](../pages/1000022110.md) — *BTLEInitialize*
+- [BTLEInitialisePériphérique (Fonction)](../pages/1410087620.md) — *BTLEInitializeDevice*
+- [BTLEListePériphérique (Fonction)](../pages/1000021882.md) — *BTLEListDevice*
+- [btlePériphérique (Type de variable)](../pages/1000022054.md) — *btleDevice*
+- [BTLERécupèreTousServices (Fonction)](../pages/1000022114.md) — *BTLEGetAllServices*
+- [BTLERécupèreToutesCaractéristiques (Fonction)](../pages/1000022115.md) — *BTLEGetAllCharacteristics*
+- [BTLERécupèreUnDescripteur (Fonction)](../pages/1000022112.md) — *BTLEGetADescriptor*
+- [BTLERécupèreUneCaractéristique (Fonction)](../pages/1000022113.md) — *BTLEGetACharacteristic*
+- [BTLERécupèreUnService (Fonction)](../pages/1000022111.md) — *BTLEGetAService*
+- [btleService (Type de variable)](../pages/1000022057.md) — *btleService*
+- [Fonctions BTLE](../pages/1000022162.md)
+- [Fonctions BTLE (syntaxe préfixée)](../pages/1000022224.md)
+- [Gestion des périphériques Bluetooth Low Energy](../pages/1000022165.md)
+- [Gestion des périphériques Bluetooth Low Energy (syntaxe préfixée)](../pages/1000022226.md)
+- [Procédure WLangage appelée par la fonction BTLECaractéristiqueChangementValeur](../pages/1000024784.md)
+- [Procédure WLangage appelée par la fonction BTLEEtat](../pages/1000024786.md)
+
+## fonctions_carte
+
+- [<Carte>.AffichePopup (Fonction)](../pages/1000025799.md) — *<Map>.DisplayPopup*
+- [<Carte>.AffichePosition (Fonction)](../pages/1000022394.md) — *<Map>.DisplayPosition*
+- [<Carte>.AfficheZone (Fonction)](../pages/1000025800.md) — *<Map>.DisplayArea*
+- [<Carte>.AjouteForme (Fonction)](../pages/1000025801.md) — *<Map>.AddShape*
+- [<Carte>.AjouteImage (Fonction)](../pages/1000025802.md) — *<Map>.AddImage*
+- [<Carte>.AjouteItinéraire (Fonction)](../pages/1000022420.md) — *<Map>.AddItinerary*
+- [<Carte>.AjouteMarqueur (Fonction)](../pages/1000022422.md) — *<Map>.AddMarker*
+- [<Carte>.ChangeStyle (Fonction)](../pages/1000025797.md) — *<Map>.ChangeStyle*
+- [<Carte>.DistanceItinéraire (Fonction)](../pages/1000022431.md) — *<Map>.ItineraryDistance*
+- [<Carte>.ExécuteJS (Fonction)](../pages/1000022384.md) — *<Map>.ExecuteJS*
+- [<Carte>.FermePopup (Fonction)](../pages/1000025803.md) — *<Map>.ClosePopup*
+- [<Carte>.FinDéplacement (Fonction)](../pages/1000022437.md) — *<Map>.EndOfMove*
+- [<Carte>.IdentifiantGgl (Fonction)](../pages/1410091156.md) — *<Map>.IDGgl*
+- [<Carte>.InfoPosition (Fonction)](../pages/1000022447.md) — *<Map>.InfoPosition*
+- [<Carte>.InfoXY (Fonction)](../pages/1000022448.md) — *<Map>.InfoXY*
+- [<Carte>.LimiteZone (Fonction)](../pages/1000025804.md) — *<Map>.LimitArea*
+- [<Carte>.ModifieForme (Fonction)](../pages/1000025805.md) — *<Map>.ModifyShape*
+- [<Carte>.ModifieImage (Fonction)](../pages/1000025818.md) — *<Map>.ModifyImage*
+- [<Carte>.ModifieMarqueur (Fonction)](../pages/1000022383.md) — *<Map>.ModifyMarker*
+- [<Carte>.PopupAffichée (Fonction)](../pages/1000025819.md) — *<Map>.PopupDisplayed*
+- [<Carte>.RécupèreImage (Fonction)](../pages/1000022462.md) — *<Map>.GetImage*
+- [<Carte>.RécupèreObjetJS (Fonction)](../pages/1000022385.md) — *<Map>.GetJSObject*
+- [<Carte>.RécupèrePosition (Fonction)](../pages/1000022463.md) — *<Map>.GetPosition*
+- [<Carte>.RécupèreStyle (Fonction)](../pages/1000025798.md) — *<Map>.GetStyle*
+- [<Carte>.SuitDéplacement (Fonction)](../pages/1000022464.md) — *<Map>.FollowMovement*
+- [<Carte>.SupprimeForme (Fonction)](../pages/1000025820.md) — *<Map>.DeleteShape*
+- [<Carte>.SupprimeImage (Fonction)](../pages/1000025829.md) — *<Map>.DeleteImage*
+- [<Carte>.SupprimeItinéraire (Fonction)](../pages/1000022465.md) — *<Map>.DeleteItinerary*
+- [<Carte>.SupprimeMarqueur (Fonction)](../pages/1000022466.md) — *<Map>.DeleteMarker*
+- [<Carte>.SupprimeTout (Fonction)](../pages/1000022472.md) — *<Map>.DeleteAll*
+- [Adresse (Type de variable)](../pages/1000019944.md) — *Address*
+- [CarteAffichePopup (Fonction)](../pages/1000025553.md) — *MapDisplayPopup*
+- [CarteAffichePosition (Exemple)](../pages/1000022007.md)
+- [CarteAffichePosition (Fonction)](../pages/1000019787.md) — *MapDisplayPosition*
+- [CarteAfficheZone (Fonction)](../pages/1000025535.md) — *MapDisplayArea*
+- [CarteAjouteForme (Fonction)](../pages/1000025509.md) — *MapAddShape*
+- [CarteAjouteImage (Fonction)](../pages/1000025532.md) — *MapAddImage*
+- [CarteAjouteItinéraire (Fonction)](../pages/1000020383.md) — *MapAddItinerary*
+- [CarteAjouteMarqueur (Exemple)](../pages/1000022008.md)
+- [CarteAjouteMarqueur (Fonction)](../pages/1000019794.md) — *MapAddMarker*
+- [CarteCercle (Type de variable)](../pages/1000025504.md) — *MapCircle*
+- [CarteChangeStyle (Fonction)](../pages/1000025556.md) — *MapChangeStyle*
+- [CarteConfigureAPIGgl (Fonction)](../pages/1000021611.md) — *MapConfigureGglAPI*
+- [CarteDistanceItinéraire (Fonction)](../pages/1000021614.md) — *MapItineraryDistance*
+- [CarteExécuteJS (Fonction)](../pages/1000021615.md) — *MapExecuteJS*
+- [CarteFermePopup (Fonction)](../pages/1000025554.md) — *MapClosePopup*
+- [CarteFinDéplacement (Fonction)](../pages/1000019949.md) — *MapEndOfMove*
+- [CarteIdentifiantGgl (Fonction)](../pages/1410091136.md) — *MapIDGgl*
+- [CarteImage (Type de variable)](../pages/1000025523.md) — *MapImage*
+- [CarteInfoPosition (Fonction)](../pages/1000019951.md) — *MapInfoPosition*
+- [CarteInfoXY (Fonction)](../pages/1000019950.md) — *MapInfoXY*
+- [CarteLicenceGgl (Fonction)](../pages/1000021299.md) — *MapLicenseGgl*
+- [CarteLimiteZone (Fonction)](../pages/1000025537.md) — *MapLimitArea*
+- [CarteModifieForme (Fonction)](../pages/1000025511.md) — *MapModifyShape*
+- [CarteModifieImage (Fonction)](../pages/1000025533.md) — *MapModifyImage*
+- [CarteModifieMarqueur (Fonction)](../pages/1000019796.md) — *MapModifyMarker*
+- [CartePolygone (Type de variable)](../pages/1000025476.md) — *MapPolygon*
+- [CartePolyligne (Type de variable)](../pages/1000025489.md) — *MapPolyline*
+- [CartePopupAffichée (Fonction)](../pages/1000025555.md) — *MapPopupDisplayed*
+- [CarteRécupèreImage (Fonction)](../pages/1000022376.md) — *MapGetImage*
+- [CarteRécupèreObjetJS (Fonction)](../pages/1000021474.md) — *MapGetJSObject*
+- [CarteRécupèrePosition (Fonction)](../pages/1000019790.md) — *MapGetPosition*
+- [CarteRécupèreStyle (Fonction)](../pages/1000025557.md) — *MapGetStyle*
+- [CarteSuitDéplacement (Fonction)](../pages/1000019953.md) — *MapFollowMovement*
+- [CarteSupprimeForme (Fonction)](../pages/1000025510.md) — *MapDeleteShape*
+- [CarteSupprimeImage (Fonction)](../pages/1000025534.md) — *MapDeleteImage*
+- [CarteSupprimeItinéraire (Fonction)](../pages/1000020384.md) — *MapDeleteItinerary*
+- [CarteSupprimeMarqueur (Fonction)](../pages/1000019795.md) — *MapDeleteMarker*
+- [CarteSupprimeTout (Fonction)](../pages/1000019952.md) — *MapDeleteAll*
+- [Constantes de gestion des champs Carte](../pages/1000020396.md)
+- [Fonctions de gestion du champ Carte](../pages/1000019955.md)
+- [Fonctions de gestion du champ Carte (syntaxe préfixée)](../pages/1000022419.md)
+- [Marqueur (Type de variable)](../pages/1000019940.md) — *Marker*
+- [MarqueurImage (Type de variable)](../pages/1000025796.md) — *MarkerImage*
+
+## fonctions_contact
+
+- [AdresseEmail (Type de variable)](../pages/1000020244.md) — *EmailAddress*
+- [AdresseSIP (Type de variable)](../pages/1000020245.md) — *SIPAddress*
+- [AdresseWeb (Type de variable)](../pages/1000020246.md) — *WebAddress*
+- [Constantes de gestion des fonctions contact](../pages/1000020270.md)
+- [Contact (Type de variable)](../pages/1000020254.md) — *Contact*
+- [ContactAffiche (Fonction)](../pages/1000019506.md) — *ContactDisplay*
+- [ContactAjoute (Exemple)](../pages/1000020272.md)
+- [ContactAjoute (Fonction)](../pages/1000006101.md) — *ContactAdd*
+- [ContactCherche (Fonction)](../pages/1000006102.md) — *ContactSearch*
+- [ContactCrée (Fonction)](../pages/1000019556.md) — *ContactCreate*
+- [ContactDernier (Fonction)](../pages/1000006103.md) — *ContactLast*
+- [ContactEdite (Fonction)](../pages/1000019507.md) — *ContactEdit*
+- [ContactListe (Fonction)](../pages/1000020266.md) — *ContactList*
+- [ContactListeSource (Fonction)](../pages/1000020214.md) — *ContactListSource*
+- [ContactLit (Fonction)](../pages/1000006112.md) — *ContactRead*
+- [ContactModifie (Fonction)](../pages/1000006104.md) — *ContactModify*
+- [ContactPremier (Fonction)](../pages/1000006106.md) — *ContactFirst*
+- [ContactPrécédent (Fonction)](../pages/1000006105.md) — *ContactPrevious*
+- [ContactRAZ (Fonction)](../pages/1000006107.md) — *ContactReset*
+- [ContactSource (Type de variable)](../pages/1000020211.md) — *ContactSource*
+- [ContactSuivant (Fonction)](../pages/1000006108.md) — *ContactNext*
+- [ContactSupprime (Fonction)](../pages/1000006109.md) — *ContactDelete*
+- [ContactSélectionne (Fonction)](../pages/1000019508.md) — *ContactSelect*
+- [Evénement (Type de variable)](../pages/1000020248.md) — *Event*
+- [Fonctions de gestion des contacts (Lotus Notes, Outlook et appareil mobile)](../pages/1000006110.md)
+- [Gestion des contacts (appareils mobiles)](../pages/1000020271.md)
+- [La structure Contact](../pages/1000006111.md)
+- [MessagerieInstantanée (Type de variable)](../pages/1000020247.md) — *InstantMessaging*
+- [Téléphone (Type de variable)](../pages/1000020241.md) — *Phone*
+
+## fonctions_dns
+
+- [Constantes DNS](../pages/1410090478.md)
+- [DNSAjouteAdresse (Fonction)](../pages/1000019400.md) — *DNSAddAddress*
+- [DNSInterroge (Fonction)](../pages/1410089873.md) — *DNSQuery*
+- [DNSListeAdresse (Fonction)](../pages/1000019401.md) — *DNSListAddress*
+- [DNSSupprimeAdresse (Fonction)](../pages/1000019402.md) — *DNSDeleteAddress*
+- [Fonctions DNS](../pages/1000019406.md)
+
+## fonctions_domo
+
+- [Constantes Domo](../pages/1000003109.md)
+- [DomoAllume (Fonction)](../pages/1000003101.md) — *DomoSwitchOn*
+- [DomoEnvoie (Fonction)](../pages/1000003104.md) — *DomoSend*
+- [DomoEtat (Fonction)](../pages/1000003105.md) — *DomoStatus*
+- [DomoEteint (Fonction)](../pages/1000003103.md) — *DomoSwitchOff*
+- [DomoFerme (Fonction)](../pages/1000003106.md) — *DomoClose*
+- [DomoOuvre (Fonction)](../pages/1000003102.md) — *DomoOpen*
+- [Domotique : Présentation](../pages/1000003108.md)
+- [Fonctions de gestion de la domotique](../pages/1000003107.md)
+
+## fonctions_dotnet
+
+- [Application cliente : Exécuter des procédures sur un serveur de services .Net](../pages/3031010.md)
+- [Constantes DotNet](../pages/3031008.md)
+- [DotNetAjouteEntête (Fonction)](../pages/3031009.md) — *DotNetAddHeader*
+- [DotNetDonneRésultat (Fonction)](../pages/3031005.md) — *DotNetGetResult*
+- [DotNetDélégué (Exemple)](../pages/1001000017052.md)
+- [DotNetDélégué (Fonction)](../pages/1000017052.md) — *DotNetDelegate*
+- [DotNetErreur (Fonction)](../pages/3031004.md) — *DotNetError*
+- [DotNetExécute (Fonction)](../pages/3031016.md) — *DotNetRun*
+- [DotNetExécuteXML (Fonction)](../pages/3031012.md) — *DotNetRunXML*
+- [DotNetVersion (Fonction)](../pages/3031017.md) — *DotNetVersion*
+- [Fonctions DotNet](../pages/3031013.md)
+- [La structure DotNet](../pages/3031011.md)
+
+## fonctions_drive
+
+- [<Variable Drive>.CopieFichier (Fonction)](../pages/1410090349.md) — *<Drive variable>.CopyFile*
+- [<Variable Drive>.CopieRépertoire (Fonction)](../pages/1410090351.md) — *<Drive variable>.CopyDirectory*
+- [<Variable Drive>.CréeFichier (Fonction)](../pages/1410090352.md) — *<Drive variable>.CreateFile*
+- [<Variable Drive>.CréeRépertoire (Fonction)](../pages/1410090353.md) — *<Drive variable>.CreateDirectory*
+- [<Variable Drive>.DéplaceFichier (Fonction)](../pages/1410090354.md) — *<Drive variable>.MoveFile*
+- [<Variable Drive>.DéplaceRépertoire (Fonction)](../pages/1410090356.md) — *<Drive variable>.MoveDirectory*
+- [<Variable Drive>.EnvoieFichier (Fonction)](../pages/1410090357.md) — *<Drive variable>.UploadFile*
+- [<Variable Drive>.EnvoieRépertoire (Fonction)](../pages/1410090358.md) — *<Drive variable>.UploadDirectory*
+- [<Variable Drive>.ListeFichier (Fonction)](../pages/1410090359.md) — *<Drive variable>.ListFile*
+- [<Variable Drive>.ListeRépertoire (Fonction)](../pages/1410090361.md) — *<Drive variable>.ListDirectory*
+- [<Variable Drive>.Renomme (Fonction)](../pages/1410090365.md) — *<Drive variable>.Rename*
+- [<Variable Drive>.RécupèreFichier (Fonction)](../pages/1410090362.md) — *<Drive variable>.DownloadFile*
+- [<Variable Drive>.RécupèreRépertoire (Fonction)](../pages/1410090364.md) — *<Drive variable>.DownloadDirectory*
+- [<Variable Drive>.SupprimeFichier (Fonction)](../pages/1410090368.md) — *<Drive variable>.DeleteFile*
+- [<Variable Drive>.SupprimeRépertoire (Fonction)](../pages/1410090369.md) — *<Drive variable>.DeleteDirectory*
+- [<Variable gglDrive>.CopieFichier (Fonction)](../pages/1410090350.md) — *<gglDrive variable>.CopyFile*
+- [<Variable gglDrive>.DéplaceFichier (Fonction)](../pages/1410090355.md) — *<gglDrive variable>.MoveFile*
+- [<Variable gglDrive>.ListeFichierGgl (Fonction)](../pages/1410090360.md) — *<gglDrive variable>.ListFileGgl*
+- [<Variable gglDrive>.Renomme (Fonction)](../pages/1410090366.md) — *<gglDrive variable>.Rename*
+- [<Variable gglDrive>.RécupèreFichierGgl (Fonction)](../pages/1410090363.md) — *<gglDrive variable>.DownloadGglFile*
+- [<Variable gglDrive>.SupprimeFichier (Fonction)](../pages/1410090367.md) — *<gglDrive variable>.DeleteFile*
+- [dpDriveConnecte (Fonction)](../pages/1410089379.md) — *dpDriveConnect*
+- [Drive (Type de variable)](../pages/1410089369.md) — *Drive*
+- [DriveCopieFichier (Fonction)](../pages/1410089524.md) — *DriveCopyFile*
+- [DriveCopieRépertoire (Fonction)](../pages/1410089554.md) — *DriveCopyDirectory*
+- [DriveCréeFichier (Fonction)](../pages/1410089477.md) — *DriveCreateFile*
+- [DriveCréeRépertoire (Fonction)](../pages/1410089479.md) — *DriveCreateDirectory*
+- [DriveDéplaceFichier (Fonction)](../pages/1410089555.md) — *DriveMoveFile*
+- [DriveDéplaceRépertoire (Fonction)](../pages/1410089556.md) — *DriveMoveDirectory*
+- [DriveEnvoieFichier (Fonction)](../pages/1410089563.md) — *DriveUploadFile*
+- [DriveEnvoieRépertoire (Fonction)](../pages/1410089564.md) — *DriveUploadDirectory*
+- [DriveListeFichier (Fonction)](../pages/1410089380.md) — *DriveListFile*
+- [DriveListeFichierGgl (Fonction)](../pages/1410089601.md) — *DriveListFileGgl*
+- [DriveListeRépertoire (Fonction)](../pages/1410089448.md) — *DriveListDirectory*
+- [DriveRenomme (Fonction)](../pages/1410089566.md) — *DriveRename*
+- [DriveRécupèreFichier (Fonction)](../pages/1410089558.md) — *DriveDownloadFile*
+- [DriveRécupèreFichierGgl (Fonction)](../pages/1410089618.md) — *DriveDownloadGglFile*
+- [DriveRécupèreRépertoire (Fonction)](../pages/1410089559.md) — *DriveDownloadDirectory*
+- [DriveSupprimeFichier (Fonction)](../pages/1410089480.md) — *DriveDeleteFile*
+- [DriveSupprimeRépertoire (Fonction)](../pages/1410089481.md) — *DriveDeleteDirectory*
+- [FichierGgl (Type de variable)](../pages/1410089586.md) — *GglFile*
+- [Fonctions de gestion des drives : OneDrive, Google Drive, Dropbox](../pages/1410090344.md)
+- [Fonctions de gestion des drives : OneDrive, Google Drive, Dropbox (syntaxe préfixée)](../pages/1410090371.md)
+- [gglDrive (Type de variable)](../pages/1410089374.md) — *gglDrive*
+- [GglDriveConnecte (Fonction)](../pages/1410089373.md) — *GglDriveConnect*
+- [Manipuler des fichiers sur Dropbox, Google Drive et OneDrive](../pages/1410090345.md)
+- [oDriveConnecte (Fonction)](../pages/1410089376.md) — *oDriveConnect*
+- [Pré-requis à l'utilisation des drives Google Drive, OneDrive et Dropbox](../pages/1410090346.md)
+
+## fonctions_emails
+
+- [<EmailSessionIMAP>.RécupèreTout (Fonction)](../pages/1000022308.md) — *<EmailIMAPSession>.GetAll*
+- [<Variable Email>.ChargeFichierAttaché (Fonction)](../pages/1000022277.md) — *<Email variable>.LoadAttachment*
+- [<Variable Email>.ConstruitSource (Fonction)](../pages/1000022278.md) — *<Email variable>.BuildSource*
+- [<Variable Email>.ExporteHTML (Fonction)](../pages/1000026178.md) — *<Email variable>.ExportHTML*
+- [<Variable Email>.ImporteHTML (Fonction)](../pages/1000022287.md) — *<Email variable>.ImportHTML*
+- [<Variable Email>.ImporteSource (Fonction)](../pages/1000022288.md) — *<Email variable>.ImportSource*
+- [<Variable emailAttache>.SauveFichierAttaché (Fonction)](../pages/1000022289.md) — *<emailAttach variable>.SaveAttachment*
+- [<Variable emailSessionIMAP>.AbonneAuDossier (Fonction)](../pages/1410091167.md) — *<emailIMAPSession variable>.SubscribeToFolder*
+- [<Variable emailSessionIMAP>.AjouteDossier (Fonction)](../pages/1000022273.md) — *<emailIMAPSession variable>.AddFolder*
+- [<Variable emailSessionIMAP>.ChangeDossier (Fonction)](../pages/1000022275.md) — *<emailIMAPSession variable>.ChangeFolder*
+- [<Variable emailSessionIMAP>.ChangeEtat (Fonction)](../pages/1000022313.md) — *<emailSessionIMAP variable>.ChangeStatus*
+- [<Variable emailSessionIMAP>.DossierCourant (Fonction)](../pages/1000022280.md) — *<emailIMAPSession variable>.CurrentFolder*
+- [<Variable emailSessionIMAP>.DésabonneDuDossier (Fonction)](../pages/1410091267.md) — *<emailIMAPSession variable>.UnsubscribeFromFolder*
+- [<Variable emailSessionIMAP>.Détruit (Fonction)](../pages/1000022279.md) — *<emailIMAPSession variable>.Expunge*
+- [<Variable emailSessionIMAP>.ExécuteCommande (Fonction)](../pages/1410091166.md) — *<emailIMAPSession variable>.ExecuteCommand*
+- [<Variable emailSessionIMAP>.FermeSession (Fonction)](../pages/1000022282.md) — *<emailIMAPSession variable>.CloseSession*
+- [<Variable emailSessionIMAP>.ListeDossier (Fonction)](../pages/1000022290.md) — *<emailIMAPSession variable>.ListFolder*
+- [<Variable emailSessionIMAP>.NbMessage (Fonction)](../pages/1000022297.md) — *<emailIMAPSession variable>.NbMessage*
+- [<Variable emailSessionIMAP>.OuvreSession (Fonction)](../pages/1000022304.md) — *<emailIMAPSession variable>.StartSession*
+- [<Variable emailSessionIMAP>.SupprimeDossier (Fonction)](../pages/1000022299.md) — *<emailIMAPSession variable>.RemoveFolder*
+- [<Variable emailSessionNotes>.EnvoieMessage (Fonction)](../pages/1000022316.md) — *<emailNotesSession variable>.SendMessage*
+- [<Variable emailSessionNotes>.FermeSession (Fonction)](../pages/1000022285.md) — *<emailNotesSession variable>.CloseSession*
+- [<Variable emailSessionNotes>.NbMessage (Fonction)](../pages/1000022295.md) — *<emailNotesSession variable>.NbMessage*
+- [<Variable EmailSessionNotes>.OuvreSession (Fonction)](../pages/1000022303.md) — *<EmailNotesSession variable>.StartSession*
+- [<Variable EmailSessionNotes>.RécupèreTout (Fonction)](../pages/1000022309.md) — *<EmailNotesSession variable>.GetAll*
+- [<Variable emailSessionOutlook>.AjouteDossier (Fonction)](../pages/1000022274.md) — *<emailOutlookSession variable>.AddFolder*
+- [<Variable emailSessionOutlook>.ChangeDossier (Fonction)](../pages/1000022276.md) — *<emailOutlookSession variable>.ChangeFolder*
+- [<Variable emailSessionOutlook>.ChangeEtat (Fonction)](../pages/1000022312.md) — *<emailOutlookSession variable>.ChangeStatus*
+- [<Variable emailSessionOutlook>.DossierCourant (Fonction)](../pages/1000022281.md) — *<emailOutlookSession variable>.CurrentFolder*
+- [<Variable emailSessionOutlook>.EnvoieMessage (Fonction)](../pages/1000022315.md) — *<emailOutlookSession variable>.SendMessage*
+- [<Variable emailSessionOutlook>.FermeSession (Fonction)](../pages/1000022284.md) — *<emailOutlookSession variable>.CloseSession*
+- [<Variable emailSessionOutlook>.ListeDossier (Fonction)](../pages/1000022291.md) — *<emailOutlookSession variable>.ListFolder*
+- [<Variable EmailSessionOutlook>.MiseAJour (Fonction)](../pages/1000022293.md) — *<EmailOutlookSession variable>.Update*
+- [<Variable emailSessionOutlook>.NbMessage (Fonction)](../pages/1000022296.md) — *<emailOutlookSession variable>.NbMessage*
+- [<Variable EmailSessionOutlook>.OuvreSession (Fonction)](../pages/1000022302.md) — *<EmailOutlookSession variable>.StartSession*
+- [<Variable EmailSessionOutlook>.RécupèreTout (Fonction)](../pages/1000022307.md) — *<EmailOutlookSession variable>.GetAll*
+- [<Variable emailSessionOutlook>.SupprimeDossier (Fonction)](../pages/1000022300.md) — *<emailOutlookSession variable>.RemoveFolder*
+- [<Variable emailSessionPOP3>.FermeSession (Fonction)](../pages/1000022283.md) — *<emailPOP3Session variable>.CloseSession*
+- [<Variable emailSessionPOP3>.NbMessage (Fonction)](../pages/1000022298.md) — *<emailPOP3Session variable>.NbMessage*
+- [<Variable emailSessionPOP3>.OuvreSession (Fonction)](../pages/1000022305.md) — *<emailPOP3Session variable>.StartSession*
+- [<Variable EmailSessionPOP3>.RécupèreTout (Fonction)](../pages/1000022310.md) — *<EmailPOP3Session variable>.GetAll*
+- [<Variable emailSessionSMTP>.EnvoieMessage (Fonction)](../pages/1000022314.md) — *<emailSMTPSession variable>.SendMessage*
+- [<Variable emailSessionSMTP>.FermeSession (Fonction)](../pages/1000022286.md) — *<emailSMTPSession variable>.CloseSession*
+- [<Variable emailSessionSMTP>.OuvreSession (Fonction)](../pages/1000022306.md) — *<emailSMTPSession variable>.StartSession*
+- [Accéder à Lotus Notes](../pages/3032136.md)
+- [Accéder à Outlook](../pages/3032137.md)
+- [Communiquez par emails](../pages/3032007.md)
+- [Constantes de gestion des emails](../pages/3032138.md)
+- [Email (Type de variable)](../pages/1000018713.md) — *Email*
+- [EmailAbonneAuDossier (Fonction)](../pages/1410091039.md) — *EmailSubscribeToFolder*
+- [EmailAjouteDossier (Fonction)](../pages/3032129.md) — *EmailAddFolder*
+- [EmailAppliRécupèreArchitecture (Fonction)](../pages/1410090512.md) — *EmailAppGetArchitecture*
+- [emailAttache (Type de variable)](../pages/1000018752.md) — *emailAttach*
+- [EmailChangeDossier (Exemple)](../pages/1000003032135.md)
+- [EmailChangeDossier (Fonction)](../pages/3032135.md) — *EmailChangeFolder*
+- [EmailChangeEtat (Fonction)](../pages/1000019112.md) — *EmailChangeStatus*
+- [EmailChangeTimeOut (Fonction)](../pages/3032001.md) — *EmailSetTimeOut*
+- [EmailChargeFichierAttaché (Fonction)](../pages/1000019126.md) — *EmailLoadAttachment*
+- [EmailCherchePremier (Exemple)](../pages/1000021555.md)
+- [EmailCherchePremier (Fonction)](../pages/3032131.md) — *EmailSeekFirst*
+- [EmailCherchePremierNotes (Fonction)](../pages/3032125.md) — *EmailSeekFirstNotes*
+- [EmailConstruitSource (Fonction)](../pages/1000017225.md) — *EmailBuildSource*
+- [EmailCopie (Fonction)](../pages/1000019918.md) — *EmailCopy*
+- [EmailDossierCourant (Fonction)](../pages/3032132.md) — *EmailCurrentFolder*
+- [EmailDésabonneDuDossier (Fonction)](../pages/1410091040.md) — *EmailUnsubscribeFromFolder*
+- [EmailDétruit (Fonction)](../pages/1000021553.md) — *EmailExpunge*
+- [emailEntête (Type de variable)](../pages/1000020774.md) — *emailHeader*
+- [EmailEnvoie (Exemple)](../pages/1000003032003.md)
+- [EmailEnvoie (Fonction)](../pages/3032003.md) — *EmailSend*
+- [EmailEnvoieMessage (Exemple)](../pages/1000003032005.md)
+- [EmailEnvoieMessage (Fonction)](../pages/3032005.md) — *EmailSendMessage*
+- [EmailEtat (Fonction)](../pages/3032009.md) — *EmailStatus*
+- [EmailExporteHTML (Fonction)](../pages/1000026173.md) — *EmailExportHTML*
+- [EmailExécuteCommande (Fonction)](../pages/1410091038.md) — *EmailExecuteCommand*
+- [EmailFermeSession (Exemple)](../pages/1000003032006.md)
+- [EmailFermeSession (Fonction)](../pages/3032006.md) — *EmailCloseSession*
+- [EmailImporteHTML (Fonction)](../pages/3032038.md) — *EmailImportHTML*
+- [EmailImporteSource (Fonction)](../pages/1000017226.md) — *EmailImportSource*
+- [EmailJauge (Fonction)](../pages/3032017.md) — *EmailProgressBar*
+- [EmailLanceAppli (Fonction)](../pages/1000019564.md) — *EmailRunApp*
+- [EmailListeDossier (Exemple)](../pages/1000003032133.md)
+- [EmailListeDossier (Fonction)](../pages/3032133.md) — *EmailListFolder*
+- [EmailLitDernier (Exemple)](../pages/1000003032010.md)
+- [EmailLitDernier (Fonction)](../pages/3032010.md) — *EmailReadLast*
+- [EmailLitEntêteDernier (Fonction)](../pages/3032015.md) — *EmailReadLastHeader*
+- [EmailLitEntêteMessage (Fonction)](../pages/3032012.md) — *EmailReadMessageHeader*
+- [EmailLitEntêtePremier (Fonction)](../pages/3032013.md) — *EmailReadFirstHeader*
+- [EmailLitEntêtePrécédent (Fonction)](../pages/3032019.md) — *EmailReadPreviousHeader*
+- [EmailLitEntêteSuivant (Fonction)](../pages/3032018.md) — *EmailReadNextHeader*
+- [EmailLitMessage (Exemple)](../pages/1000003032016.md)
+- [EmailLitMessage (Fonction)](../pages/3032016.md) — *EmailReadMessage*
+- [EmailLitPremier (Exemple)](../pages/1000003032014.md)
+- [EmailLitPremier (Fonction)](../pages/3032014.md) — *EmailReadFirst*
+- [EmailLitPrécédent (Exemple)](../pages/1000003032008.md)
+- [EmailLitPrécédent (Fonction)](../pages/3032008.md) — *EmailReadPrevious*
+- [EmailLitSuivant (Exemple)](../pages/1000003032004.md)
+- [EmailLitSuivant (Fonction)](../pages/3032004.md) — *EmailReadNext*
+- [EmailLitTimeOut (Fonction)](../pages/3032011.md) — *EmailGetTimeOut*
+- [EmailMiseAJour (Exemple)](../pages/1000003032036.md)
+- [EmailMiseAJour (Fonction)](../pages/3032036.md) — *EmailUpdate*
+- [EmailMsgErreur (Exemple)](../pages/1000003032026.md)
+- [EmailMsgErreur (Fonction)](../pages/3032026.md) — *EmailMsgError*
+- [EmailNbMessage (Exemple)](../pages/1000003032024.md)
+- [EmailNbMessage (Fonction)](../pages/3032024.md) — *EmailNbMessage*
+- [EmailOuvreSession (Exemple)](../pages/1000003032028.md)
+- [EmailOuvreSession (Fonction)](../pages/3032028.md) — *EmailStartSession*
+- [EmailOuvreSessionIMAP (Fonction)](../pages/1000019189.md) — *EmailStartIMAPSession*
+- [EmailOuvreSessionNotes (Fonction)](../pages/3032121.md) — *EmailStartNotesSession*
+- [EmailOuvreSessionOutlook (Fonction)](../pages/3032128.md) — *EmailStartOutlookSession*
+- [EmailOuvreSessionPOP3 (Fonction)](../pages/3032022.md) — *EmailStartPOP3Session*
+- [EmailOuvreSessionSMTP (Fonction)](../pages/3032025.md) — *EmailStartSMTPSession*
+- [EmailParamètre (Fonction)](../pages/1000022269.md) — *EmailConfigure*
+- [EmailRAZ (Fonction)](../pages/3032023.md) — *EmailReset*
+- [EmailRécupèreIndicateur (Fonction)](../pages/1000021263.md) — *EmailGetIndicator*
+- [EmailRécupèreTout (Fonction)](../pages/1000018727.md) — *EmailGetAll*
+- [EmailSauveFichierAttaché (Exemple)](../pages/1000003032020.md)
+- [EmailSauveFichierAttaché (Fonction)](../pages/3032020.md) — *EmailSaveAttachment*
+- [emailSessionIMAP (Type de variable)](../pages/1000018957.md) — *emailIMAPSession*
+- [emailSessionNotes (Type de variable)](../pages/1000018768.md) — *emailNotesSession*
+- [emailSessionOutlook (Type de variable)](../pages/1000018767.md) — *emailOutlookSession*
+- [emailSessionPOP3 (Type de variable)](../pages/1000018759.md) — *emailPOP3Session*
+- [emailSessionSMTP (Type de variable)](../pages/1000018765.md) — *emailSMTPSession*
+- [EmailSupprimeDossier (Fonction)](../pages/3032134.md) — *EmailRemoveFolder*
+- [EmailSupprimeMessage (Exemple)](../pages/1000003032027.md)
+- [EmailSupprimeMessage (Fonction)](../pages/3032027.md) — *EmailDeleteMessage*
+- [EmailTailleMessage (Fonction)](../pages/3032030.md) — *EmailMessageLength*
+- [EmailVérifieAdresse (Fonction)](../pages/1000017305.md) — *EmailCheckAddress*
+- [FermeSession (Fonction)](../pages/3032124.md) — *CloseSession*
+- [Fonctions de gestion des emails](../pages/3032034.md)
+- [Fonctions de gestion des emails (syntaxe préfixée)](../pages/1000022311.md)
+- [Gérez les emails avec "Simple MAPI"](../pages/3032035.md)
+- [Gérez les emails avec les protocoles POP3/SMTP](../pages/3032031.md)
+- [La structure email](../pages/3032029.md)
+- [Lire un email](../pages/3032037.md)
+- [OutlookListeProfil (Fonction)](../pages/1000019346.md) — *OutlookListProfile*
+- [OutlookOuvreSession (Exemple)](../pages/1000003032123.md)
+- [OutlookOuvreSession (Fonction)](../pages/3032123.md) — *OutlookStartSession*
+- [OutlookProfilDéfaut (Fonction)](../pages/1000019347.md) — *OutlookDefaultProfile*
+- [Protocole IMAP](../pages/1000019172.md)
+- [Écrire un email](../pages/3032002.md)
+
+## fonctions_fax
+
+- [Configurer le poste "serveur de Fax"](../pages/3037016.md)
+- [Constantes Fax](../pages/3037010.md)
+- [Envoyer des fax avec WINDEV et WEBDEV](../pages/3037002.md)
+- [FaxBoîteEnvoi (Fonction)](../pages/3037008.md) — *FaxOutbox*
+- [FaxBoîteRéception (Fonction)](../pages/3037009.md) — *FaxInbox*
+- [FaxConnecte (Fonction)](../pages/3037005.md) — *FaxConnect*
+- [FaxDéconnecte (Fonction)](../pages/3037007.md) — *FaxDisconnect*
+- [FaxEnvoie (Fonction)](../pages/3037006.md) — *FaxSend*
+- [FaxEtat (Fonction)](../pages/3037001.md) — *FaxStatus*
+- [FaxReprend (Fonction)](../pages/3037013.md) — *FaxResume*
+- [FaxRéinitialise (Fonction)](../pages/3037012.md) — *FaxRestart*
+- [FaxSupprime (Fonction)](../pages/3037014.md) — *FaxDelete*
+- [FaxSuspend (Fonction)](../pages/3037015.md) — *FaxPause*
+- [Fonctions Fax](../pages/3037003.md)
+- [Manipuler des fax reçus ou envoyés](../pages/3037017.md)
+- [Structure FaxEtatComplet](../pages/3037011.md)
+
+## fonctions_flux
+
+- [Constantes de gestion des flux (son et vidéo)](../pages/3039005.md)
+- [FluxAccepte (Fonction)](../pages/3039003.md) — *StreamAccept*
+- [FluxChangeDriver (Fonction)](../pages/1000021613.md) — *StreamChangeDriver*
+- [FluxConfigure (Fonction)](../pages/1000021645.md) — *StreamConfigure*
+- [FluxConnecte (Fonction)](../pages/3039008.md) — *StreamConnect*
+- [FluxDéconnecte (Fonction)](../pages/3039007.md) — *StreamDisconnect*
+- [FluxInfo (Fonction)](../pages/3039009.md) — *StreamInfo*
+- [FluxJoue (Fonction)](../pages/3039010.md) — *StreamPlay*
+- [FluxRefuse (Fonction)](../pages/3039006.md) — *StreamReject*
+- [FluxStop (Fonction)](../pages/3039002.md) — *StreamStop*
+- [Fonctions de gestion des flux (vidéo et son)](../pages/3039004.md)
+- [WINDEV et les flux - Exemple d'utilisation](../pages/3039011.md)
+- [WINDEV et les flux de communication (audio, son)](../pages/3039001.md)
+
+## fonctions_ftp
+
+- [<Variable ftpConnexion>.Attribut (Fonction)](../pages/1410091117.md) — *<ftpConnection variable>.Attribute*
+- [<Variable ftpConnexion>.Commande (Fonction)](../pages/1410091118.md) — *<ftpConnection variable>.Command*
+- [<Variable ftpConnexion>.Connecte (Fonction)](../pages/1410091119.md) — *<ftpConnection variable>.Connect*
+- [<Variable ftpConnexion>.Date (Fonction)](../pages/1410091120.md) — *<ftpConnection variable>.Date*
+- [<Variable ftpConnexion>.DateHeure (Fonction)](../pages/1410091121.md) — *<ftpConnection variable>.DateTime*
+- [<Variable ftpConnexion>.Déconnecte (Fonction)](../pages/1410091122.md) — *<ftpConnection variable>.Disconnect*
+- [<Variable ftpConnexion>.Envoie (Fonction)](../pages/1410091123.md) — *<ftpConnection variable>.Send*
+- [<Variable ftpConnexion>.FichierExiste (Fonction)](../pages/1410091124.md) — *<ftpConnection variable>.FileExist*
+- [<Variable ftpConnexion>.Heure (Fonction)](../pages/1410091125.md) — *<ftpConnection variable>.Time*
+- [<Variable ftpConnexion>.ListeFichier (Fonction)](../pages/1410091126.md) — *<ftpConnection variable>.ListFile*
+- [<Variable ftpConnexion>.Nom (Fonction)](../pages/1410091137.md) — *<ftpConnection variable>.Name*
+- [<Variable ftpConnexion>.RenommeFichier (Fonction)](../pages/1410091129.md) — *<ftpConnection variable>.RenameFile*
+- [<Variable ftpConnexion>.RepCrée (Fonction)](../pages/1410091130.md) — *<ftpConnection variable>.MakeDir*
+- [<Variable ftpConnexion>.RepEnCours (Fonction)](../pages/1410091131.md) — *<ftpConnection variable>.CurrentDir*
+- [<Variable ftpConnexion>.RepExiste (Fonction)](../pages/1410091282.md) — *<ftpConnection variable>.DirExist*
+- [<Variable ftpConnexion>.RepSupprime (Fonction)](../pages/1410091132.md) — *<ftpConnection variable>.RemoveDir*
+- [<Variable ftpConnexion>.Récupère (Fonction)](../pages/1410091127.md) — *<ftpConnection variable>.Get*
+- [<Variable ftpConnexion>.RécupèreFichier (Fonction)](../pages/1410091128.md) — *<ftpConnection variable>.GetFile*
+- [<Variable ftpConnexion>.SupprimeFichier (Fonction)](../pages/1410091133.md) — *<ftpConnection variable>.DeleteFile*
+- [<Variable ftpConnexion>.Taille (Fonction)](../pages/1410091134.md) — *<ftpConnection variable>.Size*
+- [Constantes FTP](../pages/3040012.md)
+- [Fonctions FTP Standard](../pages/3040004.md)
+- [Fonctions FTP Standard (syntaxe préfixée)](../pages/1410091142.md)
+- [FTPAttribut (Exemple)](../pages/1000003040006.md)
+- [FTPAttribut (Fonction)](../pages/3040006.md) — *FTPAttribute*
+- [FTPCommande (Exemple)](../pages/1000003040017.md)
+- [FTPCommande (Fonction)](../pages/3040017.md) — *FTPCommand*
+- [FTPConnecte (Exemple)](../pages/1000003040016.md)
+- [FTPConnecte (Fonction)](../pages/3040016.md) — *FTPConnect*
+- [ftpConnexion (Type de variable)](../pages/1410090869.md) — *ftpConnection*
+- [FTPDate (Exemple)](../pages/1000003040015.md)
+- [FTPDate (Fonction)](../pages/3040015.md) — *FTPDate*
+- [FTPDateHeure (Fonction)](../pages/1000020946.md) — *FTPDateTime*
+- [FTPDéconnecte (Fonction)](../pages/3040011.md) — *FTPDisconnect*
+- [FTPEnvoie (Exemple)](../pages/1000003040014.md)
+- [FTPEnvoie (Fonction)](../pages/3040014.md) — *FTPSend*
+- [FTPFichierExiste (Fonction)](../pages/1000020948.md) — *FTPFileExist*
+- [FTPHeure (Exemple)](../pages/1000003040013.md)
+- [FTPHeure (Fonction)](../pages/3040013.md) — *FTPTime*
+- [FTPListeFichier (Exemple)](../pages/1000003040018.md)
+- [FTPListeFichier (Fonction)](../pages/3040018.md) — *FTPListFile*
+- [FTPNom (Fonction)](../pages/3040019.md) — *FTPName*
+- [FTPParamètre (Fonction)](../pages/1000020947.md) — *FTPConfigure*
+- [FTPProxy (Fonction)](../pages/1000019366.md) — *FTPProxy*
+- [FTPRenommeFichier (Exemple)](../pages/1000003040005.md)
+- [FTPRenommeFichier (Fonction)](../pages/3040005.md) — *FTPRenameFile*
+- [FTPRepCrée (Exemple)](../pages/1000003040001.md)
+- [FTPRepCrée (Fonction)](../pages/3040001.md) — *FTPMakeDir*
+- [FTPRepEnCours (Exemple)](../pages/1000003040003.md)
+- [FTPRepEnCours (Fonction)](../pages/3040003.md) — *FTPCurrentDir*
+- [FTPRepExiste (Fonction)](../pages/1410091242.md) — *FTPDirExist*
+- [FTPRepSupprime (Exemple)](../pages/1000003040008.md)
+- [FTPRepSupprime (Fonction)](../pages/3040008.md) — *FTPRemoveDir*
+- [FTPRécupère (Exemple)](../pages/1000003040002.md)
+- [FTPRécupère (Fonction)](../pages/3040002.md) — *FTPGet*
+- [FTPRécupèreFichier (Fonction)](../pages/1000024597.md) — *FTPGetFile*
+- [FTPSupprimeFichier (Exemple)](../pages/1000003040010.md)
+- [FTPSupprimeFichier (Fonction)](../pages/3040010.md) — *FTPDeleteFile*
+- [FTPTaille (Exemple)](../pages/1000003040007.md)
+- [FTPTaille (Fonction)](../pages/3040007.md) — *FTPSize*
+- [Manipulez des fichiers sur un serveur FTP](../pages/3040009.md)
+- [Procédure WLangage appelée par la fonction FTPListeFichier](../pages/1000025351.md)
+
+## fonctions_gps_geo
+
+- [Constantes des fonctions de géolocalisation](../pages/1000019271.md)
+- [Fonctions de géolocalisation/ GPS](../pages/1000019192.md)
+- [Gestion de la géolocalisation et du GPS](../pages/1000019277.md)
+- [GPSArrêteDétection (Fonction)](../pages/1000019240.md) — *GPSStopDetection*
+- [GPSDernièrePosition (Fonction)](../pages/1000019239.md) — *GPSLastPosition*
+- [GPSDétectePosition (Fonction)](../pages/1000019209.md) — *GPSDetectPosition*
+- [GPSEtat (Fonction)](../pages/1000019207.md) — *GPSStatus*
+- [GPSInfo (Fonction)](../pages/1000019208.md) — *GPSInfo*
+- [GPSInitParamètre (Fonction)](../pages/1000019204.md) — *GPSInitParameter*
+- [GPSRécupèrePosition (Fonction)](../pages/1000019205.md) — *GPSGetPosition*
+- [GPSSuitDéplacement (Fonction)](../pages/1000019206.md) — *GPSFollowMovement*
+- [GPSTermine (Fonction)](../pages/1000019210.md) — *GPSEnd*
+- [géoAzimut (Fonction)](../pages/1000019212.md) — *geoAzimuth*
+- [géoDistance (Fonction)](../pages/1000019211.md) — *geoDistance*
+- [géoLanceAppli (Fonction)](../pages/1000019954.md) — *geoRunApp*
+- [géoPosition (Type de variable)](../pages/1000019191.md) — *geoPosition*
+- [géoRécupèreAdresse (Fonction)](../pages/1000019797.md) — *geoGetAddress*
+- [géoRécupèreZone (Fonction)](../pages/1000025776.md) — *geoGetArea*
+- [géoSuiviActive (Fonction)](../pages/1000021583.md) — *geoTrackingEnable*
+- [géoSuiviDésactive (Fonction)](../pages/1000021584.md) — *geoTrackingDisable*
+- [géoSuiviEtat (Fonction)](../pages/1000021592.md) — *geoTrackingStatus*
+- [géoSuiviProcédure (Fonction)](../pages/1000021585.md) — *geoTrackingProcedure*
+- [Procédure WLangage appelée par la fonction GPSDétectePosition](../pages/1000024683.md)
+- [Procédure WLangage appelée par la fonction géoRécupèreAdresse](../pages/1000025033.md)
+
+## fonctions_graphe
+
+- [<Graphe>.AjouteDonnée (Fonction)](../pages/1000023533.md) — *<Chart>.AddData*
+- [<Graphe>.AjouteDonnéeTemporelle (Fonction)](../pages/1000024162.md) — *<Chart>.AddTimeData*
+- [<Graphe>.AngleDépart (Fonction)](../pages/1410088091.md) — *<Chart>.StartAngle*
+- [<Graphe>.AxePosition (Fonction)](../pages/1000023563.md) — *<Chart>.AxisPosition*
+- [<Graphe>.AxeVisible (Fonction)](../pages/1000023564.md) — *<Chart>.AxisVisible*
+- [<Graphe>.BourseAjouteDonnée (Fonction)](../pages/1000023565.md) — *<Chart>.StockAddData*
+- [<Graphe>.BourseRécupèreDonnée (Fonction)](../pages/1000023566.md) — *<Chart>.StockGetData*
+- [<Graphe>.Bulle (Fonction)](../pages/1000024163.md) — *<Chart>.Tooltip*
+- [<Graphe>.ChargeParamètre (Fonction)](../pages/1000023568.md) — *<Chart>.LoadParameter*
+- [<Graphe>.ComparatifPositionSérie (Fonction)](../pages/1000024961.md) — *<Chart>.ComparativeSeriesPosition*
+- [<Graphe>.Couleur (Fonction)](../pages/1000024164.md) — *<Chart>.Color*
+- [<Graphe>.CouleurBarre (Fonction)](../pages/1000023569.md) — *<Chart>.BarColor*
+- [<Graphe>.CouleurCatégorie (Fonction)](../pages/1000023570.md) — *<Chart>.CategoryColor*
+- [<Graphe>.CouleurPoint (Fonction)](../pages/1000023571.md) — *<Chart>.PointColor*
+- [<Graphe>.CouleurSérie (Fonction)](../pages/1000023599.md) — *<Chart>.SeriesColor*
+- [<Graphe>.CPAjouteDonnée (Fonction)](../pages/1410088092.md) — *<Chart>.RBAddData*
+- [<Graphe>.CPSensDeRotation (Fonction)](../pages/1410088093.md) — *<Chart>.RBRotationDirection*
+- [<Graphe>.CPValeurMaximale (Fonction)](../pages/1410088094.md) — *<Chart>.RBMaximumValue*
+- [<Graphe>.Dessine (Fonction)](../pages/1000024062.md) — *<Chart>.Draw*
+- [<Graphe>.DonutPourcentageTrou (Fonction)](../pages/1000024069.md) — *<Chart>.DonutHolePercentage*
+- [<Graphe>.Dégradé (Fonction)](../pages/1000024061.md) — *<Chart>.Gradient*
+- [<Graphe>.EpaisseurTrait (Fonction)](../pages/1000024071.md) — *<Chart>.LineThickness*
+- [<Graphe>.EtiquetteCatégorie (Fonction)](../pages/1000024072.md) — *<Chart>.CategoryLabel*
+- [<Graphe>.EtiquetteSérie (Fonction)](../pages/1000024073.md) — *<Chart>.SeriesLabel*
+- [<Graphe>.Existe (Fonction)](../pages/1000024074.md) — *<Chart>.Exist*
+- [<Graphe>.Graduation (Fonction)](../pages/1000024076.md) — *<Chart>.Interval*
+- [<Graphe>.HistoAgrégation (Fonction)](../pages/1000024077.md) — *<Chart>.ColumnAggregation*
+- [<Graphe>.HistoEspacement (Fonction)](../pages/1000024078.md) — *<Chart>.ColumnSpacing*
+- [<Graphe>.HistoTypeBarre (Fonction)](../pages/1410090316.md) — *<Chart>.ColumnBarType*
+- [<Graphe>.HMAjouteDonnée (Fonction)](../pages/1000024079.md) — *<Chart>.HMAddData*
+- [<Graphe>.HMCouleur (Fonction)](../pages/1000024080.md) — *<Chart>.HMColor*
+- [<Graphe>.HMLibelléX (Fonction)](../pages/1000024081.md) — *<Chart>.HMCaptionX*
+- [<Graphe>.HMLibelléY (Fonction)](../pages/1000024082.md) — *<Chart>.HMCaptionY*
+- [<Graphe>.HMRécupèreDonnée (Fonction)](../pages/1000024083.md) — *<Chart>.HMGetData*
+- [<Graphe>.HMSupprimeCouleur (Fonction)](../pages/1000024084.md) — *<Chart>.HMDeleteColor*
+- [<Graphe>.Imprime (Fonction)](../pages/1000024085.md) — *<Chart>.Print*
+- [<Graphe>.IncrémenteDonnée (Fonction)](../pages/1000024086.md) — *<Chart>.IncreaseData*
+- [<Graphe>.InfoPoint (Fonction)](../pages/1000024087.md) — *<Chart>.PointInfo*
+- [<Graphe>.InfoXY (Fonction)](../pages/1000024088.md) — *<Chart>.InfoXY*
+- [<Graphe>.Libellé (Fonction)](../pages/1000024165.md) — *<Chart>.Label*
+- [<Graphe>.Lissage (Fonction)](../pages/1000024090.md) — *<Chart>.Smoothing*
+- [<Graphe>.Légende (Fonction)](../pages/1000024089.md) — *<Chart>.Legend*
+- [<Graphe>.MAJAutomatiqueEtiquetteCatégorie (Fonction)](../pages/1000024091.md) — *<Chart>.AutoRefreshCategoryLabel*
+- [<Graphe>.MAJAutomatiqueSérie (Fonction)](../pages/1000024092.md) — *<Chart>.AutoRefreshSeries*
+- [<Graphe>.Masque (Fonction)](../pages/1000024093.md) — *<Chart>.Mask*
+- [<Graphe>.Menu (Fonction)](../pages/1000024094.md) — *<Chart>.Menu*
+- [<Graphe>.NiveauTemporelMasque (Fonction)](../pages/1000024095.md) — *<Chart>.TimeLevelMask*
+- [<Graphe>.NiveauTemporelMax (Fonction)](../pages/1000024096.md) — *<Chart>.TimeLevelMax*
+- [<Graphe>.Nuage3DAjouteDonnée (Fonction)](../pages/1000024097.md) — *<Chart>.Scatter3DAddData*
+- [<Graphe>.Nuage3DCouleurAltitude (Fonction)](../pages/1000024098.md) — *<Chart>.Scatter3DAltitudeColor*
+- [<Graphe>.Nuage3DLibelléGraduation (Fonction)](../pages/1000024099.md) — *<Chart>.Scatter3DMarkCaption*
+- [<Graphe>.Nuage3DProjection (Fonction)](../pages/1000024100.md) — *<Chart>.Scatter3DProjection*
+- [<Graphe>.Nuage3DQuadrillage (Fonction)](../pages/1000024101.md) — *<Chart>.Scatter3DGridlines*
+- [<Graphe>.Nuage3DReliePoint (Fonction)](../pages/1000024102.md) — *<Chart>.Scatter3DLinkPoint*
+- [<Graphe>.Nuage3DSupprimeCouleurAltitude (Fonction)](../pages/1000024103.md) — *<Chart>.Scatter3DDeleteAltitudeColor*
+- [<Graphe>.Nuage3DSupprimeLibelléGraduation (Fonction)](../pages/1000024104.md) — *<Chart>.Scatter3DDeleteMarkCaption*
+- [<Graphe>.NuageAjouteDonnéeXY (Fonction)](../pages/1000024105.md) — *<Chart>.ScatterAddDataXY*
+- [<Graphe>.NuageCouleurSérie (Fonction)](../pages/1000024106.md) — *<Chart>.ScatterSeriesColor*
+- [<Graphe>.NuageEtiquetteSérie (Fonction)](../pages/1000024107.md) — *<Chart>.ScatterSeriesLabel*
+- [<Graphe>.NuageReliePoint (Fonction)](../pages/1000024109.md) — *<Chart>.ScatterLinkPoint*
+- [<Graphe>.NuageRécupèreDonnéeXY (Fonction)](../pages/1000024108.md) — *<Chart>.ScatterGetDataXY*
+- [<Graphe>.NuageTaillePoint (Fonction)](../pages/1000024110.md) — *<Chart>.ScatterPointSize*
+- [<Graphe>.OpacitéSérie (Fonction)](../pages/1000024111.md) — *<Chart>.SeriesOpacity*
+- [<Graphe>.OptionMenu (Fonction)](../pages/1000024112.md) — *<Chart>.MenuOption*
+- [<Graphe>.Orientation (Fonction)](../pages/1000024113.md) — *<Chart>.Orientation*
+- [<Graphe>.Origine (Fonction)](../pages/1000024114.md) — *<Chart>.Origin*
+- [<Graphe>.Paramètre (Fonction)](../pages/1000024115.md) — *<Chart>.Parameter*
+- [<Graphe>.Paramètre3DS (Fonction)](../pages/1000024116.md) — *<Chart>.Parameter3DS*
+- [<Graphe>.PIImage (Fonction)](../pages/1410090894.md) — *<Chart>.PPCImage*
+- [<Graphe>.PIValeurMaximale (Fonction)](../pages/1410090895.md) — *<Chart>.PPCMaximumValue*
+- [<Graphe>.PoliceEtiquette (Fonction)](../pages/1000024117.md) — *<Chart>.LabelFont*
+- [<Graphe>.PoliceLégende (Fonction)](../pages/1000024118.md) — *<Chart>.LegendFont*
+- [<Graphe>.PoliceTitre (Fonction)](../pages/1000024119.md) — *<Chart>.TitleFont*
+- [<Graphe>.PoliceTitreAxe (Fonction)](../pages/1000024120.md) — *<Chart>.AxisTitleFont*
+- [<Graphe>.PourcentageTrou (Fonction)](../pages/1410088090.md) — *<Chart>.HolePercentage*
+- [<Graphe>.Quadrillage (Fonction)](../pages/1000024121.md) — *<Chart>.GridLines*
+- [<Graphe>.Relief (Fonction)](../pages/1000024123.md) — *<Chart>.Raised*
+- [<Graphe>.Rotation (Fonction)](../pages/1000024124.md) — *<Chart>.Rotation*
+- [<Graphe>.RécupèreDonnée (Fonction)](../pages/1000024122.md) — *<Chart>.GetData*
+- [<Graphe>.SauveBMP (Fonction)](../pages/1000024125.md) — *<Chart>.SaveBMP*
+- [<Graphe>.SauveEMF (Fonction)](../pages/1000024126.md) — *<Chart>.SaveEMF*
+- [<Graphe>.SauveParamètre (Fonction)](../pages/1000024127.md) — *<Chart>.SaveParameter*
+- [<Graphe>.SauveWMF (Fonction)](../pages/1000024128.md) — *<Chart>.SaveWMF*
+- [<Graphe>.SecteurAngleDépart (Fonction)](../pages/1000024129.md) — *<Chart>.PieStartAngle*
+- [<Graphe>.SecteurPartExcentrée (Fonction)](../pages/1000024130.md) — *<Chart>.PiePullOut*
+- [<Graphe>.SMNAjouteDonnée (Fonction)](../pages/1000024132.md) — *<Chart>.SunburstAddData*
+- [<Graphe>.SMNAngleDépart (Fonction)](../pages/1000024133.md) — *<Chart>.SunburstStartAngle*
+- [<Graphe>.SMNCouleurPortion (Fonction)](../pages/1000024134.md) — *<Chart>.SunburstSectionColor*
+- [<Graphe>.SMNPartExcentrée (Fonction)](../pages/1000024135.md) — *<Chart>.SunburstPullOut*
+- [<Graphe>.SMNPortionRacine (Fonction)](../pages/1000024136.md) — *<Chart>.SunburstRootSection*
+- [<Graphe>.SMNRécupèreDonnée (Fonction)](../pages/1000024137.md) — *<Chart>.SunburstGetData*
+- [<Graphe>.SourceEtiquetteCatégorie (Fonction)](../pages/1000024138.md) — *<Chart>.SourceCategoryLabel*
+- [<Graphe>.SourceSérie (Fonction)](../pages/1000024139.md) — *<Chart>.SourceSeries*
+- [<Graphe>.SuperposeGraphe (Fonction)](../pages/1000024140.md) — *<Chart>.OverlayChart*
+- [<Graphe>.SupprimeSérie (Fonction)](../pages/1000024141.md) — *<Chart>.DeleteSeries*
+- [<Graphe>.SupprimeTout (Fonction)](../pages/1000024170.md) — *<Chart>.DeleteAll*
+- [<Graphe>.SurfaceAjouteDonnée (Fonction)](../pages/1000024143.md) — *<Chart>.SurfaceAddData*
+- [<Graphe>.SurfaceCouleurAltitude (Fonction)](../pages/1000024144.md) — *<Chart>.SurfaceAltitudeColor*
+- [<Graphe>.SurfaceLibelléGraduation (Fonction)](../pages/1000024145.md) — *<Chart>.SurfaceMarkCaption*
+- [<Graphe>.SurfaceMaillage (Fonction)](../pages/1000024146.md) — *<Chart>.SurfaceMesh*
+- [<Graphe>.SurfaceQuadrillage (Fonction)](../pages/1000024147.md) — *<Chart>.SurfaceGridlines*
+- [<Graphe>.SurfaceRécupèreDonnée (Fonction)](../pages/1000024148.md) — *<Chart>.SurfaceGetData*
+- [<Graphe>.SurfaceSupprimeCouleurAltitude (Fonction)](../pages/1000024149.md) — *<Chart>.SurfaceDeleteAltitudeColor*
+- [<Graphe>.SurfaceSupprimeLibelléGraduation (Fonction)](../pages/1000024150.md) — *<Chart>.SurfaceDeleteMarkCaption*
+- [<Graphe>.SérieAxeSecondaire (Fonction)](../pages/1000024131.md) — *<Chart>.SeriesSecondaryAxis*
+- [<Graphe>.TaillePoint (Fonction)](../pages/1000024152.md) — *<Chart>.PointSize*
+- [<Graphe>.TempsRéelIntervalle (Fonction)](../pages/1000024167.md) — *<Chart>.RealTimeInterval*
+- [<Graphe>.Titre (Fonction)](../pages/1000024166.md) — *<Chart>.Title*
+- [<Graphe>.TitreAxe (Fonction)](../pages/1000024153.md) — *<Chart>.AxisTitle*
+- [<Graphe>.Type (Fonction)](../pages/1000024168.md) — *<Chart>.Type*
+- [<Graphe>.TypePoint (Fonction)](../pages/1000024154.md) — *<Chart>.PointType*
+- [<Graphe>.TypePointSérie (Fonction)](../pages/1000024155.md) — *<Chart>.SeriesPointType*
+- [<Graphe>.TypeSérie (Fonction)](../pages/1000024156.md) — *<Chart>.SeriesType*
+- [<Graphe>.TypeTraitSérie (Fonction)](../pages/1000024157.md) — *<Chart>.SeriesLineType*
+- [<Graphe>.VignetteCatégorie (Fonction)](../pages/1410090892.md) — *<Chart>.CategoryThumbnail*
+- [<Graphe>.WaffleTaille (Fonction)](../pages/1410090314.md) — *<Chart>.WaffleSize*
+- [<Graphe>.WaffleTypeCellule (Fonction)](../pages/1410090315.md) — *<Chart>.WaffleTypeCell*
+- [<Graphe>.WaterfallCouleur (Fonction)](../pages/1000024158.md) — *<Chart>.WaterfallColor*
+- [<Graphe>.WaterfallTypeCatégorie (Fonction)](../pages/1000024159.md) — *<Chart>.WaterfallCategoryType*
+- [<Graphe>.Zoom (Fonction)](../pages/1000024169.md) — *<Chart>.Zoom*
+- [Constantes de gestion des graphes](../pages/3042006.md)
+- [Fonctions de gestion des graphes](../pages/3042003.md)
+- [Fonctions de gestion des graphes (syntaxe préfixée)](../pages/1000024173.md)
+- [grAjouteDonnée (Fonction)](../pages/3042023.md) — *grAddData*
+- [grAjouteDonnéeTemporelle (Fonction)](../pages/1000023532.md) — *grAddTimeData*
+- [grAngleDépart (Fonction)](../pages/1410088085.md) — *grStartAngle*
+- [grAxePosition (Fonction)](../pages/1000022260.md) — *grAxisPosition*
+- [grAxeVisible (Fonction)](../pages/1000020958.md) — *grAxisVisible*
+- [grBourseAjouteDonnée (Fonction)](../pages/3042009.md) — *grStockAddData*
+- [grBourseRécupèreDonnée (Fonction)](../pages/1000021174.md) — *grStockGetData*
+- [grBulle (Fonction)](../pages/3042010.md) — *grTooltip*
+- [grChargeParamètre (Fonction)](../pages/3042064.md) — *grLoadParameter*
+- [grComparatifPositionSérie (Fonction)](../pages/1000024882.md) — *grComparativeSeriesPosition*
+- [grCouleur (Fonction)](../pages/1000017169.md) — *grColor*
+- [grCouleurBarre (Fonction)](../pages/1000022741.md) — *grBarColor*
+- [grCouleurCatégorie (Fonction)](../pages/1000020928.md) — *grCategoryColor*
+- [grCouleurPoint (Fonction)](../pages/1000022740.md) — *grPointColor*
+- [grCouleurSérie (Fonction)](../pages/3042013.md) — *grSeriesColor*
+- [grCPAjouteDonnée (Fonction)](../pages/1410087792.md) — *grRBAddData*
+- [grCPSensDeRotation (Fonction)](../pages/1410087791.md) — *grRBRotationDirection*
+- [grCPValeurMaximale (Fonction)](../pages/1410087801.md) — *grRBMaximumValue*
+- [grCrée (Fonction)](../pages/3042005.md) — *grCreate*
+- [grCréePolice (Fonction)](../pages/3042001.md) — *grCreateFont*
+- [grDessine (Fonction)](../pages/3042026.md) — *grDraw*
+- [grDestinationBMP (Fonction)](../pages/3042018.md) — *grDestinationBMP*
+- [grDestinationChamp (Fonction)](../pages/3042020.md) — *grDestinationControl*
+- [grDestinationEMF (Fonction)](../pages/3042017.md) — *grDestinationEMF*
+- [grDestinationFen (Fonction)](../pages/3042031.md) — *grDestinationWnd*
+- [grDestinationImage (Fonction)](../pages/1000020952.md) — *grDestinationImage*
+- [grDestinationWMF (Fonction)](../pages/3042019.md) — *grDestinationWMF*
+- [grDonutPourcentageTrou (Fonction)](../pages/1000017939.md) — *grDonutHolePercentage*
+- [grDégradé (Fonction)](../pages/3042029.md) — *grGradient*
+- [grEffaceDessin (Fonction)](../pages/3042021.md) — *grClearPict*
+- [grEpaisseurTrait (Fonction)](../pages/3042028.md) — *grLineThickness*
+- [grEtiquetteCatégorie (Fonction)](../pages/3042015.md) — *grCategoryLabel*
+- [grEtiquetteSérie (Fonction)](../pages/3042024.md) — *grSeriesLabel*
+- [grExiste (Fonction)](../pages/3042025.md) — *grExist*
+- [grFenTaille (Fonction)](../pages/3042016.md) — *grWndSize*
+- [grGraduation (Fonction)](../pages/3042027.md) — *grInterval*
+- [grHistoAgrégation (Fonction)](../pages/1000023015.md) — *grColumnAggregation*
+- [grHistoEspacement (Fonction)](../pages/3042014.md) — *grColumnSpacing*
+- [grHistoTypeBarre (Fonction)](../pages/1410090175.md) — *grColumnBarType*
+- [grHMAjouteDonnée (Fonction)](../pages/1000021628.md) — *grHMAddData*
+- [grHMCouleur (Fonction)](../pages/1000021629.md) — *grHMColor*
+- [grHMLibelléX (Fonction)](../pages/1000021630.md) — *grHMCaptionX*
+- [grHMLibelléY (Fonction)](../pages/1000021631.md) — *grHMCaptionY*
+- [grHMRécupèreDonnée (Fonction)](../pages/1000021632.md) — *grHMGetData*
+- [grHMSupprimeCouleur (Fonction)](../pages/1000021634.md) — *grHMDeleteColor*
+- [grImprime (Fonction)](../pages/3042058.md) — *grPrint*
+- [grIncrémenteDonnée (Fonction)](../pages/3042030.md) — *grIncreaseData*
+- [grInfoPoint (Fonction)](../pages/1000017940.md) — *grPointInfo*
+- [grInfoXY (Fonction)](../pages/3042070.md) — *grInfoXY*
+- [grLibellé (Fonction)](../pages/3042046.md) — *grLabel*
+- [grLissage (Fonction)](../pages/3042033.md) — *grSmoothing*
+- [grLégende (Fonction)](../pages/3042047.md) — *grLegend*
+- [grMAJAutomatiqueEtiquetteCatégorie (Fonction)](../pages/3042071.md) — *grAutoRefreshCategoryLabel*
+- [grMAJAutomatiqueSérie (Fonction)](../pages/3042066.md) — *grAutoRefreshSeries*
+- [grMasque (Fonction)](../pages/3042034.md) — *grMask*
+- [grMenu (Fonction)](../pages/3042035.md) — *grMenu*
+- [grNiveauTemporelMasque (Fonction)](../pages/1000023017.md) — *grTimeLevelMask*
+- [grNiveauTemporelMax (Fonction)](../pages/1000023016.md) — *grTimeLevelMax*
+- [grNuage3DAjouteDonnée (Fonction)](../pages/1000022964.md) — *grScatter3DAddData*
+- [grNuage3DCouleurAltitude (Fonction)](../pages/1000022965.md) — *grScatter3DAltitudeColor*
+- [grNuage3DLibelléGraduation (Fonction)](../pages/1000023491.md) — *grScatter3DMarkCaption*
+- [grNuage3DProjection (Fonction)](../pages/1000022969.md) — *grScatter3DProjection*
+- [grNuage3DQuadrillage (Fonction)](../pages/1000023493.md) — *grScatter3DGridlines*
+- [grNuage3DReliePoint (Fonction)](../pages/1000022968.md) — *grScatter3DLinkPoint*
+- [grNuage3DSupprimeCouleurAltitude (Fonction)](../pages/1000022966.md) — *grScatter3DDeleteAltitudeColor*
+- [grNuage3DSupprimeLibelléGraduation (Fonction)](../pages/1000023494.md) — *grScatter3DDeleteMarkCaption*
+- [grNuageAjouteDonnéeXY (Fonction)](../pages/3042032.md) — *grScatterAddDataXY*
+- [grNuageCouleurSérie (Fonction)](../pages/3042045.md) — *grScatterSeriesColor*
+- [grNuageEtiquetteSérie (Fonction)](../pages/3042038.md) — *grScatterSeriesLabel*
+- [grNuageReliePoint (Fonction)](../pages/3042040.md) — *grScatterLinkPoint*
+- [grNuageRécupèreDonnéeXY (Fonction)](../pages/1000021175.md) — *grScatterGetDataXY*
+- [grNuageTaillePoint (Fonction)](../pages/3042041.md) — *grScatterPointSize*
+- [grOpacitéSérie (Fonction)](../pages/1000022261.md) — *grSeriesOpacity*
+- [grOptionMenu (Fonction)](../pages/3042042.md) — *grMenuOption*
+- [grOrientation (Fonction)](../pages/3042043.md) — *grOrientation*
+- [grOrigine (Fonction)](../pages/3042039.md) — *grOrigin*
+- [grParamètre (Fonction)](../pages/1000018337.md) — *grParameter*
+- [grParamètre3DS (Fonction)](../pages/3042063.md) — *gr3DSParameter*
+- [grPIImage (Fonction)](../pages/1410090782.md) — *grPPCImage*
+- [grPIValeurMaximale (Fonction)](../pages/1410090786.md) — *grPPCMaximumValue*
+- [grPoliceEtiquette (Fonction)](../pages/3042012.md) — *grLabelFont*
+- [grPoliceLégende (Fonction)](../pages/3042037.md) — *grLegendFont*
+- [grPoliceTitre (Fonction)](../pages/3042048.md) — *grTitleFont*
+- [grPoliceTitreAxe (Fonction)](../pages/3042059.md) — *grAxisTitleFont*
+- [grPourcentageTrou (Fonction)](../pages/1410088089.md) — *grHolePercentage*
+- [grQuadrillage (Fonction)](../pages/3042052.md) — *grGridlines*
+- [grRelief (Fonction)](../pages/3042051.md) — *grRaised*
+- [grRotation (Fonction)](../pages/1000020426.md) — *grRotation*
+- [grRécupèreDonnée (Fonction)](../pages/1000021171.md) — *grGetData*
+- [grSauveBMP (Fonction)](../pages/3042050.md) — *grSaveBMP*
+- [grSauveEMF (Fonction)](../pages/3042049.md) — *grSaveEMF*
+- [grSauveImage (Fonction)](../pages/1000024953.md) — *grSaveImage*
+- [grSauveParamètre (Fonction)](../pages/3042065.md) — *grSaveParameter*
+- [grSauveWMF (Fonction)](../pages/3042044.md) — *grSaveWMF*
+- [grSecteurAngleDépart (Fonction)](../pages/3042022.md) — *grPieStartAngle*
+- [grSecteurPartExcentrée (Fonction)](../pages/3042053.md) — *grPiePullOut*
+- [grSMNAjouteDonnée (Fonction)](../pages/1000021285.md) — *grSunburstAddData*
+- [grSMNAngleDépart (Fonction)](../pages/1000021915.md) — *grSunburstStartAngle*
+- [grSMNCouleurPortion (Fonction)](../pages/1000021288.md) — *grSunburstSectionColor*
+- [grSMNPartExcentrée (Fonction)](../pages/1000021916.md) — *grSunburstPullOut*
+- [grSMNPortionRacine (Fonction)](../pages/1000021298.md) — *grSunburstRootSection*
+- [grSMNRécupèreDonnée (Fonction)](../pages/1000021287.md) — *grSunburstGetData*
+- [grSourceEtiquetteCatégorie (Exemple)](../pages/1000003042072.md)
+- [grSourceEtiquetteCatégorie (Fonction)](../pages/3042072.md) — *grSourceCategoryLabel*
+- [grSourceSérie (Fonction)](../pages/3042067.md) — *grSourceSeries*
+- [grSuperposeGraphe (Fonction)](../pages/3042068.md) — *grOverlayChart*
+- [grSupprimeSérie (Fonction)](../pages/3042054.md) — *grDeleteSeries*
+- [grSupprimeTout (Fonction)](../pages/3042055.md) — *grDeleteAll*
+- [grSurfaceAjouteDonnée (Exemple)](../pages/1000020629.md)
+- [grSurfaceAjouteDonnée (Fonction)](../pages/1000020425.md) — *grSurfaceAddData*
+- [grSurfaceCouleurAltitude (Exemple)](../pages/1000020630.md)
+- [grSurfaceCouleurAltitude (Fonction)](../pages/1000020427.md) — *grSurfaceAltitudeColor*
+- [grSurfaceLibelléGraduation (Fonction)](../pages/1000020617.md) — *grSurfaceMarksCaption*
+- [grSurfaceMaillage (Fonction)](../pages/1000020430.md) — *grSurfaceMesh*
+- [grSurfaceQuadrillage (Fonction)](../pages/1000020428.md) — *grSurfaceGridlines*
+- [grSurfaceRécupèreDonnée (Fonction)](../pages/1000021179.md) — *grSurfaceGetData*
+- [grSurfaceSupprimeCouleurAltitude (Fonction)](../pages/1000020431.md) — *grSurfaceDeleteAltitudeColor*
+- [grSurfaceSupprimeLibelléGraduation (Fonction)](../pages/1000020618.md) — *grSurfaceDeleteMarkCaption*
+- [grSérieAxeSecondaire (Fonction)](../pages/1000019188.md) — *grSeriesSecondaryAxis*
+- [grTailleImage (Fonction)](../pages/3042061.md) — *grImageSize*
+- [grTaillePoint (Fonction)](../pages/1000022742.md) — *grPointSize*
+- [grTempsRéelIntervalle (Fonction)](../pages/1000023531.md) — *grRealTimeInterval*
+- [grTitre (Fonction)](../pages/3042056.md) — *grTitle*
+- [grTitreAxe (Fonction)](../pages/3042057.md) — *grAxisTitle*
+- [grType (Fonction)](../pages/3042062.md) — *grType*
+- [grTypePoint (Fonction)](../pages/1000022272.md) — *grPointType*
+- [grTypePointSérie (Fonction)](../pages/1000022271.md) — *grSeriesPointType*
+- [grTypeSérie (Fonction)](../pages/1000022262.md) — *grSeriesType*
+- [grTypeTraitSérie (Fonction)](../pages/1000022318.md) — *grSeriesLineType*
+- [grVignetteCatégorie (Fonction)](../pages/1410090677.md) — *grCategoryThumbnail*
+- [grWaffleTaille (Fonction)](../pages/1410089812.md) — *grWaffleSize*
+- [grWaffleTypeCellule (Fonction)](../pages/1410089815.md) — *grWaffleTypeCell*
+- [grWaterfallCouleur (Fonction)](../pages/1000020957.md) — *grWaterfallColor*
+- [grWaterfallTypeCatégorie (Fonction)](../pages/1000020930.md) — *grWaterfallCategoryType*
+- [grZoom (Fonction)](../pages/1000021478.md) — *grZoom*
+- [Programmation des graphes](../pages/1000021344.md)
+- [Programmation des graphes (syntaxe préfixée)](../pages/1000024322.md)
+
+## fonctions_groupe
+
+- [Fonctions de gestion des groupes de contacts](../pages/1000008119.md)
+- [GroupeAjoute (Fonction)](../pages/1000008111.md) — *GroupAdd*
+- [GroupeDernier (Fonction)](../pages/1000008112.md) — *GroupLast*
+- [GroupeLit (Fonction)](../pages/1000008121.md) — *GroupRead*
+- [GroupeModifie (Fonction)](../pages/1000008113.md) — *GroupModify*
+- [GroupePremier (Fonction)](../pages/1000008115.md) — *GroupFirst*
+- [GroupePrécédent (Fonction)](../pages/1000008114.md) — *GroupPrevious*
+- [GroupeRAZ (Fonction)](../pages/1000008116.md) — *GroupReset*
+- [GroupeSuivant (Fonction)](../pages/1000008117.md) — *GroupNext*
+- [GroupeSupprime (Fonction)](../pages/1000008118.md) — *GroupDelete*
+- [La structure Groupe](../pages/1000008120.md)
+
+## fonctions_http
+
+- [<Variable httpRequête>.EcritCookie (Fonction)](../pages/1000021607.md) — *<httpRequest variable>.WriteCookie*
+- [<Variable httpRequête>.Envoie (Fonction)](../pages/1000021624.md) — *<httpRequest variable>.Send*
+- [<Variable httpRequête>.EnvoieAsynchrone (Fonction)](../pages/1410091297.md) — *<httpRequest variable>.SendAsynchronous*
+- [<Variable httpRequête>.GèreCookie (Fonction)](../pages/1000021608.md) — *<httpRequest variable>.ManageCookie*
+- [<Variable httpRequête>.LitCookie (Fonction)](../pages/1000021621.md) — *<httpRequest variable>.ReadCookie*
+- [<Variable httpRequête>.RAZCookie (Fonction)](../pages/1000021622.md) — *<httpRequest variable>.ResetCookie*
+- [<Variable httpRequête>.RemplaceCookie (Fonction)](../pages/1000021623.md) — *<httpRequest variable>.ReplaceCookie*
+- [<Variable httpRequête>.RécupèreCookie (Fonction)](../pages/1000021627.md) — *<httpRequest variable>.GetCookie*
+- [<Variable httpRéponse>.RécupèreCookie (Fonction)](../pages/1000021633.md) — *<httpResponse variable>.GetCookie*
+- [<Variable restRequête>.Envoie (Fonction)](../pages/1410089811.md) — *<restRequest variable>.Send*
+- [Constantes HTTP](../pages/3043010.md)
+- [Cookie (Type de variable)](../pages/1000019222.md) — *Cookie*
+- [Fonctions HTTP](../pages/3043004.md)
+- [Fonctions HTTP (syntaxe préfixée)](../pages/1000021665.md)
+- [HTTPAjouteFichier (Fonction)](../pages/1000017191.md) — *HTTPAddFile*
+- [HTTPAjouteParamètre (Fonction)](../pages/1000017189.md) — *HTTPAddParameter*
+- [HTTPAnnuleFormulaire (Fonction)](../pages/1000017123.md) — *HTTPCancelForm*
+- [httpAvancement (Type de variable)](../pages/1000021222.md) — *httpProgress*
+- [HTTPCertificat (Fonction)](../pages/1000018898.md) — *HTTPCertificate*
+- [HTTPCookieEcrit (Fonction)](../pages/1000019234.md) — *HTTPCookieWrite*
+- [HTTPCookieGère (Fonction)](../pages/1000019218.md) — *HTTPCookieManage*
+- [HTTPCookieLit (Fonction)](../pages/1000019233.md) — *HTTPCookieRead*
+- [HTTPCookieRAZ (Fonction)](../pages/1000019232.md) — *HTTPCookieReset*
+- [HTTPCookieRemplace (Fonction)](../pages/1000019231.md) — *HTTPCookieReplace*
+- [HTTPCookieRécupère (Fonction)](../pages/1000019228.md) — *HTTPCookieGet*
+- [HTTPCréeFormulaire (Fonction)](../pages/1000017119.md) — *HTTPCreateForm*
+- [HTTPDestination (Fonction)](../pages/1000017094.md) — *HTTPDestination*
+- [HTTPDonneRésultat (Exemple)](../pages/1000003043001.md)
+- [HTTPDonneRésultat (Fonction)](../pages/3043001.md) — *HTTPGetResult*
+- [HTTPEnvoie (Fonction)](../pages/1000021183.md) — *HTTPSend*
+- [HTTPEnvoieAsynchrone (Fonction)](../pages/1410091208.md) — *HTTPSendAsynchronous*
+- [HTTPEnvoieFormulaire (Exemple)](../pages/1000019245.md)
+- [HTTPEnvoieFormulaire (Fonction)](../pages/1000017190.md) — *HTTPSendForm*
+- [HTTPJauge (Fonction)](../pages/3043009.md) — *HTTPProgressBar*
+- [HTTPListeCertificat (Fonction)](../pages/1000018890.md) — *HTTPListCertificate*
+- [HTTPParamètre (Fonction)](../pages/1000018985.md) — *HTTPConfigure*
+- [HTTPRAZFormulaire (Fonction)](../pages/1000017188.md) — *HTTPResetForm*
+- [httpRequête](../pages/1000021223.md) — *httpRequest*
+- [HTTPRequête (Exemple)](../pages/1000003043007.md)
+- [HTTPRequête (Fonction)](../pages/3043007.md) — *HTTPRequest*
+- [httpRequête (Type de variable)](../pages/1000021158.md) — *httpRequest*
+- [httpRéponse (Type de variable)](../pages/1000021165.md) — *httpResponse*
+- [HTTPSimuleRéseau (Fonction)](../pages/1000021595.md) — *HTTPSimulateNetwork*
+- [HTTPTimeOut (Fonction)](../pages/3043008.md) — *HTTPTimeOut*
+- [InternetConnecté (Fonction)](../pages/3043005.md) — *InternetConnected*
+- [OpenAPIVersHTTP (Fonction)](../pages/1410088947.md) — *OpenAPIToHTTP*
+- [Paramètres de la procédure gérant la réponse d'un serveur HTTP](../pages/1000025791.md)
+- [Proxy (Fonction)](../pages/3043002.md) — *Proxy*
+- [RESTEnvoie (Fonction)](../pages/1000021476.md) — *RESTSend*
+- [restRequête (Type de variable)](../pages/1000021481.md) — *restRequest*
+- [restRéponse (Type de variable)](../pages/1000021477.md) — *restResponse*
+
+## fonctions_icloud
+
+- [Constantes iCloud](../pages/1410088864.md)
+- [Fonctions iCloud](../pages/1410088863.md)
+- [iCloudCléValeurEcrit (Fonction)](../pages/1410088739.md) — *iCloudKeyValueWrite*
+- [iCloudCléValeurExiste (Fonction)](../pages/1410088740.md) — *iCloudKeyValueExist*
+- [iCloudCléValeurListeClé (Fonction)](../pages/1410088856.md) — *iCloudKeyValueListKey*
+- [iCloudCléValeurLit (Fonction)](../pages/1410088741.md) — *iCloudKeyValueRead*
+- [iCloudCléValeurSupprime (Fonction)](../pages/1410088742.md) — *iCloudKeyValueRemove*
+- [iCloudCléValeurSurveille (Fonction)](../pages/1410088760.md) — *iCloudKeyValueWatch*
+- [Procédure WLangage appelée par la fonction iCloudCléValeurSurveille](../pages/1410088759.md)
+
+## fonctions_in_app
+
+- [Achats In-App](../pages/1000021060.md)
+- [Configuration In-App Android](../pages/1000021033.md)
+- [Constantes InApp](../pages/1000021061.md)
+- [Fonctions In-App](../pages/1000021034.md)
+- [inAppAchèteProduit (Fonction)](../pages/1000020873.md) — *inAppPurchaseProduct*
+- [inAppConsommeProduit (Fonction)](../pages/1000020880.md) — *inAppConsumeProduct*
+- [inAppListeAchat (Fonction)](../pages/1000020888.md) — *inAppListPurchase*
+- [inAppListeInfoProduit (Fonction)](../pages/1000020872.md) — *inAppListProductInfo*
+- [inAppProduit (Type de variable)](../pages/1000020868.md) — *inAppProduct*
+- [inAppRestaureAchats (Fonction)](../pages/1000020879.md) — *inAppRestorePurchases*
+- [inAppVérifieAbonnement (Fonction)](../pages/1000022719.md) — *inAppCheckSubscription*
+- [Procédure WLangage appelée par la fonction inAppAchèteProduit](../pages/1000024694.md)
+- [Procédure WLangage appelée par la fonction inAppListeAchat](../pages/1000024809.md)
+- [Procédure WLangage appelée par la fonction inAppListeInfoProduit](../pages/1000024696.md)
+- [Procédure WLangage appelée par la fonction inAppRestaureAchats](../pages/1000024697.md)
+- [Procédure WLangage appelée par la fonction inAppVérifieAbonnement](../pages/1000024810.md)
+
+## fonctions_j2ee
+
+- [Application cliente : Exécuter des procédures sur un serveur de services J2EE](../pages/3047011.md)
+- [Constantes J2EE](../pages/3047004.md)
+- [Fonctions J2EE](../pages/3047002.md)
+- [J2EEAjouteEntête (Fonction)](../pages/3047001.md) — *J2EEAddHeader*
+- [J2EEDonneRésultat (Fonction)](../pages/3047003.md) — *J2EEGetResult*
+- [J2EEErreur (Fonction)](../pages/3047010.md) — *J2EEError*
+- [J2EEExécute (Fonction)](../pages/3047007.md) — *J2EERun*
+- [J2EEExécuteXML (Fonction)](../pages/3047008.md) — *J2EERunXML*
+- [La structure J2EE](../pages/3047006.md)
+
+## fonctions_kiosque
+
+- [Application en mode kiosque](../pages/1000024431.md)
+- [KiosqueActive (Fonction)](../pages/1000024425.md) — *KioskEnable*
+- [KiosqueDésactive (Fonction)](../pages/1000024426.md) — *KioskDisable*
+
+## fonctions_ldap
+
+- [Accéder à un annuaire LDAP](../pages/3032130.md)
+- [Constantes LDAP](../pages/3032127.md)
+- [Fonctions LDAP](../pages/3032118.md)
+- [LDAPAjouteAttribut (Fonction)](../pages/3032110.md) — *LDAPAddAttribute*
+- [LDAPConnecte (Fonction)](../pages/3032100.md) — *LDAPConnect*
+- [LDAPDébutAjout (Fonction)](../pages/3032109.md) — *LDAPStartAdd*
+- [LDAPDébutModification (Fonction)](../pages/3032112.md) — *LDAPStartModify*
+- [LDAPDéconnecte (Fonction)](../pages/3032102.md) — *LDAPDisconnect*
+- [LDAPListeAttribut (Exemple)](../pages/1000003032104.md)
+- [LDAPListeAttribut (Fonction)](../pages/3032104.md) — *LDAPListAttribute*
+- [LDAPListeFils (Exemple)](../pages/1000003032105.md)
+- [LDAPListeFils (Fonction)](../pages/3032105.md) — *LDAPListChildren*
+- [LDAPMode (Fonction)](../pages/3032126.md) — *LDAPMode*
+- [LDAPNbValeur (Exemple)](../pages/1000003032106.md)
+- [LDAPNbValeur (Fonction)](../pages/3032106.md) — *LDAPNbValue*
+- [LDAPRAZ (Fonction)](../pages/3032103.md) — *LDAPReset*
+- [LDAPRecherche (Fonction)](../pages/3032108.md) — *LDAPFind*
+- [LDAPRemplaceAttribut (Fonction)](../pages/3032113.md) — *LDAPReplaceAttribute*
+- [LDAPRemplaceValeurAttribut (Fonction)](../pages/3032119.md) — *LDAPReplaceAttributeValue*
+- [LDAPRenommeAttribut (Fonction)](../pages/3032120.md) — *LDAPRenameAttribute*
+- [LDAPSupprime (Fonction)](../pages/3032114.md) — *LDAPDelete*
+- [LDAPSupprimeAttribut (Fonction)](../pages/3032115.md) — *LDAPDeleteAttribute*
+- [LDAPSupprimeValeurAttribut (Fonction)](../pages/3032116.md) — *LDAPDeleteAttributeValue*
+- [LDAPValeur (Fonction)](../pages/3032107.md) — *LDAPValue*
+- [LDAPValideAjout (Fonction)](../pages/3032111.md) — *LDAPValidateAdd*
+- [LDAPValideModification (Fonction)](../pages/3032117.md) — *LDAPValidateModify*
+- [Structure LDAPSession](../pages/3032101.md)
+
+## fonctions_modbus
+
+- [<modbusSession>.Déconnecte (Fonction)](../pages/1000025954.md) — *<modbusSession>.Disconnect*
+- [<modbusSession>.EcritBit (Fonction)](../pages/1000025967.md) — *<modbusSession>.WriteBit*
+- [<modbusSession>.EcritFlottant (Fonction)](../pages/1000026035.md) — *<modbusSession>.WriteFloat*
+- [<modbusSession>.EcritRegistre (Fonction)](../pages/1000026036.md) — *<modbusSession>.WriteRegister*
+- [<modbusSession>.EnvoieTrameBrute (Fonction)](../pages/1410090468.md) — *<modbusSession>.SendRawFrame*
+- [<modbusSession>.LitBit (Fonction)](../pages/1000026065.md) — *<modbusSession>.ReadBit*
+- [<modbusSession>.LitFlottant (Fonction)](../pages/1000026079.md) — *<modbusSession>.ReadFloat*
+- [<modbusSession>.LitRegistre (Fonction)](../pages/1000026080.md) — *<modbusSession>.ReadRegister*
+- [Constantes Modbus](../pages/1000026110.md)
+- [Fonctions Modbus](../pages/1000025953.md)
+- [Fonctions Modbus (syntaxe préfixée)](../pages/1000026091.md)
+- [Modbus](../pages/1000026101.md)
+- [ModbusConnecteRTU (Fonction)](../pages/1000025929.md) — *ModbusConnectRTU*
+- [ModbusConnecteTCP (Fonction)](../pages/1000025930.md) — *ModbusConnectTCP*
+- [ModbusDéconnecte (Fonction)](../pages/1000025931.md) — *ModbusDisconnect*
+- [ModbusEcritBit (Fonction)](../pages/1000025932.md) — *ModbusWriteBit*
+- [ModbusEcritFlottant (Fonction)](../pages/1000025933.md) — *ModbusWriteFloat*
+- [ModbusEcritRegistre (Fonction)](../pages/1000025934.md) — *ModbusWriteRegister*
+- [ModbusEnvoieTrameBrute (Fonction)](../pages/1410089145.md) — *ModbusSendRawFrame*
+- [ModbusLitBit (Fonction)](../pages/1000025935.md) — *ModbusReadBit*
+- [ModbusLitFlottant (Fonction)](../pages/1000025936.md) — *ModbusReadFloat*
+- [ModbusLitRegistre (Fonction)](../pages/1000025937.md) — *ModbusReadRegister*
+- [modbusSession (Type de variable)](../pages/1000025924.md) — *modbusSession*
+
+## fonctions_mqtt
+
+- [<Variable mqttSession>.Abonne (Fonction)](../pages/1000023083.md) — *<mqttSession variable>.Subscribe*
+- [<Variable mqttSession>.Connecte (Fonction)](../pages/1000023084.md) — *<mqttSession variable>.Connect*
+- [<Variable mqttSession>.Déconnecte (Fonction)](../pages/1000023085.md) — *<mqttSession variable>.Disconnect*
+- [<Variable mqttSession>.Désabonne (Fonction)](../pages/1000023086.md) — *<mqttSession variable>.Unsubscribe*
+- [<Variable mqttSession>.DésabonneTout (Fonction)](../pages/1000023090.md) — *<mqttSession variable>.UnsubscribeAll*
+- [<Variable mqttSession>.Publie (Fonction)](../pages/1000023091.md) — *<mqttSession variable>.Publish*
+- [Constantes MQTT](../pages/1000023081.md)
+- [Fonctions MQTT](../pages/1000023078.md)
+- [Fonctions MQTT (syntaxe préfixée)](../pages/1000023098.md)
+- [Gestion de MQTT](../pages/1000023082.md)
+- [Gestion de MQTT (syntaxe préfixée)](../pages/1000023099.md)
+- [MQTTAbonne (Fonction)](../pages/1000023073.md) — *MQTTSubscribe*
+- [MQTTConnecte (Fonction)](../pages/1000023021.md) — *MQTTConnect*
+- [MQTTDéconnecte (Fonction)](../pages/1000023022.md) — *MQTTDisconnect*
+- [MQTTDésabonne (Fonction)](../pages/1000023074.md) — *MQTTUnsubscribe*
+- [MQTTDésabonneTout (Fonction)](../pages/1000023080.md) — *MQTTUnsubscribeAll*
+- [MQTTPublie (Fonction)](../pages/1000023060.md) — *MQTTPublish*
+- [mqttSession (Type de variable)](../pages/1000023023.md) — *mqttSession*
+
+## fonctions_net
+
+- [Constantes Net](../pages/3056008.md)
+- [Envoyer et télécharger des fichiers sur Internet (FTP et RPC WINDEV)](../pages/3056012.md)
+- [Fonctions FTP WINDEV](../pages/3056009.md)
+- [Gérer les accès distants](../pages/3056029.md)
+- [NetAdresseIP (Fonction)](../pages/3056023.md) — *NetIPAddress*
+- [NetAdresseMAC (Fonction)](../pages/1000016006.md) — *NetMACAddress*
+- [NetConnecte (Fonction)](../pages/3056004.md) — *NetConnect*
+- [NetDéconnecte (Fonction)](../pages/3056011.md) — *NetDisconnect*
+- [NetDémarreServeur (Fonction)](../pages/3056013.md) — *NetStartServer*
+- [NetEnvoieBuffer (Exemple)](../pages/1000003056001.md)
+- [NetEnvoieBuffer (Fonction)](../pages/3056001.md) — *NetSendBuffer*
+- [NetEnvoieFichier (Exemple)](../pages/1000003056005.md)
+- [NetEnvoieFichier (Fonction)](../pages/3056005.md) — *NetSendFile*
+- [NetEnvoieMessage (Exemple)](../pages/1000003056003.md)
+- [NetEnvoieMessage (Fonction)](../pages/3056003.md) — *NetSendMessage*
+- [NetEnvoieMessageClient (Exemple)](../pages/1000003056007.md)
+- [NetEnvoieMessageClient (Fonction)](../pages/3056007.md) — *NetClientSendMessage*
+- [NetExécute (Fonction)](../pages/3056002.md) — *NetExecute*
+- [NetFermeAccèsDistant (Fonction)](../pages/3056021.md) — *NetCloseRemoteAccess*
+- [NetFinServeur (Fonction)](../pages/3056024.md) — *NetEndServer*
+- [NetInfoAccèsDistant (Fonction)](../pages/3056028.md) — *NetInfoRemoteAccess*
+- [NetIPVersMAC (Fonction)](../pages/1000016005.md) — *NetIPToMAC*
+- [NetListeAccèsDistant (Fonction)](../pages/3056027.md) — *NetListRemoteAccess*
+- [NetListeAdresseIP (Fonction)](../pages/1000019683.md) — *NetListIPAddress*
+- [NetListeDisque (Fonction)](../pages/3056015.md) — *NetDiskList*
+- [NetListeRep (Fonction)](../pages/3056016.md) — *NetDirList*
+- [NetMACVersIP (Fonction)](../pages/1000016004.md) — *NetMACToIP*
+- [NetMessageBoxClient (Exemple)](../pages/1000003056017.md)
+- [NetMessageBoxClient (Fonction)](../pages/3056017.md) — *NetClientMessageBox*
+- [NetMessageBoxDistant (Fonction)](../pages/3056020.md) — *NetRemoteMessageBox*
+- [NetMsgErreur (Fonction)](../pages/3056019.md) — *NetMsgError*
+- [NetNomMachine (Fonction)](../pages/3056014.md) — *NetMachineName*
+- [NetOptionServeur (Fonction)](../pages/3056022.md) — *NetServerOption*
+- [NetOuvreAccèsDistant (Fonction)](../pages/3056026.md) — *NetOpenRemoteAccess*
+- [NetRenommeFichier (Fonction)](../pages/3056006.md) — *NetRenameFile*
+- [NetRécupèreFichier (Exemple)](../pages/1000003056025.md)
+- [NetRécupèreFichier (Fonction)](../pages/3056025.md) — *NetGetFile*
+- [NetSupprimeFichier (Fonction)](../pages/3056018.md) — *NetEraseFile*
+- [Utilisation détaillée du FTP/RPC WINDEV](../pages/3056010.md)
+
+## fonctions_nfc
+
+- [Constantes NFC](../pages/1000020422.md)
+- [Fonctions NFC](../pages/1000020421.md)
+- [NFC : Transfert de données](../pages/1000020423.md)
+- [nfcDonnée (Type de variable)](../pages/1000020406.md) — *nfcData*
+- [NFCEcritTag (Fonction)](../pages/1000020417.md) — *NFCWriteTag*
+- [NFCEnvoieTag (Fonction)](../pages/1000020418.md) — *NFCSendTag*
+- [NFCEtat (Fonction)](../pages/1000020415.md) — *NFCStatus*
+- [NFCLitTag (Fonction)](../pages/1000020416.md) — *NFCReadTag*
+- [nfcTag (Type de variable)](../pages/1000020411.md) — *nfcTag*
+
+## fonctions_notes
+
+- [Constantes Lotus Notes](../pages/1000005130.md)
+- [Fonctions de gestion des documents Notes](../pages/1000005117.md)
+- [NotesActiveVue (Fonction)](../pages/1000005118.md) — *NotesActivateView*
+- [NotesAjouteFichierAttaché (Fonction)](../pages/1000005119.md) — *NotesAddAttachment*
+- [NotesChamp (Exemple)](../pages/1001000005114.md)
+- [NotesChamp (Fonction)](../pages/1000005114.md) — *NotesItem*
+- [NotesDimensionChamp (Fonction)](../pages/1000005103.md) — *NotesItemDimension*
+- [NotesDocumentCherche (Fonction)](../pages/1000005104.md) — *NotesDocumentSeek*
+- [NotesDocumentDernier (Fonction)](../pages/1000005105.md) — *NotesDocumentLast*
+- [NotesDocumentIdentifiant (Fonction)](../pages/1000017084.md) — *NotesDocumentIdentifier*
+- [NotesDocumentPremier (Fonction)](../pages/1000005107.md) — *NotesDocumentFirst*
+- [NotesDocumentPrécédent (Fonction)](../pages/1000005106.md) — *NotesDocumentPrevious*
+- [NotesDocumentSuivant (Fonction)](../pages/1000005108.md) — *NotesDocumentNext*
+- [NotesDocumentSupprime (Fonction)](../pages/1000017085.md) — *NotesDocumentDelete*
+- [NotesDésactiveVue (Fonction)](../pages/1000005120.md) — *NotesDeactivateView*
+- [NotesEnDehors (Fonction)](../pages/1000005109.md) — *NotesOut*
+- [NotesEnregistre (Fonction)](../pages/1000005110.md) — *NotesSave*
+- [NotesExtraitFichierAttaché (Fonction)](../pages/1000005121.md) — *NotesExtractAttachment*
+- [NotesFermeBase (Fonction)](../pages/1000005111.md) — *NotesCloseDatabase*
+- [NotesListeChamp (Fonction)](../pages/1000005112.md) — *NotesListItem*
+- [NotesListeFichierAttaché (Fonction)](../pages/1000005122.md) — *NotesListAttachment*
+- [NotesListeVue (Fonction)](../pages/1000005123.md) — *NotesListView*
+- [NotesModifieChamp (Fonction)](../pages/1000005113.md) — *NotesModifyItem*
+- [NotesModifieFichierAttaché (Fonction)](../pages/1000005124.md) — *NotesModifyAttachment*
+- [NotesNbFichierAttaché (Fonction)](../pages/1000005125.md) — *NotesNbAttachment*
+- [NotesOuvreBase (Fonction)](../pages/1000005101.md) — *NotesOpenDatabase*
+- [NotesOuvreConnexion (Fonction)](../pages/1000005102.md) — *NotesOpenConnection*
+- [NotesRAZ (Fonction)](../pages/1000005115.md) — *NotesReset*
+- [NotesSupprimeChamp (Fonction)](../pages/1000005116.md) — *NotesDeleteItem*
+- [NotesSupprimeFichierAttaché (Fonction)](../pages/1000005126.md) — *NotesDeleteAttachment*
+- [NotesVueChercheDernier (Fonction)](../pages/1000005127.md) — *NotesViewSeekLast*
+- [NotesVueCherchePremier (Fonction)](../pages/1000005128.md) — *NotesViewSeekFirst*
+- [NotesVueListeColonne (Exemple)](../pages/1001000005129.md)
+- [NotesVueListeColonne (Fonction)](../pages/1000005129.md) — *NotesViewListColumn*
+
+## fonctions_notif
+
+- [<Variable Notification>.Ajoute (Fonction)](../pages/1410090431.md) — *<Notification variable>.Add*
+- [<Variable Notification>.EnvoiePush (Fonction)](../pages/1410090433.md) — *<Notification variable>.SendPush*
+- [<Variable Notification>.EnvoiePushAbonné (Fonction)](../pages/1410090479.md) — *<Notification variable>.SendPushSubscriber*
+- [<Variable Notification>.Modifie (Fonction)](../pages/1410090432.md) — *<Notification variable>.Modify*
+- [<Variable Notification>.Supprime (Fonction)](../pages/1410090434.md) — *<Notification variable>.Delete*
+- [AfficheLicence (Fonction)](../pages/1410090236.md) — *DisplayLicense*
+- [Android : Les différents types de notifications](../pages/1000019480.md)
+- [AndroidActivityResultProcédure (Fonction)](../pages/1410088881.md) — *AndroidActivityResultProcedure*
+- [App Tracking Transparency - Suivi d'activité](../pages/1410088136.md)
+- [AppleID (Type de variable)](../pages/1000025405.md) — *AppleID*
+- [AppleIdentifiantPublicitaire (Fonction)](../pages/1410087936.md) — *AppleAdvertisingIdentifier*
+- [AppleSignIn (Fonction)](../pages/1000025404.md) — *AppleSignIn*
+- [AppleTrackingDemandeAutorisationAsynchrone (Fonction)](../pages/1410087935.md) — *AppleRequestTrackingAuthorizationAsynchronous*
+- [AppleTrackingEtatAutorisation (Fonction)](../pages/1410087934.md) — *AppleTrackingAuthorizationStatus*
+- [ChangeThème (Fonction)](../pages/1000025266.md) — *ChangeTheme*
+- [ClavierVisible (Fonction)](../pages/3071013.md) — *SIPVisible*
+- [Constantes de gestion du téléphone (Android / iOS)](../pages/1000020188.md)
+- [Deep link vers une application mobile](../pages/1410089474.md)
+- [DeepLinkProcédure (Fonction)](../pages/1410089051.md) — *DeepLinkProcedure*
+- [EtatAlimentation (Fonction)](../pages/3067007.md) — *PowerStatus*
+- [Fonctions de gestion du téléphone](../pages/1000019476.md)
+- [Fonctions de gestion du téléphone (syntaxe préfixée)](../pages/1410090597.md)
+- [Gestion du thème sombre mobile](../pages/1000025338.md)
+- [gglCompte (Type de variable)](../pages/1410089816.md) — *gglAccount*
+- [GglCompteAssocie (Fonction)](../pages/1410089808.md) — *GglAccountAssociate*
+- [GglCompteDissocie (Fonction)](../pages/1410089813.md) — *GglAccountDissociate*
+- [Génération et réception d'un code SMS à usage unique](../pages/1410090676.md)
+- [iOSApplicationOpenURLProcédure (Fonction)](../pages/1410089346.md) — *iOSApplicationOpenURLProcedure*
+- [iOSExclutFichieriCloud (Fonction)](../pages/1000021779.md) — *iOSExcludeFileFromiCloud*
+- [iOSRépertoireAppGroup (Fonction)](../pages/1410088694.md) — *iOSAppGroupDirectory*
+- [LEDAllume (Fonction)](../pages/1000019446.md) — *LEDSwitchOn*
+- [LEDEteint (Fonction)](../pages/1000019447.md) — *LEDSwitchOff*
+- [LuminositéAuto (Fonction)](../pages/1000020182.md) — *BrightnessAuto*
+- [LuminositéModifie (Fonction)](../pages/1000020170.md) — *BrightnessModify*
+- [LuminositéRécupère (Fonction)](../pages/1000019810.md) — *BrightnessGet*
+- [MagnetoAction (Fonction)](../pages/1000014001.md) — *RecorderAction*
+- [NotifAjoute (Fonction)](../pages/1000019442.md) — *NotifAdd*
+- [Notification (Type de variable)](../pages/1000019441.md) — *Notification*
+- [Notification Push : Configuration Android (Firebase)](../pages/1000022215.md)
+- [Notification Push : Configuration Android (Google Cloud Messaging)](../pages/1000021022.md)
+- [Notification Push : Configuration iOS](../pages/1000021032.md)
+- [notificationAction (Type de variable)](../pages/1000021304.md) — *notificationAction*
+- [notificationCatégorie (Type de variable)](../pages/1000023981.md) — *notificationCategory*
+- [notificationFormat (Type de variable)](../pages/1000021301.md) — *notificationFormat*
+- [Notifications Push](../pages/1000021015.md)
+- [Notifications Push : format des notifications (Android et iOS)](../pages/1000021399.md)
+- [NotifListeCatégorie (Fonction)](../pages/1000023979.md) — *NotifListCategory*
+- [NotifModifie (Fonction)](../pages/1000019443.md) — *NotifModify*
+- [NotifPushAbonne (Fonction)](../pages/1410089870.md) — *NotifPushSubscribe*
+- [NotifPushActive (Fonction)](../pages/1000020816.md) — *NotifPushEnable*
+- [NotifPushDésabonne (Fonction)](../pages/1410089871.md) — *NotifPushUnsubscribe*
+- [NotifPushDésactive (Fonction)](../pages/1000020817.md) — *NotifPushDisable*
+- [NotifPushEnvoie (Fonction)](../pages/1000020819.md) — *NotifPushSend*
+- [NotifPushEnvoieAbonné (Fonction)](../pages/1410089872.md) — *NotifPushSendSubscriber*
+- [NotifPushListeIdentifiantsInvalides (Fonction)](../pages/1000020854.md) — *NotifPushListInvalidIdentifiers*
+- [NotifPushProcédure (Fonction)](../pages/1000020818.md) — *NotifPushProcedure*
+- [NotifSupprime (Fonction)](../pages/1000019444.md) — *NotifDelete*
+- [NotifSupprimeCatégorie (Fonction)](../pages/1000023980.md) — *NotifDeleteCategory*
+- [Objets connectés : Android Wear](../pages/1000021398.md)
+- [Procédure WLangage appelée par la fonction AndroidActivityResultProcédure](../pages/1410088882.md)
+- [Procédure WLangage appelée par la fonction AppleSignIn](../pages/1000025430.md)
+- [Procédure WLangage appelée par la fonction DeepLinkProcédure](../pages/1410089478.md)
+- [Procédure WLangage appelée par la fonction iOSApplicationOpenURLProcédure](../pages/1410089345.md)
+- [Procédure WLangage appelée par la fonction ScanDepuisCaméraVersPDF](../pages/1410090842.md)
+- [Procédure WLangage appelée par les fonctions ScanDepuisCaméraVersImage/ ScanDocumentDepuisCaméra](../pages/1410090546.md)
+- [RécupèreThème (Fonction)](../pages/1000025320.md) — *GetTheme*
+- [RéseauMobileEtat (Fonction)](../pages/1000020175.md) — *MobileNetworkStatus*
+- [RéseauMobileInfoConnexion (Fonction)](../pages/1000020176.md) — *MobileNetworkConnectionInfo*
+- [ScanDepuisCaméraVersImage (Fonction)](../pages/1410090763.md) — *ScanFromCameraToImage*
+- [ScanDepuisCaméraVersPDF (Fonction)](../pages/1410090790.md) — *ScanFromCameraToPDF*
+- [ScanDocumentDepuisCaméra (Fonction)](../pages/1410090545.md) — *ScanDocumentFromCamera*
+- [TailleEcran (Fonction)](../pages/1000022211.md) — *ScreenSize*
+- [telDialerAffiche (Fonction)](../pages/1000019236.md) — *tapiDialerDisplay*
+- [telDialerCompose (Fonction)](../pages/1000019235.md) — *tapiDialerCall*
+- [telRécupèreNuméro (Fonction)](../pages/1410090442.md) — *tapiGetNumber*
+- [TypeEcran (Fonction)](../pages/1000022210.md) — *ScreenType*
+- [VibrationArrête (Fonction)](../pages/1000019449.md) — *VibrationStop*
+- [VibrationDéclenche (Fonction)](../pages/1000019448.md) — *VibrationTrigger*
+- [VolumeBoutonPhysique (Fonction)](../pages/1000020168.md) — *VolumePhysicalButton*
+- [VolumeModifie (Fonction)](../pages/1000020169.md) — *VolumeModify*
+- [VolumeRécupère (Fonction)](../pages/1000019807.md) — *VolumeGet*
+- [VérifieIdentitéUtilisateur (Fonction)](../pages/1000021348.md) — *CheckUserIdentity*
+
+## fonctions_obex
+
+- [Constantes OBEX](../pages/1000017186.md)
+- [Fonctions OBEX](../pages/1000017175.md)
+- [OBEXConnecte (Fonction)](../pages/1000017153.md) — *OBEXConnect*
+- [OBEXDéconnecte (Fonction)](../pages/1000017154.md) — *OBEXDisconnect*
+- [OBEXEnvoieFichier (Fonction)](../pages/1000017151.md) — *OBEXSendFile*
+- [OBEXEnvoieVCard (Fonction)](../pages/1000017155.md) — *OBEXSendVCard*
+- [OBEXListeFichier (Fonction)](../pages/1000017148.md) — *OBEXListFile*
+- [OBEXRécupèreFichier (Fonction)](../pages/1000017152.md) — *OBEXGetFile*
+- [OBEXRécupèreVCard (Fonction)](../pages/1000017156.md) — *OBEXGetVCard*
+
+## fonctions_ole
+
+- [Fonctions OLE](../pages/3057007.md)
+- [ObjetActif (Exemple)](../pages/1000003057006.md)
+- [ObjetActif (Fonction)](../pages/3057006.md) — *GetActiveObject*
+- [OLECharge (Fonction)](../pages/3057002.md) — *OLELoad*
+- [OLEColle (Fonction)](../pages/3057003.md) — *OLEPaste*
+- [OLECopie (Fonction)](../pages/3057004.md) — *OLECopy*
+- [OLECréeCopie (Fonction)](../pages/3057005.md) — *OLECreateCopy*
+- [OLECréeVide (Fonction)](../pages/3057001.md) — *OLECreateEmpty*
+- [OLEEdite (Fonction)](../pages/3057008.md) — *OLEActivate*
+- [OLEJoue (Fonction)](../pages/3057009.md) — *OLEPlay*
+- [OLESauve (Fonction)](../pages/3057011.md) — *OLESave*
+- [OLEServeur (Fonction)](../pages/3057010.md) — *OLEServer*
+- [WINDEV et OPC](../pages/9000044.md)
+
+## fonctions_permission
+
+- [Constantes Permission](../pages/1410087523.md)
+- [Fonctions de gestion des permissions Android](../pages/1410087602.md)
+- [Gestion des permissions Android](../pages/1410087547.md)
+- [Permission (Type de variable)](../pages/1410087419.md) — *Permission*
+- [PermissionDemande (Fonction)](../pages/1410087423.md) — *PermissionRequest*
+- [PermissionListe (Fonction)](../pages/1410087429.md) — *PermissionList*
+
+## fonctions_ports_serie_para
+
+- [Constantes de gestion des ports](../pages/3062001.md)
+- [Fonctions de gestion des ports série et parallèle](../pages/3062003.md)
+- [Gestion des ports (ports série, ports parallèles, ports USB, ...)](../pages/3062002.md)
+- [sDansFileEntrée (Fonction)](../pages/3062004.md) — *sInEntryQueue*
+- [sDansFileSortie (Fonction)](../pages/3062005.md) — *sInExitQueue*
+- [sEchap (Fonction)](../pages/3062006.md) — *sEscape*
+- [sEcrit (Fonction)](../pages/3062009.md) — *sWrite*
+- [sEvénement (Fonction)](../pages/3062014.md) — *sEvent*
+- [sFerme (Fonction)](../pages/3062010.md) — *sClose*
+- [sFinEvénement (Fonction)](../pages/3062008.md) — *sEndEvent*
+- [sFixeParamètre (Fonction)](../pages/3062011.md) — *sParameter*
+- [sListePort (Fonction)](../pages/1000025980.md) — *sListPort*
+- [sLit (Fonction)](../pages/3062012.md) — *sRead*
+- [sOuvre (Exemple)](../pages/1000003062013.md)
+- [sOuvre (Fonction)](../pages/3062013.md) — *sOpen*
+
+## fonctions_proximite
+
+- [Constantes de gestion du partage de proximité](../pages/1410090860.md)
+- [Fonctions de gestion du partage de proximité](../pages/1410090833.md)
+- [Paramètres de la procédure utilisée par la fonction PartageProximitéAttendConnexion (Demande)](../pages/1410090658.md)
+- [Paramètres de la procédure utilisée par la fonction PartageProximitéAttendConnexion (Notification)](../pages/1410090665.md)
+- [Paramètres de la procédure utilisée par la fonction PartageProximitéDemandeConnexion (Demande)](../pages/1410090666.md)
+- [Paramètres de la procédure utilisée par la fonction PartageProximitéDemandeConnexion (Notification)](../pages/1410090667.md)
+- [Paramètres de la procédure utilisée par la fonction PartageProximitéEnvoie](../pages/1410090645.md)
+- [Paramètres de la procédure utilisée par la fonction PartageProximitéEnvoieFichier](../pages/1410090670.md)
+- [Paramètres de la procédure utilisée par la fonction PartageProximitéRechercheAppareil (Recherche)](../pages/1410090664.md)
+- [Paramètres de la procédure utilisée par la fonction PartageProximitéRechercheAppareil (Résultat)](../pages/1410090663.md)
+- [Partage de proximité (Android)](../pages/1410090843.md)
+- [PartageProximitéAccepteConnexion (Fonction)](../pages/1410090646.md) — *NearbyShareAcceptConnection*
+- [PartageProximitéArrêteAttente (Fonction)](../pages/1410090647.md) — *NearbyShareStopWaiting*
+- [PartageProximitéArrêteRecherche (Fonction)](../pages/1410090649.md) — *NearbyShareStopDiscovery*
+- [PartageProximitéArrêteTout (Fonction)](../pages/1410090668.md) — *NearbyShareStopAll*
+- [PartageProximitéAttendConnexion (Fonction)](../pages/1410090655.md) — *NearbyShareWaitForConnection*
+- [PartageProximitéDemandeConnexion (Fonction)](../pages/1410090650.md) — *NearbyShareRequestConnection*
+- [PartageProximitéDéconnecte (Fonction)](../pages/1410090652.md) — *NearbyShareDisconnect*
+- [PartageProximitéEnvoie (Fonction)](../pages/1410090653.md) — *NearbyShareSend*
+- [PartageProximitéEnvoieFichier (Fonction)](../pages/1410090654.md) — *NearbyShareSendFile*
+- [PartageProximitéRechercheAppareil (Fonction)](../pages/1410090648.md) — *NearbyShareDiscoverDevice*
+- [PartageProximitéRefuseConnexion (Fonction)](../pages/1410090651.md) — *NearbyShareRejectConnection*
+- [Procédure WLangage appelée par la fonction PartageProximitéAccepteConnexion (Progression)](../pages/1410090657.md)
+- [Procédure WLangage appelée par la fonction PartageProximitéAccepteConnexion (Réception des données)](../pages/1410090644.md)
+- [Procédure WLangage appelée par la fonction PartageProximitéAttendConnexion (Résultat)](../pages/1410090662.md)
+
+## fonctions_rendez_vous
+
+- [Calendrier (Type de variable)](../pages/1000020663.md) — *Calendar*
+- [Constantes de gestion des rendez-vous](../pages/1000020709.md)
+- [Fonctions de gestion des rendez-vous (Outlook, Lotus Notes, appareil mobile)](../pages/1000011009.md)
+- [Gestion des agendas (Android/iOS)](../pages/1000020708.md)
+- [iCalendarVersRendezVous (Fonction)](../pages/1000021827.md) — *iCalendarToAppointment*
+- [La structure RendezVous](../pages/1000011010.md)
+- [Procédure WLangage appelée par la fonction RendezVousCrée](../pages/1410090599.md)
+- [Rappel (Type de variable)](../pages/1000020688.md) — *Reminder*
+- [RendezVousAffiche (Fonction)](../pages/1000020692.md) — *AppointmentDisplay*
+- [RendezVousAjoute (Exemple)](../pages/1000020711.md)
+- [RendezVousAjoute (Fonction)](../pages/1000011001.md) — *AppointmentAdd*
+- [RendezVousCrée (Fonction)](../pages/1000020691.md) — *AppointmentCreate*
+- [RendezVousDernier (Fonction)](../pages/1000011002.md) — *AppointmentLast*
+- [RendezVousListe (Fonction)](../pages/1000020690.md) — *AppointmentList*
+- [RendezVousListeCalendrier (Exemple)](../pages/1000020712.md)
+- [RendezVousListeCalendrier (Fonction)](../pages/1000020661.md) — *AppointmentListCalendar*
+- [RendezVousLit (Fonction)](../pages/1000011011.md) — *AppointmentRead*
+- [RendezVousModifie (Fonction)](../pages/1000011003.md) — *AppointmentModify*
+- [RendezVousPremier (Fonction)](../pages/1000011005.md) — *AppointmentFirst*
+- [RendezVousPrécédent (Fonction)](../pages/1000011004.md) — *AppointmentPrevious*
+- [RendezVousRAZ (Fonction)](../pages/1000011006.md) — *AppointmentReset*
+- [RendezVousSuivant (Fonction)](../pages/1000011007.md) — *AppointmentNext*
+- [RendezVousSupprime (Fonction)](../pages/1000011008.md) — *AppointmentDelete*
+- [RendezVousVersiCalendar (Fonction)](../pages/1000021828.md) — *AppointmentToiCalendar*
+
+## fonctions_saas
+
+- [Constantes SaaS](../pages/1000019242.md)
+- [Développement d'un site SaaS](../pages/9500214.md)
+- [Fonctions SaaS](../pages/1000019027.md)
+- [SaaS](../pages/9500213.md)
+- [saasAbonnement (Type de variable)](../pages/1000019088.md) — *saasSubscription*
+- [SaaSAdminActiveLicence (Fonction)](../pages/1000019139.md) — *SaaSAdminSubscriptionAllocateLicense*
+- [SaaSAdminActiveService (Fonction)](../pages/1000019132.md) — *SaaSAdminPricingEnableService*
+- [SaaSAdminAjouteAbonnement (Fonction)](../pages/1000019134.md) — *SaaSAdminAddSubscription*
+- [SaaSAdminAjouteClient (Fonction)](../pages/1000019113.md) — *SaaSAdminAddClient*
+- [SaaSAdminAjouteService (Fonction)](../pages/1000019107.md) — *SaaSAdminAddService*
+- [SaaSAdminAjouteSite (Fonction)](../pages/1000019102.md) — *SaaSAdminAddSite*
+- [SaaSAdminAjouteTarification (Fonction)](../pages/1000019127.md) — *SaaSAdminAddPricing*
+- [SaaSAdminAjouteUtilisateur (Fonction)](../pages/1000019120.md) — *SaaSAdminAddUser*
+- [SaaSAdminChercheAbonnement (Fonction)](../pages/1000019137.md) — *SaaSAdminFindSubscription*
+- [SaaSAdminChercheClient (Fonction)](../pages/1000019114.md) — *SaaSAdminFindClient*
+- [SaaSAdminChercheService (Fonction)](../pages/1000019110.md) — *SaaSAdminFindService*
+- [SaaSAdminChercheSite (Fonction)](../pages/1000019105.md) — *SaaSAdminFindSite*
+- [SaaSAdminChercheTarification (Fonction)](../pages/1000019130.md) — *SaaSAdminFindPricing*
+- [SaaSAdminChercheUtilisateur (Fonction)](../pages/1000019124.md) — *SaaSAdminFindUser*
+- [SaaSAdminConfigureDevise (Fonction)](../pages/1000019186.md) — *SaaSAdminConfigureCurrency*
+- [SaaSAdminConfigureSMTP (Fonction)](../pages/1000022592.md) — *SaaSAdminConfigureSMTP*
+- [SaaSAdminConnecte (Fonction)](../pages/1000019098.md) — *SaaSAdminConnect*
+- [SaaSAdminConnexionClient (Fonction)](../pages/1000019144.md) — *SaaSAdminClientConnection*
+- [SaaSAdminConnexionSite (Fonction)](../pages/1000019145.md) — *SaaSAdminSiteConnection*
+- [SaaSAdminCréeBaseClient (Fonction)](../pages/1000019141.md) — *SaaSAdminCreateClientDatabase*
+- [SaaSAdminDéconnecte (Fonction)](../pages/1000019099.md) — *SaaSAdminDisconnect*
+- [SaaSAdminDésactiveLicence (Fonction)](../pages/1000019140.md) — *SaaSAdminSubscriptionDeallocateLicense*
+- [SaaSAdminDésactiveService (Fonction)](../pages/1000019133.md) — *SaaSAdminPricingDisableService*
+- [SaaSAdminEcritParamètreSite (Fonction)](../pages/1000019769.md) — *SaaSAdminWriteSiteParameter*
+- [SaaSAdminEstConnecté (Fonction)](../pages/1000019101.md) — *SaaSAdminIsConnected*
+- [SaaSAdminListeAbonnement (Fonction)](../pages/1000019138.md) — *SaaSAdminListSubscription*
+- [SaaSAdminListeAbonnementClient (Fonction)](../pages/1000019183.md) — *SaaSAdminListClientSubscription*
+- [SaaSAdminListeClient (Fonction)](../pages/1000019116.md) — *SaaSAdminListClient*
+- [SaaSAdminListeLicence (Fonction)](../pages/1410090977.md) — *SaaSAdminSubscriptionListLicense*
+- [SaaSAdminListeService (Fonction)](../pages/1000019111.md) — *SaaSAdminListService*
+- [SaaSAdminListeSite (Fonction)](../pages/1000019106.md) — *SaaSAdminListSite*
+- [SaaSAdminListeTarification (Fonction)](../pages/1000019131.md) — *SaaSAdminListPricing*
+- [SaaSAdminListeUtilisateur (Fonction)](../pages/1000019125.md) — *SaaSAdminListUser*
+- [SaaSAdminListeVisite (Fonction)](../pages/1000024559.md) — *SaaSAdminListVisit*
+- [SaaSAdminLitParamètreSite (Fonction)](../pages/1000019768.md) — *SaaSAdminReadSiteParameter*
+- [SaaSAdminModifieAbonnement (Fonction)](../pages/1000019135.md) — *SaaSAdminModifySubscription*
+- [SaaSAdminModifieClient (Fonction)](../pages/1000019115.md) — *SaaSAdminModifyClient*
+- [SaaSAdminModifieConnexionClient (Fonction)](../pages/1000019143.md) — *SaaSAdminModifyClientConnection*
+- [SaaSAdminModifieConnexionSite (Fonction)](../pages/1000019142.md) — *SaaSAdminConfigureSiteData*
+- [SaaSAdminModifieService (Fonction)](../pages/1000019108.md) — *SaaSAdminModifyService*
+- [SaaSAdminModifieSite (Fonction)](../pages/1000019103.md) — *SaaSAdminModifySite*
+- [SaaSAdminModifieTarification (Fonction)](../pages/1000019128.md) — *SaaSAdminModifyPricing*
+- [SaaSAdminModifieUtilisateur (Fonction)](../pages/1000019122.md) — *SaaSAdminModifyUser*
+- [SaaSAdminSupprimeAbonnement (Fonction)](../pages/1000019136.md) — *SaaSAdminDeleteSubscription*
+- [SaaSAdminSupprimeClient (Fonction)](../pages/1000019117.md) — *SaaSAdminDeleteClient*
+- [SaaSAdminSupprimeService (Fonction)](../pages/1000019109.md) — *SaaSAdminDeleteService*
+- [SaaSAdminSupprimeSite (Fonction)](../pages/1000019104.md) — *SaaSAdminDeleteSite*
+- [SaaSAdminSupprimeTarification (Fonction)](../pages/1000019129.md) — *SaaSAdminDeletePricing*
+- [SaaSAdminSupprimeUtilisateur (Fonction)](../pages/1000019123.md) — *SaaSAdminDeleteUser*
+- [SaaSChangeMotDePasse (Fonction)](../pages/1000019462.md) — *SaaSChangePassword*
+- [saasClient (Type de variable)](../pages/1000019072.md) — *saasClient*
+- [SaaSConnecte (Fonction)](../pages/1000018959.md) — *SaaSConnect*
+- [SaaSConnexionClient (Fonction)](../pages/1000019016.md) — *SaaSClientConnexion*
+- [SaaSDéconnecte (Fonction)](../pages/1000018960.md) — *SaaSDisconnect*
+- [SaaSEcritParamètreSite (Fonction)](../pages/1000019039.md) — *SaaSWriteSiteParameter*
+- [SaaSEnvoieCodeDeSécurité (Fonction)](../pages/1000022528.md) — *SaaSSendSecurityCode*
+- [SaaSEstConnecté (Fonction)](../pages/1000018962.md) — *SaaSIsConnected*
+- [SaaSLitParamètreSite (Fonction)](../pages/1000019037.md) — *SaaSReadSiteParameter*
+- [saasService (Type de variable)](../pages/1000019096.md) — *saasService*
+- [saasSite (Type de variable)](../pages/1000019068.md) — *saasSite*
+- [saasTarification (Type de variable)](../pages/1000019091.md) — *saasPricing*
+- [saasUtilisateur (Type de variable)](../pages/1000019083.md) — *saasUser*
+- [SaaSUtilisateurConnecté (Fonction)](../pages/1000019461.md) — *SaaSConnectedUser*
+- [saasVisite (Type de variable)](../pages/1000024560.md) — *saasVisit*
+- [SaaSVérifieService (Fonction)](../pages/1000018961.md) — *SaaSCheckService*
+
+## fonctions_scp
+
+- [<Variable sshSession>.SCPEnvoieFichier (Fonction)](../pages/1410089494.md) — *<sshSession variable>.SCPSendFile*
+- [<Variable sshSession>.SCPRécupèreFichier (Fonction)](../pages/1410089493.md) — *<sshSession variable>.SCPGetFile*
+- [Fonctions SCP](../pages/1410089311.md)
+- [Procédure WLangage appelée par la fonction SCPEnvoieFichier](../pages/1410089309.md)
+- [Procédure WLangage appelée par la fonction SCPRécupèreFichier](../pages/1410089310.md)
+- [SCPEnvoieFichier (Fonction)](../pages/1410089102.md) — *SCPSendFile*
+- [SCPRécupèreFichier (Fonction)](../pages/1410089103.md) — *SCPGetFile*
+
+## fonctions_sms
+
+- [Constantes des fonctions SMS](../pages/3068010.md)
+- [Fonctions SMS](../pages/3068004.md)
+- [La structure SMS](../pages/3068003.md)
+- [SMSDétecteCodeUsageUnique (Fonction)](../pages/1410090437.md) — *SMSDetectOneTimeCode*
+- [SMSEnvoie (Fonction)](../pages/3068002.md) — *SMSSend*
+- [SMSLanceAppli (Fonction)](../pages/1000020864.md) — *SMSRunApp*
+- [SMSNbMessage (Fonction)](../pages/3068009.md) — *SMSNbMessage*
+- [SMSPremier (Fonction)](../pages/3068006.md) — *SMSFirst*
+- [SMSRAZ (Fonction)](../pages/3068001.md) — *SMSReset*
+- [SMSSuivant (Fonction)](../pages/3068007.md) — *SMSNext*
+- [SMSSupprime (Fonction)](../pages/3068008.md) — *SMSDelete*
+- [WINDEV Mobile et les SMS](../pages/3068005.md)
+
+## fonctions_snmp
+
+- [Constantes SNMP](../pages/1000017177.md)
+- [Fonctions SNMP](../pages/1000017176.md)
+- [Gestion du protocole SNMP](../pages/3039015.md)
+- [SNMPChargeMIB (Fonction)](../pages/1000017074.md) — *SNMPLoadMIB*
+- [SNMPChaîneVersOID (Fonction)](../pages/1000017076.md) — *SNMPStringToOID*
+- [SNMPEcrit (Fonction)](../pages/1000017071.md) — *SNMPSet*
+- [SNMPFermeSession (Fonction)](../pages/1000017068.md) — *SNMPCloseSession*
+- [SNMPLit (Fonction)](../pages/1000017069.md) — *SNMPGet*
+- [SNMPLitSuivant (Fonction)](../pages/1000017070.md) — *SNMPGetNext*
+- [SNMPLitTableau (Fonction)](../pages/1000017217.md) — *SNMPGetTable*
+- [SNMPOIDAccès (Fonction)](../pages/1000017077.md) — *SNMPOIDAccess*
+- [SNMPOIDDescription (Fonction)](../pages/1000017079.md) — *SNMPOIDDescription*
+- [SNMPOIDEtat (Fonction)](../pages/1000017078.md) — *SNMPOIDStatus*
+- [SNMPOIDType (Fonction)](../pages/1000017080.md) — *SNMPOIDType*
+- [SNMPOIDVersChaîne (Fonction)](../pages/1000017075.md) — *SNMPOIDToString*
+- [SNMPOuvreSession (Fonction)](../pages/1000017067.md) — *SNMPStartSession*
+- [SNMPTrapActive (Exemple)](../pages/1000017235.md)
+- [SNMPTrapActive (Fonction)](../pages/1000017072.md) — *SNMPTrapEnable*
+- [SNMPTrapDésactive (Fonction)](../pages/1000017073.md) — *SNMPTrapDisable*
+
+## fonctions_soap
+
+- [<Variable wsRequête>.AjouteAssertionSAML (Fonction)](../pages/1000023948.md) — *<wsRequest variable>.AddSAMLAssertion*
+- [<Variable wsRequête>.AjouteSignatureXML (Fonction)](../pages/1000023950.md) — *<wsRequest variable>.AddXMLSignature*
+- [<Variable xsdEntité>.AjouteAttribut (Fonction)](../pages/1000023949.md) — *<xsdEntity variable>.AddAttribute*
+- [Application cliente : Exécuter des procédures sur un serveur SOAP](../pages/3069008.md)
+- [Constantes SOAP](../pages/3069010.md)
+- [Constantes utilisées par la signature XML](../pages/1000020949.md)
+- [Fonctions SOAP](../pages/3069006.md)
+- [Fonctions SOAP (syntaxe préfixée)](../pages/1000023951.md)
+- [La structure SOAP](../pages/3069009.md)
+- [SOAPAjouteAssertionSAML (Exemple)](../pages/1000021054.md)
+- [SOAPAjouteAssertionSAML (Fonction)](../pages/1000020762.md) — *SOAPAddSAMLAssertion*
+- [SOAPAjouteAttribut (Fonction)](../pages/1000019241.md) — *SOAPAddAttribute*
+- [SOAPAjouteEntête (Fonction)](../pages/3069001.md) — *SOAPAddHeader*
+- [SOAPAjouteSignatureXML (Exemple)](../pages/1000021053.md)
+- [SOAPAjouteSignatureXML (Fonction)](../pages/1000020754.md) — *SOAPAddSignatureXML*
+- [SOAPDonneRésultat (Exemple)](../pages/1000003069002.md)
+- [SOAPDonneRésultat (Fonction)](../pages/3069002.md) — *SOAPGetResult*
+- [SOAPEncodeRésultat (Fonction)](../pages/3069003.md) — *SOAPEncodeResult*
+- [SOAPErreur (Exemple)](../pages/1000003069005.md)
+- [SOAPErreur (Fonction)](../pages/3069005.md) — *SOAPError*
+- [SOAPExécute (Exemple)](../pages/1000003069013.md)
+- [SOAPExécute (Fonction)](../pages/3069013.md) — *SOAPRun*
+- [SOAPExécuteXML (Exemple)](../pages/1000003069014.md)
+- [SOAPExécuteXML (Fonction)](../pages/3069014.md) — *SOAPRunXML*
+- [SOAPPrépare (Fonction)](../pages/1000019238.md) — *SOAPPrepare*
+- [SOAPRécupèreEntête (Fonction)](../pages/1000019237.md) — *SOAPGetHeader*
+- [SOAPVersHTTP (Exemple)](../pages/1000024437.md)
+- [SOAPVersHTTP (Fonction)](../pages/1000023920.md) — *SOAPToHTTP*
+- [WINDEV et le protocole SOAP](../pages/3069012.md)
+- [wsRequête (Type de variable)](../pages/1000020577.md) — *wsRequest*
+- [wsRéponse (Type de variable)](../pages/1000020568.md) — *wsResponse*
+- [xmlSignatureInformationCléX509 (Type de variable)](../pages/1000020742.md) — *xmlSignatureInformationKeyX509*
+- [xmlSignatureRéférence (Type de variable)](../pages/1000020746.md) — *xmlSignatureReference*
+
+## fonctions_socket
+
+- [Constantes de gestion des Sockets](../pages/3070020.md)
+- [Création d'un certificat SSL utilisable avec SocketCréeSSL](../pages/3070021.md)
+- [Fonctions de gestion des sockets](../pages/3070007.md)
+- [Gestion des sockets avec WINDEV, WEBDEV et WINDEV Mobile](../pages/3070008.md)
+- [Gestion des WebSockets](../pages/1000017192.md)
+- [Gestion du protocole SOCKS5](../pages/1410087756.md)
+- [Procédure WLangage appelée par la fonction SocketConnecte](../pages/1000024821.md)
+- [Procédure WLangage appelée par la fonction WebSocketClientConnecte](../pages/1410087754.md)
+- [Procédure WLangage appelée par la fonction WebSocketClientConnecteSSL](../pages/1410087755.md)
+- [Socket : Créer un serveur de socket simplifié](../pages/3070001.md)
+- [Socket : créer un serveur de sockets standard](../pages/3070003.md)
+- [Socket : Créer une application cliente](../pages/3070017.md)
+- [SocketAccepte (Fonction)](../pages/3070004.md) — *SocketAccept*
+- [SocketAttendConnexion (Fonction)](../pages/3070006.md) — *SocketWaitForConnection*
+- [SocketChangeModeTransmission (Fonction)](../pages/3070005.md) — *SocketChangeTransmissionMode*
+- [SocketClientInfo (Fonction)](../pages/3070009.md) — *SocketClientInfo*
+- [SocketConnecte (Fonction)](../pages/3070016.md) — *SocketConnect*
+- [SocketConnecteBluetooth (Fonction)](../pages/1000017145.md) — *SocketConnectBluetooth*
+- [SocketConnecteInfraRouge (Fonction)](../pages/3070018.md) — *SocketConnectInfrared*
+- [SocketConnecteSSL (Fonction)](../pages/1000017042.md) — *SocketConnectSSL*
+- [SocketCrée (Exemple)](../pages/1000003070011.md)
+- [SocketCrée (Fonction)](../pages/3070011.md) — *SocketCreate*
+- [SocketCréeBluetooth (Fonction)](../pages/1000017167.md) — *SocketCreateBluetooth*
+- [SocketCréeInfraRouge (Fonction)](../pages/3070012.md) — *SocketCreateInfrared*
+- [SocketCréeSSL (Fonction)](../pages/1000017041.md) — *SocketCreateSSL*
+- [SocketCréeUDP (Fonction)](../pages/3070019.md) — *SocketCreateUDP*
+- [SocketEcrit (Fonction)](../pages/3070002.md) — *SocketWrite*
+- [SocketExiste (Fonction)](../pages/3070013.md) — *SocketExist*
+- [SocketFerme (Fonction)](../pages/3070015.md) — *SocketClose*
+- [SocketLit (Exemple)](../pages/1000003070014.md)
+- [SocketLit (Fonction)](../pages/3070014.md) — *SocketRead*
+- [SocketParamètre (Fonction)](../pages/1410088949.md) — *SocketConfigure*
+- [SocketProxy (Fonction)](../pages/1410088761.md) — *SocketProxy*
+- [SocketRefuse (Fonction)](../pages/3070010.md) — *SocketDeny*
+- [WebSocketClientConnecte (Fonction)](../pages/1410087751.md) — *WebSocketClientConnect*
+- [WebSocketClientConnecteSSL (Fonction)](../pages/1410087752.md) — *WebSocketClientConnectSSL*
+
+## fonctions_ssh
+
+- [<Variable sshSession>.Commande (Fonction)](../pages/1410091176.md) — *<sshSession variable>.Command*
+- [<Variable sshSession>.ConnecteCommande (Fonction)](../pages/1410091177.md) — *<sshSession variable>.ConnectCommand*
+- [<Variable sshSession>.ConnecteShell (Fonction)](../pages/1000021163.md) — *<sshSession variable>.ConnectShell*
+- [<Variable sshSession>.DéconnecteCommande (Fonction)](../pages/1410091178.md) — *<sshSession variable>.DisconnectCommand*
+- [<Variable sshSession>.DéconnecteShell (Fonction)](../pages/1000021164.md) — *<sshSession variable>.DisconnectShell*
+- [<Variable sshSession>.Ecrit (Fonction)](../pages/1000021166.md) — *<sshSession variable>.Write*
+- [<Variable sshSession>.Lit (Fonction)](../pages/1000021167.md) — *<sshSession variable>.Read*
+- [Constantes SSH](../pages/1000021161.md)
+- [Dialoguer avec un serveur SSH](../pages/1000021136.md)
+- [Dialoguer avec un serveur SSH (syntaxe préfixée)](../pages/1000021169.md)
+- [Fonctions SSH](../pages/1000021159.md)
+- [Fonctions SSH (syntaxe préfixée)](../pages/1000021168.md)
+- [SSHCommande (Fonction)](../pages/1000021143.md) — *SSHCommand*
+- [SSHConnecteCommande (Fonction)](../pages/1410091112.md) — *SSHConnectCommand*
+- [SSHConnecteShell (Fonction)](../pages/1000021147.md) — *SSHConnectShell*
+- [SSHDéconnecteCommande (Fonction)](../pages/1410091113.md) — *SSHDisconnectCommand*
+- [SSHDéconnecteShell (Fonction)](../pages/1000021148.md) — *SSHDisconnectShell*
+- [SSHEcrit (Fonction)](../pages/1000021150.md) — *SSHWrite*
+- [SSHLit (Exemple)](../pages/1000021162.md)
+- [SSHLit (Fonction)](../pages/1000021149.md) — *SSHRead*
+- [sshSession (Type de variable)](../pages/1000021157.md) — *sshSession*
+
+## fonctions_synthese_vocale
+
+- [Constantes de gestion de la synthèse vocale](../pages/1000025987.md)
+- [Fonctions de gestion de la synthèse vocale](../pages/1000020190.md)
+- [Synthèse vocale dans les applications mobiles](../pages/1000020189.md)
+- [SynthèseVocaleArrête (Fonction)](../pages/1000020174.md) — *SpeechSynthesisStop*
+- [SynthèseVocaleEnCours (Fonction)](../pages/1000020173.md) — *SpeechSynthesisInProgress*
+- [SynthèseVocaleInitialise (Fonction)](../pages/1000020171.md) — *SpeechSynthesisInitialize*
+- [SynthèseVocaleListeVoix (Fonction)](../pages/1000025921.md) — *SpeechSynthesisListVoices*
+- [SynthèseVocaleLitFichier (Fonction)](../pages/1000020172.md) — *SpeechSynthesisReadFile*
+- [SynthèseVocaleLitTexte (Fonction)](../pages/1000019805.md) — *SpeechSynthesisReadText*
+- [VoixDeSynthèse (Type de variable)](../pages/1000025986.md) — *SpeechSynthesisVoice*
+
+## fonctions_taches
+
+- [Fonctions de gestion des tâches](../pages/1000012009.md)
+- [La structure Tâche](../pages/1000012010.md)
+- [TâcheAjoute (Fonction)](../pages/1000012001.md) — *TaskAdd*
+- [TâcheDernier (Fonction)](../pages/1000012002.md) — *TaskLast*
+- [TâcheLit (Fonction)](../pages/1000012011.md) — *TaskRead*
+- [TâcheModifie (Fonction)](../pages/1000012003.md) — *TaskModify*
+- [TâchePremier (Fonction)](../pages/1000012005.md) — *TaskFirst*
+- [TâchePrécédent (Fonction)](../pages/1000012004.md) — *TaskPrevious*
+- [TâcheRAZ (Fonction)](../pages/1000012006.md) — *TaskReset*
+- [TâcheSuivant (Fonction)](../pages/1000012007.md) — *TaskNext*
+- [TâcheSupprime (Fonction)](../pages/1000012008.md) — *TaskDelete*
+
+## fonctions_taches_arriere_plan
+
+- [Constantes de gestion des tâches en arrière-plan](../pages/1000023480.md)
+- [Fonctions de gestion des tâches en arrière-plan](../pages/1000023472.md)
+- [TâcheEnArrièrePlanAjoute (Fonction)](../pages/1000023454.md) — *BackgroundTaskAdd*
+- [TâcheEnArrièrePlanListe (Fonction)](../pages/1000023456.md) — *BackgroundTaskList*
+- [TâcheEnArrièrePlanSupprime (Fonction)](../pages/1000023455.md) — *BackgroundTaskDelete*
+- [Tâches en arrière-plan](../pages/1000023473.md)
+
+## fonctions_telechargement
+
+- [Constantes_telechargement](../pages/1410087339.md)
+- [Fonctions de gestion du téléchargement de fichiers](../pages/1410087338.md)
+- [Téléchargement en arrière-plan](../pages/1410087335.md)
+- [TéléchargementAjoute (Fonction)](../pages/1410087319.md) — *DownloadAdd*
+- [TéléchargementInfo (Type de variable)](../pages/1410087306.md) — *DownloadInfo*
+- [TéléchargementListe (Fonction)](../pages/1410087322.md) — *DownloadList*
+- [TéléchargementParamètre (Type de variable)](../pages/1410087293.md) — *DownloadParameter*
+- [TéléchargementRécupèreInfo (Fonction)](../pages/1410087320.md) — *DownloadGetInfo*
+- [TéléchargementSupprime (Fonction)](../pages/1410087321.md) — *DownloadRemove*
+
+## fonctions_telephone
+
+- [Constantes de gestion de la téléphonie](../pages/3076015.md)
+- [Fonctions de téléphonie](../pages/3076005.md)
+- [Procédure WLangage appelée par la fonction telCompose](../pages/1000024724.md)
+- [telAppelDébut (Fonction)](../pages/3076006.md) — *tapiCallStart*
+- [telAppelEnAttente (Fonction)](../pages/3076033.md) — *tapiCallIsWaiting*
+- [telAppelEstOccupé (Fonction)](../pages/3076017.md) — *tapiCallIsBusy*
+- [telAppelEstTerminé (Fonction)](../pages/3076003.md) — *tapiCallIsOver*
+- [telAppelFin (Fonction)](../pages/3076002.md) — *tapiCallEnd*
+- [telAppelPasDeRéponse (Fonction)](../pages/3076008.md) — *tapiNoAnswer*
+- [telArrête (Fonction)](../pages/3076007.md) — *tapiStop*
+- [telCapacité (Fonction)](../pages/3076014.md) — *tapiCapability*
+- [telCompose (Fonction)](../pages/3076013.md) — *tapiDial*
+- [telComposeLigne (Fonction)](../pages/3076012.md) — *tapiLineDial*
+- [telDuréeAppel (Fonction)](../pages/3076004.md) — *tapiCallDuring*
+- [telDémarreDétectionAppel (Exemple)](../pages/1000003076029.md)
+- [telDémarreDétectionAppel (Fonction)](../pages/3076029.md) — *tapiListen*
+- [telEnregistre (Fonction)](../pages/3076019.md) — *tapiRecord*
+- [telErreur (Fonction)](../pages/3076020.md) — *tapiError*
+- [telExécuteTransfert (Fonction)](../pages/3076021.md) — *tapiCompleteTransfer*
+- [telFinDétectionAppel (Fonction)](../pages/3076022.md) — *tapiStopCallDetection*
+- [telJoue (Fonction)](../pages/3076023.md) — *tapiPlay*
+- [telListePériphérique (Fonction)](../pages/3076024.md) — *tapiDeviceList*
+- [telMetAppelEnAttente (Fonction)](../pages/3076034.md) — *tapiHold*
+- [telNuméroAppelant (Fonction)](../pages/3076010.md) — *tapiCallerID*
+- [telNuméroAppelé (Fonction)](../pages/3076025.md) — *tapiCalledID*
+- [telNumérote (Fonction)](../pages/3076018.md) — *tapiSendKey*
+- [telOrigine (Fonction)](../pages/3076028.md) — *tapiOrigin*
+- [telPériphérique (Fonction)](../pages/3076032.md) — *tapiDevice*
+- [telRaccroche (Fonction)](../pages/3076030.md) — *tapiHangUp*
+- [telReprendAppelEnAttente (Fonction)](../pages/3076035.md) — *tapiUnhold*
+- [telRépondAppel (Fonction)](../pages/3076026.md) — *tapiAnswerCall*
+- [telToucheEnfoncée (Fonction)](../pages/3076027.md) — *tapiKeyPressed*
+- [telTransfertDirect (Fonction)](../pages/3076011.md) — *tapiBlindTransfer*
+- [Téléphonie : Gérer les appels entrants](../pages/3076016.md)
+- [Téléphonie : Gérer les appels sortants](../pages/3076001.md)
+- [WINDEV et la téléphonie](../pages/3076009.md)
+
+## fonctions_upnp
+
+- [<Variable upnpPériphérique>.ModifieContraste (Fonction)](../pages/1000020989.md) — *<upnpDevice variable>.ModifyContrast*
+- [<Variable upnpPériphérique>.ModifieLuminosité (Fonction)](../pages/1000020990.md) — *<upnpDevice variable>.ModifyBrightness*
+- [<Variable upnpPériphérique>.ModifieMuet (Fonction)](../pages/1000020991.md) — *<upnpDevice variable>.ModifyMute*
+- [<Variable upnpPériphérique>.ModifieNetteté (Fonction)](../pages/1000020992.md) — *<upnpDevice variable>.ModifySharpness*
+- [<Variable upnpPériphérique>.ModifieVolume (Fonction)](../pages/1000020993.md) — *<upnpDevice variable>.ModifyVolume*
+- [<Variable upnpPériphérique>.MédiaArrêt (Fonction)](../pages/1000020979.md) — *<upnpDevice variable>.MediaStop*
+- [<Variable upnpPériphérique>.MédiaJoue (Fonction)](../pages/1000020985.md) — *<upnpDevice Variable>.MediaPlay*
+- [<Variable upnpPériphérique>.MédiaOuvre (Fonction)](../pages/1000020986.md) — *<upnpDevice variable>.MediaOpen*
+- [<Variable upnpPériphérique>.MédiaPause (Fonction)](../pages/1000020987.md) — *<upnpDevice variable>.MediaPause*
+- [<Variable upnpPériphérique>.RécupèreContraste (Fonction)](../pages/1000020994.md) — *<upnpDevice variable>.GetContrast*
+- [<Variable upnpPériphérique>.RécupèreLuminosité (Fonction)](../pages/1000020995.md) — *<upnpDevice variable>.GetBrightness*
+- [<Variable upnpPériphérique>.RécupèreMuet (Fonction)](../pages/1000020996.md) — *<upnpDevice variable>.GetMute*
+- [<Variable upnpPériphérique>.RécupèreNetteté (Fonction)](../pages/1000020997.md) — *<upnpDevice variable>.GetSharpness*
+- [<Variable upnpPériphérique>.RécupèreVolume (Fonction)](../pages/1000020999.md) — *<upnpDevice variable>.GetVolume*
+- [<Variable upnpService>.ExécuteAction (Fonction)](../pages/1000020973.md) — *<upnpService variable>.ExecuteAction*
+- [Fonctions DLNA / UPnP](../pages/1000020966.md)
+- [Fonctions DLNA / UPnP (syntaxe préfixée)](../pages/1000021000.md)
+- [UPNPCherchePériphérique (Fonction)](../pages/1000020912.md) — *UPNPFindDevice*
+- [UPNPExécuteAction (Fonction)](../pages/1000020918.md) — *UPNPExecuteAction*
+- [upnpImage (Type de variable)](../pages/1000020905.md) — *upnpImage*
+- [UPNPListePériphérique (Fonction)](../pages/1000020901.md) — *UPNPListDevice*
+- [UPNPModifieContraste (Fonction)](../pages/1000020938.md) — *UPNPModifyContrast*
+- [UPNPModifieLuminosité (Fonction)](../pages/1000020939.md) — *UPNPModifyBrightness*
+- [UPNPModifieMuet (Fonction)](../pages/1000020931.md) — *UPNPModifyMute*
+- [UPNPModifieNetteté (Fonction)](../pages/1000020936.md) — *UPNPModifySharpness*
+- [UPNPModifieVolume (Fonction)](../pages/1000020937.md) — *UPNPModifyVolume*
+- [UPNPMédiaArrêt (Fonction)](../pages/1000020944.md) — *UPNPMediaStop*
+- [UPNPMédiaJoue (Fonction)](../pages/1000020941.md) — *UPNPMediaPlay*
+- [UPNPMédiaOuvre (Fonction)](../pages/1000020942.md) — *UPNPMediaOpen*
+- [UPNPMédiaPause (Fonction)](../pages/1000020943.md) — *UPNPMediaPause*
+- [upnpPériphérique (Type de variable)](../pages/1000020903.md) — *upnpDevice*
+- [UPNPRécupèreContraste (Fonction)](../pages/1000020933.md) — *UPNPGetContrast*
+- [UPNPRécupèreLuminosité (Fonction)](../pages/1000020932.md) — *UPNPGetBrightness*
+- [UPNPRécupèreMuet (Fonction)](../pages/1000020929.md) — *UPNPGetMute*
+- [UPNPRécupèreNetteté (Fonction)](../pages/1000020935.md) — *UPNPGetSharpness*
+- [UPNPRécupèreVolume (Fonction)](../pages/1000020934.md) — *UPNPGetVolume*
+- [upnpService (Type de variable)](../pages/1000020908.md) — *upnpService*
+
+## fonctions_uri
+
+- [BufferVersURI (Fonction)](../pages/1410087415.md) — *BufferToURI*
+- [Constantes URI](../pages/1000024028.md)
+- [FichierVersURI (Fonction)](../pages/1410087413.md) — *FileToURI*
+- [Fonctions URI](../pages/1000024262.md)
+- [Procédure WLangage appelée par la fonction URISélecteur](../pages/1000024828.md)
+- [URI (Type de variable)](../pages/1000024027.md) — *URI*
+- [URIRécupèreInfo (Fonction)](../pages/1000024037.md) — *URIGetInfo*
+- [URISélecteur (Fonction)](../pages/1000024026.md) — *URISelect*
+- [URIVersBuffer (Fonction)](../pages/1000024036.md) — *URIToBuffer*
+- [URIVersFichier (Fonction)](../pages/1000024035.md) — *URIToFile*
+
+## fonctions_webservice
+
+- [AnnuleContexteWebservice (Fonction)](../pages/1000019591.md) — *CancelWebserviceContext*
+- [apiRequête (Type de variable)](../pages/1410088935.md) — *apiRequest*
+- [apiRéponse (Type de variable)](../pages/1410091082.md) — *apiResponse*
+- [Comment intégrer les services SESAM VITALE ?](../pages/1000019651.md)
+- [DéclareContexteWebservice (Exemple)](../pages/1000019652.md)
+- [DéclareContexteWebservice (Fonction)](../pages/1000019460.md) — *DeclareWebserviceContext*
+- [Fonctions de gestion des Webservices](../pages/1000019653.md)
+- [WDTestRest : Testez vos Webservices REST](../pages/1000022795.md)
+- [Webservice REST : Appeler une fonction du Webservice](../pages/1410091009.md)
+- [Webservice REST : Création des points d'entrée](../pages/1410091004.md)
+- [Webservice REST : Créer un Webservice REST](../pages/1000022792.md)
+- [Webservice REST : Description et caractéristiques](../pages/1410090999.md)
+- [Webservice REST : Désérialisation automatique de la requête](../pages/1000022796.md)
+- [Webservice REST : Importation d'une API OpenAPI](../pages/1410087809.md)
+- [Webservice REST : Procédure prologue (exécutée avant chaque appel)](../pages/1000022797.md)
+- [Webservice REST : Tester et déployer](../pages/1410090998.md)
+- [Webservice REST sécurisé](../pages/1410090997.md)
+- [Webservice SOAP : créer, générer et déployer](../pages/3086002.md)
+- [WebserviceAdresseIPClient (Fonction)](../pages/1000019641.md) — *WebserviceClientIPAddress*
+- [WebserviceEcritCodeHTTP (Fonction)](../pages/1000022785.md) — *WebserviceWriteHTTPCode*
+- [WebserviceEcritCodeHTTPPersonnalisé (Fonction)](../pages/1410087803.md) — *WebserviceWriteCustomHTTPCode*
+- [WebserviceEcritEntêteHTTP (Fonction)](../pages/1000022788.md) — *WebserviceWriteHTTPHeader*
+- [WebserviceEcritTypeMIME (Fonction)](../pages/1000022681.md) — *WebserviceWriteMIMEType*
+- [WebserviceEnvoieMorceau (Fonction)](../pages/1410091271.md) — *WebServiceSendChunk*
+- [WebserviceLitEntêteHTTP (Fonction)](../pages/1000022787.md) — *WebserviceReadHTTPHeader*
+- [WebserviceLitTokenUtilisateur (Fonction)](../pages/1410090917.md) — *WebserviceReadUserToken*
+- [WebserviceLitTypeMIME (Fonction)](../pages/1000022680.md) — *WebserviceReadMIMEType*
+- [WebserviceParamètre (Fonction)](../pages/1000022786.md) — *WebserviceParameter*
+- [Webservices SOAP : Importation et consommation](../pages/3086001.md)
+
+## fonctions_websocket
+
+- [<Variable websocketClient>.Déconnecte (Fonction)](../pages/1000026067.md) — *<websocketClient variable>.Disconnect*
+- [<Variable websocketClient>.Envoie (Fonction)](../pages/1000026068.md) — *<websocketClient variable>.Send*
+- [<Variable websocketClient>.Exécute (Fonction)](../pages/1000026113.md) — *<websocketClient variable>.Execute*
+- [Fonctions WebSocket](../pages/1000026066.md)
+- [Fonctions WebSocket (syntaxe préfixée)](../pages/1000026141.md)
+- [Utilisez les WebSockets grâce au serveur de WebSocket](../pages/1000017218.md)
+- [websocketClient (Type de variable)](../pages/1000025952.md) — *websocketClient*
+- [WebSocketDéconnecte (Fonction)](../pages/1000025960.md) — *WebSocketDisconnect*
+- [WebSocketEnvoie (Fonction)](../pages/1000025957.md) — *WebSocketSend*
+- [WebSocketExécute (Fonction)](../pages/1000025961.md) — *WebSocketExecute*
+- [WebSocketExécuteServiceGlobal (Fonction)](../pages/1000026042.md) — *WebSocketExecuteGlobalService*
+- [WebSocketListeClientConnecté (Fonction)](../pages/1000025956.md) — *WebSocketListConnectedClient*
+
+## fonctions_wi_fi
+
+- [Constantes de gestion des fonctions Wi-Fi](../pages/1000019438.md)
+- [Fonctions Wi-Fi](../pages/1000019437.md)
+- [Utiliser le Wi-Fi](../pages/1000020700.md)
+- [WiFiActive (Fonction)](../pages/1000019350.md) — *WiFiActivate*
+- [WiFiAjouteRéseau (Fonction)](../pages/1000019351.md) — *WiFiAddNetwork*
+- [WiFiConnecte (Fonction)](../pages/1000019352.md) — *WiFiConnect*
+- [WiFiDétectePointAccès (Fonction)](../pages/1000019353.md) — *WiFiDetectAccessPoint*
+- [WiFiEtat (Fonction)](../pages/1000019354.md) — *WiFiStatus*
+- [WiFiInfoConnexion (Fonction)](../pages/1000019355.md) — *WiFiConnectionInfo*
+- [WiFiListeCarteRéseau (Fonction)](../pages/1000020693.md) — *WiFiListNetworkCard*
+- [WiFiListeRéseau (Fonction)](../pages/1000019356.md) — *WiFiListNetwork*
+- [WiFiSelectCarteRéseau (Fonction)](../pages/1000020694.md) — *WiFiSelectNetworkCard*
+- [WiFiSupprimeRéseau (Fonction)](../pages/1000019357.md) — *WiFiDeleteNetwork*
+
+## fonctions_widget
+
+- [Créer un Widget Android](../pages/1000020650.md)
+- [Fonctions Widget](../pages/1410087601.md)
+- [WidgetAffiche (Fonction)](../pages/1000020647.md) — *WidgetDisplay*
+- [WidgetLanceAppli (Fonction)](../pages/1000020648.md) — *WidgetRunApp*
+- [WidgetProcédure (Fonction)](../pages/1410087599.md) — *WidgetProcedure*
+
+## fonctions_zip
+
+- [<Variable zipArchive>.AjouteFichier (Fonction)](../pages/1000019050.md) — *<zipArchive variable>.AddFile*
+- [<Variable zipArchive>.AjouteListeFichier (Fonction)](../pages/1000019159.md) — *<zipArchive variable>.AddFileList*
+- [<Variable zipArchive>.AjouteRépertoire (Fonction)](../pages/1000019078.md) — *<zipArchive variable>.AddDirectory*
+- [<Variable zipArchive>.ChangeChemin (Fonction)](../pages/1000026329.md) — *<zipArchive variable>.ChangePath*
+- [<Variable zipArchive>.ChercheFichier (Fonction)](../pages/1000026330.md) — *<zipArchive variable>.FindFile*
+- [<Variable zipArchive>.Crée (Fonction)](../pages/1000019160.md) — *<zipArchive variable>.Create*
+- [<Variable zipArchive>.CréeExe (Fonction)](../pages/1000019079.md) — *<zipArchive variable>.CreateExe*
+- [<Variable zipArchive>.DébutAjoutFichier (Fonction)](../pages/1410091280.md) — *<zipArchive variable>.StartAddingFile*
+- [<Variable zipArchive>.Découpe (Fonction)](../pages/1000019161.md) — *<zipArchive variable>.Split*
+- [<Variable zipArchive>.EstMulti (Fonction)](../pages/1000019080.md) — *<zipArchive variable>.IsMulti*
+- [<Variable zipArchive>.Existe (Fonction)](../pages/1000026332.md) — *<zipArchive variable>.Exist*
+- [<Variable zipArchive>.ExtraitChemin (Fonction)](../pages/1000019081.md) — *<zipArchive variable>.ExtractPath*
+- [<Variable zipArchive>.ExtraitFichier (Fonction)](../pages/1000019082.md) — *<zipArchive variable>.ExtractFile*
+- [<Variable zipArchive>.ExtraitListeFichier (Fonction)](../pages/1000019084.md) — *<zipArchive variable>.ExtractFileList*
+- [<Variable zipArchive>.ExtraitRépertoire (Fonction)](../pages/1000025755.md) — *<zipArchive variable>.ExtractDirectory*
+- [<Variable zipArchive>.ExtraitTout (Fonction)](../pages/1000019085.md) — *<zipArchive variable>.ExtractAll*
+- [<Variable zipArchive>.Ferme (Fonction)](../pages/1000019086.md) — *<zipArchive variable>.Close*
+- [<Variable zipArchive>.FichierEnCours (Fonction)](../pages/1000019090.md) — *<zipArchive variable>.CurrentFile*
+- [<Variable zipArchive>.FinAjoutFichier (Fonction)](../pages/1410091281.md) — *<zipArchive variable>.EndAddingFile*
+- [<Variable zipArchive>.InfoFichier (Fonction)](../pages/1000019092.md) — *<zipArchive variable>.InfoFile*
+- [<Variable zipArchive>.ListeFichier (Fonction)](../pages/1000019093.md) — *<zipArchive variable>.ListFile*
+- [<Variable zipArchive>.NbPartieNécessaire (Fonction)](../pages/1000019094.md) — *<zipArchive variable>.NbPartNeeded*
+- [<Variable zipArchive>.Ouvre (Fonction)](../pages/1000019097.md) — *<zipArchive variable>.Open*
+- [<Variable zipArchive>.OuvreCAB (Fonction)](../pages/1000019148.md) — *<zipArchive variable>.OpenCAB*
+- [<Variable zipArchive>.OuvreRAR (Fonction)](../pages/1000019150.md) — *<zipArchive variable>.OpenRAR*
+- [<Variable zipArchive>.Regroupe (Fonction)](../pages/1000019151.md) — *<zipArchive variable>.Merge*
+- [<Variable zipArchive>.SupprimeFichier (Fonction)](../pages/1000019152.md) — *<zipArchive variable>.DeleteFile*
+- [<Variable zipArchive>.SupprimeListeFichier (Fonction)](../pages/1000019153.md) — *<zipArchive variable>.DeleteFileList*
+- [<Variable zipArchive>.SupprimeTout (Fonction)](../pages/1000019154.md) — *<zipArchive variable>.DeleteAll*
+- [<Variable zipArchive>.TailleFichier (Fonction)](../pages/1000019155.md) — *<zipArchive variable>.FileSize*
+- [<zipArchive>.SélectionFichier (Fonction)](../pages/1000026294.md) — *<zipArchive>.SelectFile*
+- [Constantes des fonctions d'archivage](../pages/3082001.md)
+- [Fonctions d'archivage (gestion des ZIP, WDZ, CAB, RAR, 7z, TAR, gzip et TGZ (TAR.GZ))](../pages/3082006.md)
+- [Fonctions d'archivage (gestion des ZIP, WDZ, CAB, RAR, 7z, TAR, gzip, ...) (syntaxe préfixée)](../pages/1000019157.md)
+- [Les archives](../pages/3082007.md)
+- [Les archives mono-partie / multi-parties](../pages/3082015.md)
+- [Procédure WLangage appelée par la fonction zipAjouteFichier](../pages/1000025730.md)
+- [Procédure WLangage appelée par la fonction zipAjouteListeFichier](../pages/1000025731.md)
+- [Procédure WLangage appelée par la fonction zipAjouteRépertoire](../pages/1000025732.md)
+- [Procédure WLangage appelée par la fonction zipAjouteRépertoire pour gérer la jauge](../pages/1000025733.md)
+- [Procédure WLangage de gestion de la jauge appelée par la fonction zipExtraitRépertoire](../pages/1000025748.md)
+- [Procédure WLangage de gestion des erreurs appelée par la fonction zipExtraitRépertoire](../pages/1000025747.md)
+- [zipAjouteFichier (Exemple)](../pages/1000003082008.md)
+- [zipAjouteFichier (Fonction)](../pages/3082008.md) — *zipAddFile*
+- [zipAjouteListeFichier (Fonction)](../pages/3082038.md) — *zipAddFileList*
+- [zipAjouteRépertoire (Exemple)](../pages/1000003082014.md)
+- [zipAjouteRépertoire (Fonction)](../pages/3082014.md) — *zipAddDirectory*
+- [zipArchive (Type de variable)](../pages/1000018679.md) — *zipArchive*
+- [zipChangeChemin (Exemple)](../pages/1000003082027.md)
+- [zipChangeChemin (Fonction)](../pages/3082027.md) — *zipChangePath*
+- [zipChercheFichier (Exemple)](../pages/1000003082002.md)
+- [zipChercheFichier (Fonction)](../pages/3082002.md) — *zipFindFile*
+- [zipCrée (Exemple)](../pages/1000003082003.md)
+- [zipCrée (Fonction)](../pages/3082003.md) — *zipCreate*
+- [zipCréeExe (Exemple)](../pages/1000003082013.md)
+- [zipCréeExe (Fonction)](../pages/3082013.md) — *zipCreateExe*
+- [zipDébutAjoutFichier (Fonction)](../pages/1410091114.md) — *zipStartAddingFile*
+- [zipDécoupe (Exemple)](../pages/1000003082020.md)
+- [zipDécoupe (Fonction)](../pages/3082020.md) — *zipSplit*
+- [zipEstMulti (Exemple)](../pages/1000003082021.md)
+- [zipEstMulti (Fonction)](../pages/3082021.md) — *zipIsMulti*
+- [zipExiste (Fonction)](../pages/1000017233.md) — *zipExist*
+- [zipExtraitChemin (Exemple)](../pages/1000003082023.md)
+- [zipExtraitChemin (Fonction)](../pages/3082023.md) — *zipExtractPath*
+- [zipExtraitFichier (Exemple)](../pages/1000003082019.md)
+- [zipExtraitFichier (Fonction)](../pages/3082019.md) — *zipExtractFile*
+- [zipExtraitListeFichier (Fonction)](../pages/1000017234.md) — *zipExtractFileList*
+- [zipExtraitRépertoire (Fonction)](../pages/1000025518.md) — *zipExtractDirectory*
+- [zipExtraitTout (Exemple)](../pages/1000003082011.md)
+- [zipExtraitTout (Fonction)](../pages/3082011.md) — *zipExtractAll*
+- [zipFerme (Exemple)](../pages/1000003082005.md)
+- [zipFerme (Fonction)](../pages/3082005.md) — *zipClose*
+- [zipFichierArchivé (Type de variable)](../pages/1000019044.md) — *zipArchivedFile*
+- [zipFichierEnCours (Exemple)](../pages/1000003082026.md)
+- [zipFichierEnCours (Fonction)](../pages/3082026.md) — *zipCurrentFile*
+- [zipFiltre (Fonction)](../pages/1000026293.md) — *zipFilter*
+- [zipFinAjoutFichier (Fonction)](../pages/1410091115.md) — *zipEndAddingFile*
+- [zipInfoFichier (Exemple)](../pages/1000003082040.md)
+- [zipInfoFichier (Fonction)](../pages/3082040.md) — *zipInfoFile*
+- [zipListeFichier (Exemple)](../pages/1000003082031.md)
+- [zipListeFichier (Fonction)](../pages/3082031.md) — *zipListFile*
+- [zipMotDePasse (Fonction)](../pages/3082053.md) — *zipPassword*
+- [zipMsgErreur (Exemple)](../pages/1000003082034.md)
+- [zipMsgErreur (Fonction)](../pages/3082034.md) — *zipMsgError*
+- [zipNbFichier (Exemple)](../pages/1000003082035.md)
+- [zipNbFichier (Fonction)](../pages/3082035.md) — *zipNbFile*
+- [zipNbPartie (Exemple)](../pages/1000003082029.md)
+- [zipNbPartie (Fonction)](../pages/3082029.md) — *zipNbPart*
+- [zipNbPartieNécessaire (Exemple)](../pages/1000003082052.md)
+- [zipNbPartieNécessaire (Fonction)](../pages/3082052.md) — *zipNbPartNeeded*
+- [zipNiveauCompression (Fonction)](../pages/3082054.md) — *zipCompressionLevel*
+- [zipOuvre (Exemple)](../pages/1000003082044.md)
+- [zipOuvre (Fonction)](../pages/3082044.md) — *zipOpen*
+- [zipOuvreCAB (Exemple)](../pages/1001000017250.md)
+- [zipOuvreCAB (Fonction)](../pages/1000017250.md) — *zipOpenCAB*
+- [zipOuvreRAR (Exemple)](../pages/1001000017294.md)
+- [zipOuvreRAR (Fonction)](../pages/1000017294.md) — *zipOpenRAR*
+- [zipParamètreCréationExe (Type de variable)](../pages/1410091226.md) — *zipParamètreCréationExe*
+- [zipRegroupe (Exemple)](../pages/1000003082046.md)
+- [zipRegroupe (Fonction)](../pages/3082046.md) — *zipMerge*
+- [zipSupprimeFichier (Exemple)](../pages/1000003082041.md)
+- [zipSupprimeFichier (Fonction)](../pages/3082041.md) — *zipDeleteFile*
+- [zipSupprimeListeFichier (Fonction)](../pages/3082049.md) — *zipDeleteFileList*
+- [zipSupprimeTout (Exemple)](../pages/1000003082051.md)
+- [zipSupprimeTout (Fonction)](../pages/3082051.md) — *zipDeleteAll*
+- [zipSélectionFichier (Fonction)](../pages/1000026152.md) — *zipSelectFile*
+- [zipTaille (Exemple)](../pages/1000003082012.md)
+- [zipTaille (Fonction)](../pages/3082012.md) — *zipSize*
+- [zipTailleFichier (Exemple)](../pages/1000003082017.md)
+- [zipTailleFichier (Fonction)](../pages/3082017.md) — *zipFileSize*
+
+## serveur_o_auth
+
+- [Fonctions de gestion des utilisateurs sur le serveur d'authentification OAuth WEBDEV](../pages/1410091358.md)
+- [Installation des services BaaS](../pages/1000021311.md)
+- [Serveur OAuth intégré dans le Serveur d'Application WEBDEV](../pages/1410090993.md)
+- [Site d'administration des services BaaS](../pages/1410086668.md)
+- [Store Privé : Une méthode pour changer de serveur](../pages/1410086658.md)
+- [wdbaasCréeUtilisateur (Fonction)](../pages/1410091289.md) — *wdbaasCreateUser*
+- [wdbaasInfoUtilisateur (Fonction)](../pages/1410091290.md) — *wdbaasUserInfo*
+- [wdbaasListeUtilisateur (Fonction)](../pages/1410091288.md) — *wdbaasListUser*
+- [wdbaasModifieUtilisateur (Fonction)](../pages/1410091291.md) — *wdbaasEditUser*
+- [wdbaasSupprimeUtilisateur (Fonction)](../pages/1410091292.md) — *wdbaasDeleteUser*

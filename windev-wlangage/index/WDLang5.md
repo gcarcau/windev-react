@@ -1,0 +1,559 @@
+# WDLang5 — 513 rubriques
+
+## chorus_pro
+
+- [Chorus Pro : Automatiser le dépôt de factures](../pages/1410087184.md)
+
+## fonctions_code_barres
+
+- [CBCalculeCaractèreDeVérification (Fonction)](../pages/1000019909.md) — *BCCalculateControlCharacter*
+- [CBCapture (Fonction)](../pages/1000019456.md) — *BCCapture*
+- [CBDécode (Fonction)](../pages/1000019633.md) — *BCDecode*
+- [CBVersImage (Fonction)](../pages/1000024060.md) — *BCToImage*
+- [CodeBarres (Type de variable)](../pages/1000019451.md) — *BarCodes*
+- [Constantes de gestion des codes-barres](../pages/1000019484.md)
+- [Fonctions de gestion des Codes-Barres](../pages/1000019558.md)
+- [Gestion des codes-barres](../pages/3046064.md)
+- [Imprimer des codes-barres](../pages/1000019597.md)
+- [Lire des codes-barres](../pages/1000019598.md)
+
+## fonctions_facebook
+
+- [<Variable fbSession>.Etat (Fonction)](../pages/1000021942.md) — *<fbSession variable>.Status*
+- [<Variable fbSession>.Ferme (Fonction)](../pages/1000021943.md) — *<fbSession variable>.Stop*
+- [<Variable fbSession>.Ouvre (Fonction)](../pages/1000021944.md) — *<fbSession variable>.Start*
+- [<Variable fbSession>.Requête (Fonction)](../pages/1000021946.md) — *<fbSession variable>.Request*
+- [<Variable fbSession>.RécupèreInformationUtilisateur (Fonction)](../pages/1000021945.md) — *<fbSession variable>.GetUserInformation*
+- [Constantes Facebook](../pages/1000021895.md)
+- [FBEtatSession (Fonction)](../pages/1000021852.md) — *FBSessionStatus*
+- [FBFermeSession (Fonction)](../pages/1000021836.md) — *FBStopSession*
+- [FBOuvreSession (Fonction)](../pages/1000021835.md) — *FBStartSession*
+- [FBRequête (Fonction)](../pages/1000021838.md) — *FBRequest*
+- [FBRécupèreInformationUtilisateur (Fonction)](../pages/1000021837.md) — *FBGetUserInformation*
+- [fbSession (Type de variable)](../pages/1000021851.md) — *fbSession*
+- [Fonctions Facebook](../pages/1000021888.md)
+- [Fonctions Facebook (syntaxe préfixée)](../pages/1000021947.md)
+- [Utiliser l'identification Facebook](../pages/1000021926.md)
+- [Utiliser l'identification Facebook (syntaxe préfixée)](../pages/1000021948.md)
+
+## fonctions_google
+
+- [<Variable gglConnexion>.Connecte (Fonction)](../pages/1000021455.md) — *<gglConnection variable>.Connect*
+- [<Variable gglConnexion>.Déconnecte (Fonction)](../pages/1000021459.md) — *<gglConnection variable>.Disconnect*
+- [<Variable gglConnexion>.Ecrit (Fonction)](../pages/1000021460.md) — *<gglConnection variable>.Write*
+- [<Variable gglConnexion>.Requête (Fonction)](../pages/1000021462.md) — *<gglConnection variable>.Request*
+- [<Variable gglConnexion>.Supprime (Fonction)](../pages/1000021461.md) — *<gglConnection variable>.Delete*
+- [Constantes Google](../pages/1000017329.md)
+- [GglConnecte (Exemple)](../pages/1000021458.md)
+- [GglConnecte (Fonction)](../pages/1000017332.md) — *GglConnect*
+- [gglConnexion (Type de variable)](../pages/1000018009.md) — *gglConnection*
+- [GglDéconnecte (Fonction)](../pages/1000021451.md) — *GglDisconnect*
+- [GglEcrit (Fonction)](../pages/1000017401.md) — *GglWrite*
+- [GglRequête (Exemple)](../pages/1000021454.md)
+- [GglRequête (Fonction)](../pages/1000017345.md) — *GglRequest*
+- [GglRécupèreLicence (Fonction)](../pages/1000020815.md) — *GglGetLicense*
+- [GglSupprime (Fonction)](../pages/1000017402.md) — *GglDelete*
+
+## fonctions_google_agenda
+
+- [<Variable gglConnexion>.ListeAgenda (Fonction)](../pages/1000017747.md) — *<gglConnection variable>.ListCalendar*
+- [<Variable gglConnexion>.RemplitAgenda (Fonction)](../pages/1000017749.md) — *<gglConnection variable>.FillCalendar*
+- [<Variable gglConnexion>.RemplitAgendaParRequête (Fonction)](../pages/1000017750.md) — *<gglConnection variable>.FillCalendarByRequest*
+- [<Variable gglConnexion>.RécupèreAgenda (Fonction)](../pages/1000017748.md) — *<gglConnection variable>.GetCalendar*
+- [Fonctions de gestion des agendas Google](../pages/1000017564.md)
+- [Fonctions de gestion des agendas Google (syntaxe préfixée)](../pages/1000017751.md)
+- [Gestion des agendas Google](../pages/1000017561.md)
+- [Gestion des agendas Google (syntaxe préfixée)](../pages/1000017752.md)
+- [gglAgenda (Type de variable)](../pages/1000017418.md) — *gglCalendar*
+- [gglAuteur (Type de variable)](../pages/1000017746.md) — *gglAuthor*
+- [gglEvénement (Type de variable)](../pages/1000017440.md) — *gglEvent*
+- [gglLieu (Type de variable)](../pages/1000017441.md) — *gglLocation*
+- [GglListeAgenda (Exemple)](../pages/1001000017330.md)
+- [GglListeAgenda (Fonction)](../pages/1000017330.md) — *GglListCalendar*
+- [gglNotification (Type de variable)](../pages/1000026200.md) — *gglNotification*
+- [gglPersonne (Type de variable)](../pages/1000017446.md) — *gglPerson*
+- [gglPièceJointe (Type de variable)](../pages/1000026182.md) — *gglAttachment*
+- [GglRemplitAgenda (Fonction)](../pages/1000017337.md) — *GglFillCalendar*
+- [GglRemplitAgendaParRequête (Fonction)](../pages/1000017347.md) — *GglFillCalendarByRequest*
+- [GglRécupèreAgenda (Exemple)](../pages/1001000017410.md)
+- [GglRécupèreAgenda (Fonction)](../pages/1000017410.md) — *GglGetCalendar*
+- [gglSurcharge (Type de variable)](../pages/1000026204.md) — *gglOverride*
+
+## fonctions_google_contacts
+
+- [<Variable gglConnexion>.ListeContact (Fonction)](../pages/1000017757.md) — *<gglConnection variable>.ListContact*
+- [<Variable gglConnexion>.ListeContactParRequête (Fonction)](../pages/1000017758.md) — *<gglConnection variable>.ListContactByRequest*
+- [<Variable gglConnexion>.ListeGroupeContact (Fonction)](../pages/1000017759.md) — *<gglConnection variable>.ListContactGroup*
+- [Fonctions de gestion des contacts Google](../pages/1000017565.md)
+- [Fonctions de gestion des contacts Google (syntaxe préfixée)](../pages/1000017760.md)
+- [Gestion des contacts Google](../pages/1000017560.md)
+- [Gestion des contacts Google (syntaxe préfixée)](../pages/1000017761.md)
+- [gglAdressePostale (Type de variable)](../pages/1000017575.md) — *gglPostalAddress*
+- [gglContact (Type de variable)](../pages/1000017434.md) — *gglContact*
+- [gglEmail (Type de variable)](../pages/1000017571.md) — *gglEmail*
+- [gglGroupeContact (Type de variable)](../pages/1000017576.md) — *gglContactGroup*
+- [GglListeContact (Fonction)](../pages/1000017344.md) — *GglListContact*
+- [GglListeContactParRequête (Fonction)](../pages/1000017346.md) — *GglListContactByRequest*
+- [GglListeGroupeContact (Fonction)](../pages/1000017577.md) — *GglListContactGroup*
+- [gglMessagerieInstantanée (Type de variable)](../pages/1000017569.md) — *gglInstantMessaging*
+- [gglSociété (Type de variable)](../pages/1000017756.md) — *gglOrganization*
+- [gglTéléphone (Type de variable)](../pages/1000017573.md) — *gglPhoneNumber*
+
+## fonctions_google_document
+
+- [<Variable gglConnexion>.EnvoieDocument (Fonction)](../pages/1000020424.md) — *<gglConnection variable>.UploadDocument*
+- [<Variable gglConnexion>.ListeDocument (Fonction)](../pages/1000020436.md) — *<gglConnection variable>.ListDocument*
+- [<Variable gglConnexion>.RécupèreDocument (Fonction)](../pages/1000020437.md) — *<gglConnection variable>.GetDocument*
+- [Fonctions de gestion des documents Google](../pages/1000017380.md)
+- [Fonctions de gestion des documents Google (syntaxe préfixée)](../pages/1000020438.md)
+- [Gestion des documents Google](../pages/1000017562.md)
+- [Gestion des documents Google (syntaxe préfixée)](../pages/1000020439.md)
+- [gglDocument (Type de variable)](../pages/1000018001.md) — *gglDocument*
+- [GglEnvoieDocument (Fonction)](../pages/1000017368.md) — *GglUploadDocument*
+- [GglImprimeDocument (Fonction)](../pages/1000020420.md) — *GglPrintDocument*
+- [GglListeDocument (Fonction)](../pages/1000017367.md) — *GglListDocument*
+- [GglRécupèreDocument (Fonction)](../pages/1000019904.md) — *GglGetDocument*
+
+## fonctions_google_map
+
+- [Fonctions de gestion des cartes Google](../pages/1000017566.md)
+- [GglAdresseVersCoordonnées (Fonction)](../pages/1000017568.md) — *GglAddressToCoordinates*
+- [gglChemin (Type de variable)](../pages/1000017433.md) — *gglPath*
+- [gglCoordonnée (Type de variable)](../pages/1000017489.md) — *gglCoordinate*
+- [gglMarqueur (Type de variable)](../pages/1000017442.md) — *gglMarker*
+- [gglParamètreCarte (Exemple)](../pages/1000017570.md)
+- [gglParamètreCarte (Type de variable)](../pages/1000017505.md) — *gglMapParameter*
+- [GglRécupèreCarte (Exemple)](../pages/1000017572.md)
+- [GglRécupèreCarte (Fonction)](../pages/1000017404.md) — *GglGetStaticMap*
+- [Utiliser le service de cartographie Google Maps](../pages/1000017563.md)
+
+## fonctions_html
+
+- [<Variable htmlDocument>.ChercheElémentParBalise (Fonction)](../pages/1000026312.md) — *<htmlDocument variable>.FindElementByTag*
+- [<Variable htmlDocument>.ChercheElémentParClasse (Fonction)](../pages/1000026314.md) — *<htmlDocument variable>.FindElementByClass*
+- [<Variable htmlDocument>.ChercheElémentParID (Fonction)](../pages/1000026316.md) — *<htmlDocument variable>.FindElementByID*
+- [<Variable htmlDocument>.ChercheElémentParNom (Fonction)](../pages/1000026318.md) — *<htmlDocument variable>.FindElementByName*
+- [<Variable htmlDocument>.ConstruitChaîne (Fonction)](../pages/1000026320.md) — *<htmlDocument variable>.BuildString*
+- [<Variable htmlDocument>.Sauve (Fonction)](../pages/1000026321.md) — *<htmlDocument variable>.Save*
+- [<Variable htmlNoeud>.ChercheElémentParBalise (Fonction)](../pages/1000026313.md) — *<htmlNode variable>.FindElementByTag*
+- [<Variable htmlNoeud>.ChercheElémentParClasse (Fonction)](../pages/1000026315.md) — *<htmlNode variable>.FindElementByClass*
+- [<Variable htmlNoeud>.ChercheElémentParID (Fonction)](../pages/1000026317.md) — *<htmlNode variable>.FindElementByID*
+- [<Variable htmlNoeud>.ChercheElémentParNom (Fonction)](../pages/1000026319.md) — *<htmlNode variable>.FindElementByName*
+- [<Variable htmlNoeud>.DésencadreTousLesFils (Fonction)](../pages/1410088108.md) — *<htmlNode variable>.UnwrapAllChildren*
+- [<Variable htmlNoeud>.Encadre (Fonction)](../pages/1410088117.md) — *<htmlNode variable>.Wrap*
+- [<Variable htmlNoeud>.EncadreTousLesFils (Fonction)](../pages/1410088109.md) — *<htmlNode variable>.WrapAllChildren*
+- [<Variable htmlNoeud>.InsèreAprès (Fonction)](../pages/1410088110.md) — *<htmlNode variable>.InsertAfter*
+- [<Variable htmlNoeud>.InsèreAvant (Fonction)](../pages/1410088111.md) — *<htmlNode variable>.InsertBefore*
+- [<Variable htmlNoeud>.InsèreDernierFils (Fonction)](../pages/1410088112.md) — *<htmlNode variable>.InsertLastChild*
+- [<Variable htmlNoeud>.InsèrePremierFils (Fonction)](../pages/1410088113.md) — *<htmlNode variable>.InsertFirstChild*
+- [<Variable htmlNoeud>.ModifieAttribut (Fonction)](../pages/1410088114.md) — *<htmlNode variable>.ModifyAttribute*
+- [<Variable htmlNoeud>.Supprime (Fonction)](../pages/1410088115.md) — *<htmlNode variable>.Remove*
+- [<Variable htmlNoeud>.SupprimeAttribut (Fonction)](../pages/1410088118.md) — *<htmlNode variable>.RemoveAttribute*
+- [<Variable htmlNoeud>.SupprimeFils (Fonction)](../pages/1410088116.md) — *<htmlNode variable>.RemoveChild*
+- [Constantes HTML](../pages/1000026328.md)
+- [Fonctions de gestion des documents HTML](../pages/1000026303.md)
+- [Fonctions de gestion des documents HTML (syntaxe préfixée)](../pages/1000026324.md)
+- [htmlAttribut (Type de variable)](../pages/1000025912.md) — *htmlAttribute*
+- [HTMLChercheElémentParBalise (Fonction)](../pages/1000026272.md) — *HTMLFindElementByTag*
+- [HTMLChercheElémentParClasse (Fonction)](../pages/1000026177.md) — *HTMLFindElementByClass*
+- [HTMLChercheElémentParID (Fonction)](../pages/1000025915.md) — *HTMLFindElementByID*
+- [HTMLChercheElémentParNom (Fonction)](../pages/1000025913.md) — *HTMLFindElementByName*
+- [HTMLConstruitChaîne (Fonction)](../pages/1000025909.md) — *HTMLBuildString*
+- [htmlDocument (Type de variable)](../pages/1000025910.md) — *htmlDocument*
+- [HTMLDésencadreTousLesFils (Fonction)](../pages/1410087613.md) — *HTMLUnwrapAllChildren*
+- [HTMLEncadre (Fonction)](../pages/1410087611.md) — *HTMLWrap*
+- [HTMLEncadreTousLesFils (Fonction)](../pages/1410087612.md) — *HTMLWrapAllChildren*
+- [HTMLInsèreAprès (Fonction)](../pages/1410087610.md) — *HTMLInsertAfter*
+- [HTMLInsèreAvant (Fonction)](../pages/1410087609.md) — *HTMLInsertBefore*
+- [HTMLInsèreDernierFils (Fonction)](../pages/1410087616.md) — *HTMLInsertLastChild*
+- [HTMLInsèrePremierFils (Fonction)](../pages/1410087615.md) — *HTMLInsèrePremierFils*
+- [HTMLModifieAttribut (Fonction)](../pages/1410087618.md) — *HTMLModifyAttribute*
+- [htmlNoeud (Type de variable)](../pages/1000026081.md) — *htmlNode*
+- [HTMLOuvre (Fonction)](../pages/1000025907.md) — *HTMLOpen*
+- [HTMLSauve (Fonction)](../pages/1000025908.md) — *HTMLSave*
+- [HTMLSupprime (Fonction)](../pages/1410087614.md) — *HTMLRemove*
+- [HTMLSupprimeAttribut (Fonction)](../pages/1410087619.md) — *HTMLRemoveAttribute*
+- [HTMLSupprimeFils (Fonction)](../pages/1410087617.md) — *HTMLRemoveChild*
+- [HTMLVersPDF (Fonction)](../pages/1410088984.md) — *HTMLToPDF*
+
+## fonctions_impression
+
+- [<Etat>.Imprime (Fonction)](../pages/1000024554.md) — *<Report>.Print*
+- [<Etat>.InitEtatVerso (Fonction)](../pages/1410090633.md) — *<Report>.InitReportVerso*
+- [<Etat>.InitRequête (Fonction)](../pages/1000025143.md) — *<Report>.InitQuery*
+- [<Etat>.InitRequêteConnexion (Fonction)](../pages/1000025144.md) — *<Report>.InitQueryConnection*
+- [<Etat>.InitSousEtat (Fonction)](../pages/1000025145.md) — *<Report>.InitSubReport*
+- [Constantes Couleur](../pages/3010002.md)
+- [Constantes d'impression](../pages/3046025.md)
+- [Constantes de gestion des polices](../pages/3010009.md)
+- [Etape 1 : Configuration des paramètres d'impression](../pages/3046037.md)
+- [Etape 2 : Création des polices d'impression](../pages/3046026.md)
+- [Etape 3 : Impression de caractères, d'images, ...](../pages/3046049.md)
+- [Etape 4 : Lancement de l'impression](../pages/3046058.md)
+- [Facturation électronique : Factur-X en WLangage](../pages/1410090742.md)
+- [Filigrane (Type de variable)](../pages/1000019922.md) — *Watermark*
+- [Fonctions d'impression](../pages/3046065.md)
+- [Fonctions d'impression (syntaxe préfixée)](../pages/1410090033.md)
+- [iAjoutePièceJointe (Fonction)](../pages/1000024059.md) — *iAddAttachment*
+- [iAjouteSignet (Fonction)](../pages/1000020056.md) — *iAddBookmark*
+- [iAperçu (Exemple)](../pages/1000003046069.md)
+- [iAperçu (Fonction)](../pages/3046069.md) — *iPreview*
+- [iCadre (Exemple)](../pages/1000003046044.md)
+- [iCadre (Fonction)](../pages/3046044.md) — *iBorder*
+- [iCadreArrondi (Fonction)](../pages/3046024.md) — *iRoundBorder*
+- [iChangeSousEtatSource (Fonction)](../pages/1000019621.md) — *iChangeSubReportSource*
+- [iConfigure (Fonction)](../pages/3046072.md) — *iConfigure*
+- [iConfigureEtat (Fonction)](../pages/3046076.md) — *iConfigureReport*
+- [iCréePolice (Exemple)](../pages/1000003046045.md)
+- [iCréePolice (Fonction)](../pages/3046045.md) — *iCreateFont*
+- [iDernierFichier (Fonction)](../pages/3046068.md) — *iLastFile*
+- [iDestination (Fonction)](../pages/3046074.md) — *iDestination*
+- [iDéfinitXMPSupplémentaire (Fonction)](../pages/1000025142.md) — *iSetAdditionalXMP*
+- [iEllipse (Exemple)](../pages/1000003046009.md)
+- [iEllipse (Fonction)](../pages/3046009.md) — *iEllipse*
+- [iEnchaînementAjoute (Fonction)](../pages/1000020059.md) — *iSequencingAdd*
+- [iEnchaînementAjouteDiagramme (Fonction)](../pages/1410088662.md) — *iSequencingAddDiagram*
+- [iEnchaînementAjouteDoc (Fonction)](../pages/1000023089.md) — *iSequencingAddDoc*
+- [iEnchaînementAjoutePDF (Fonction)](../pages/1000023468.md) — *iSequencingAddPDF*
+- [iEnchaînementAjouteXLS (Fonction)](../pages/1000023518.md) — *iSequencingAddXLS*
+- [iEnchaînementImprime (Fonction)](../pages/1000019903.md) — *iSequencingPrint*
+- [iEscape (Fonction)](../pages/3046054.md) — *iEscape*
+- [iFenêtreAbandon (Fonction)](../pages/3046042.md) — *iWindowCancel*
+- [iFermeEtat (Fonction)](../pages/3046041.md) — *iCloseReport*
+- [iFichierEnCours (Fonction)](../pages/1000021859.md) — *iCurrentFile*
+- [iFinEtat (Fonction)](../pages/3046040.md) — *iEndReport*
+- [iFinImprime (Fonction)](../pages/3046053.md) — *iEndPrinting*
+- [iForceComplément (Fonction)](../pages/3046046.md) — *iForceComplement*
+- [iGroupeAjoute (Fonction)](../pages/1000020580.md) — *iGroupAdd*
+- [iGroupeImprime (Fonction)](../pages/1000020582.md) — *iGroupPrint*
+- [iGroupeParamètre (Fonction)](../pages/1000020581.md) — *iGroupConfigure*
+- [iHautBasPageImbriqué (Fonction)](../pages/3046047.md) — *iNestedHeaderFooter*
+- [iHauteurImage (Fonction)](../pages/3046057.md) — *iImageHeight*
+- [iHauteurPage (Exemple)](../pages/1000003046052.md)
+- [iHauteurPage (Fonction)](../pages/3046052.md) — *iPageHeight*
+- [iHauteurRestantePage (Fonction)](../pages/3046060.md) — *iPageHeightLeft*
+- [iHauteurTexte (Fonction)](../pages/3046070.md) — *iTextHeight*
+- [iHauteurZone (Exemple)](../pages/1000003046062.md)
+- [iHauteurZone (Fonction)](../pages/3046062.md) — *iAreaHeight*
+- [iImpressionAbandonnée (Exemple)](../pages/1000003046006.md)
+- [iImpressionAbandonnée (Fonction)](../pages/3046006.md) — *iDocumentCanceled*
+- [iImpressionDemandée (Fonction)](../pages/3046029.md) — *iDocumentPrinted*
+- [iImprime (Fonction)](../pages/3046031.md) — *iPrint*
+- [iImprimeBloc (Fonction)](../pages/3046030.md) — *iPrintBlock*
+- [iImprimeCodeBarre (Fonction)](../pages/3046020.md) — *iPrintBarCode*
+- [iImprimeComplémentCorps (Fonction)](../pages/3046019.md) — *iPrintBodyComplement*
+- [iImprimeDiagramme (Fonction)](../pages/1410088189.md) — *iPrintDiagram*
+- [iImprimeDoc (Fonction)](../pages/1000022390.md) — *iPrintDoc*
+- [iImprimeDuplicata (Fonction)](../pages/1000018842.md) — *iPrintDuplicate*
+- [iImprimeEtat (Exemple)](../pages/1000003046032.md)
+- [iImprimeEtat (Fonction)](../pages/3046032.md) — *iPrintReport*
+- [iImprimeImage (Exemple)](../pages/1000003046017.md)
+- [iImprimeImage (Fonction)](../pages/3046017.md) — *iPrintImage*
+- [iImprimeMot (Fonction)](../pages/3046034.md) — *iPrintWord*
+- [iImprimePDF (Fonction)](../pages/1000020519.md) — *iPrintPDF*
+- [iImprimeSignature (Fonction)](../pages/1000021690.md) — *iPrintSignature*
+- [iImprimeXLS (Fonction)](../pages/1000023517.md) — *iPrintXLS*
+- [iImprimeZone (Exemple)](../pages/1000003046027.md)
+- [iImprimeZone (Fonction)](../pages/3046027.md) — *iPrintArea*
+- [iImprimeZoneHTML (Fonction)](../pages/1000020346.md) — *iPrintAreaHTML*
+- [iImprimeZoneMarkdown (Fonction)](../pages/1410089011.md) — *iPrintAreaMarkdown*
+- [iImprimeZoneRTF (Exemple)](../pages/1000003046023.md)
+- [iImprimeZoneRTF (Fonction)](../pages/3046023.md) — *iPrintAreaRTF*
+- [iInfoImprimante (Fonction)](../pages/3046022.md) — *iInfoPrinter*
+- [iInfoSortie (Type de variable)](../pages/1410088954.md) — *iOutputInfo*
+- [iInitEtatInterne (Fonction)](../pages/1000024611.md) — *iInitInternalReport*
+- [iInitEtatVerso (Fonction)](../pages/1410090612.md) — *iInitReportVerso*
+- [iInitRequêteEtat (Exemple)](../pages/1000003046021.md)
+- [iInitRequêteEtat (Fonction)](../pages/3046021.md) — *iInitReportQuery*
+- [iInitRequêteEtatConnexion (Fonction)](../pages/3046028.md) — *iInitReportQueryConnection*
+- [iInitSousEtat (Fonction)](../pages/1000019503.md) — *iInitSubReport*
+- [iLargeurImage (Fonction)](../pages/3046061.md) — *iImageWidth*
+- [iLargeurPage (Exemple)](../pages/1000003046036.md)
+- [iLargeurPage (Fonction)](../pages/3046036.md) — *iPageWidth*
+- [iLargeurTexte (Fonction)](../pages/3046033.md) — *iTextWidth*
+- [iLien (Fonction)](../pages/3046018.md) — *iLink*
+- [iLigne (Fonction)](../pages/3046035.md) — *iNewLine*
+- [iListeEtatsImbriqués (Fonction)](../pages/3046005.md) — *iListNestedReports*
+- [iListeImprimante (Fonction)](../pages/3046063.md) — *iListPrinter*
+- [iMagentaTransparent (Fonction)](../pages/3046003.md) — *iTransparentMagenta*
+- [iMarge (Fonction)](../pages/3046011.md) — *iMargin*
+- [iMMVersPica (Fonction)](../pages/3046004.md) — *iMMToPica*
+- [Imprimer en WLangage](../pages/3046012.md)
+- [iNationImpression (Fonction)](../pages/1000020968.md) — *iPrintingNation*
+- [iNumColonne (Fonction)](../pages/1000018825.md) — *iColumnNum*
+- [iNumPage (Fonction)](../pages/3046013.md) — *iPageNum*
+- [iParamètre (Exemple)](../pages/1000003046008.md)
+- [iParamètre (Fonction)](../pages/3046008.md) — *iParameter*
+- [iParamètreAperçu (Fonction)](../pages/3046001.md) — *iParameterPreview*
+- [iParamètreDuplicata (Fonction)](../pages/1000018845.md) — *iParameterDuplicate*
+- [iParamètreEtat (Fonction)](../pages/3046077.md) — *iParameterReport*
+- [iParamètreExport (Fonction)](../pages/1000017026.md) — *iParameterExport*
+- [iParamètreFiligrane (Fonction)](../pages/1000019939.md) — *iParameterWatermark*
+- [iParamètrePDF (Exemple)](../pages/1000003046007.md)
+- [iParamètrePDF (Fonction)](../pages/3046007.md) — *iParameterPDF*
+- [iParamètreVisualisateur (Fonction)](../pages/1000024634.md) — *iParameterViewer*
+- [iParamètreXLS (Fonction)](../pages/1000017224.md) — *iParameterXLS*
+- [iPicaVersMM (Fonction)](../pages/3046010.md) — *iPicaToMM*
+- [iPolice (Fonction)](../pages/3046014.md) — *iFont*
+- [iPoliceDidot (Fonction)](../pages/3046016.md) — *iDidotFont*
+- [iPosH (Fonction)](../pages/3046056.md) — *iHPos*
+- [iPosV (Fonction)](../pages/3046039.md) — *iVPos*
+- [iPosX (Fonction)](../pages/3046015.md) — *iXPos*
+- [iPosY (Fonction)](../pages/3046075.md) — *iYPos*
+- [iRAZ (Fonction)](../pages/3046067.md) — *iReset*
+- [iRAZNbPages (Fonction)](../pages/1000021134.md) — *iResetNbPages*
+- [iRepImageHTML (Fonction)](../pages/3046078.md) — *iDirImageHTML*
+- [iSauteLigne (Fonction)](../pages/3046071.md) — *iSkipLine*
+- [iSautePage (Fonction)](../pages/3046073.md) — *iSkipPage*
+- [iSelectPolice (Fonction)](../pages/3046055.md) — *iSelectFont*
+- [iStatusImpressionEtat (Fonction)](../pages/3046043.md) — *iReportPrintingStatus*
+- [iSubstBloc (Fonction)](../pages/3046048.md) — *iSubstBlock*
+- [iTermineColonne (Fonction)](../pages/1000019184.md) — *iColumnEnd*
+- [iTerminePage (Fonction)](../pages/3046038.md) — *iPageEnd*
+- [iTrait (Fonction)](../pages/3046050.md) — *iLine*
+- [iTraitH (Fonction)](../pages/3046051.md) — *iHLine*
+- [iTraitV (Fonction)](../pages/3046066.md) — *iVLine*
+
+## fonctions_matlab
+
+- [Fonctions MATLAB](../pages/1000021363.md)
+- [mlChargeEspaceDeTravail (Fonction)](../pages/1000021358.md) — *mlLoadWorkspace*
+- [mlEcritVariable (Fonction)](../pages/1000021355.md) — *mlSetVariable*
+- [mlExécute (Fonction)](../pages/1000021353.md) — *mlExecute*
+- [mlInitialise (Fonction)](../pages/1000021351.md) — *mlInitialize*
+- [mlListeVariable (Fonction)](../pages/1000021357.md) — *mlListVariable*
+- [mlRAZEspaceDeTravail (Fonction)](../pages/1000021360.md) — *mlResetWorkspace*
+- [mlRécupèreVariable (Fonction)](../pages/1000021354.md) — *mlGetVariable*
+- [mlSauveEspaceDeTravail (Fonction)](../pages/1000021359.md) — *mlSaveWorkspace*
+- [mlSupprimeVariable (Fonction)](../pages/1000021356.md) — *mlDeleteVariable*
+- [mlTermine (Fonction)](../pages/1000021352.md) — *mlEnd*
+
+## fonctions_rss
+
+- [Créer un flux RSS](../pages/1000017391.md)
+- [Créer un lecteur RSS](../pages/1000017390.md)
+- [Fonctions de gestion des flux RSS](../pages/1000017389.md)
+- [rssAffiche (Fonction)](../pages/1000017397.md) — *rssDisplay*
+- [rssCanal (Type de variable)](../pages/1000017769.md) — *rssChannel*
+- [rssCatégorie (Type de variable)](../pages/1000017782.md) — *rssCategory*
+- [rssCloud (Type de variable)](../pages/1000017785.md) — *rssCloud*
+- [rssConstruitChaîne (Fonction)](../pages/1000017395.md) — *rssBuildString*
+- [rssDocumentJoint (Type de variable)](../pages/1000017789.md) — *rssEnclosure*
+- [rssEntrée (Type de variable)](../pages/1000017792.md) — *rssEntry*
+- [rssFlux (Type de variable)](../pages/1000017795.md) — *rssStream*
+- [rssIdentifiant (Type de variable)](../pages/1000017797.md) — *rssIdentifier*
+- [rssImage (Type de variable)](../pages/1000017799.md) — *rssImage*
+- [rssInitialise (Fonction)](../pages/1000017388.md) — *rssInitialize*
+- [rssSaisieTexte (Type de variable)](../pages/1000017802.md) — *rssTextInput*
+- [rssSauve (Fonction)](../pages/1000017396.md) — *rssSave*
+- [rssSource (Type de variable)](../pages/1000017803.md) — *rssSource*
+
+## fonctions_sales_force
+
+- [<Variable sfConnexion>.Ajoute (Fonction)](../pages/1000018753.md) — *<sfConnection variable>.Add*
+- [<Variable sfConnexion>.AvanceRequête (Fonction)](../pages/1000018754.md) — *<sfConnection variable>.ForwardQuery*
+- [<Variable sfConnexion>.Connecte (Fonction)](../pages/1000018756.md) — *<sfConnection variable>.Connect*
+- [<Variable sfConnexion>.ConvertitPiste (Fonction)](../pages/1000018757.md) — *<sfConnection variable>.ConvertLead*
+- [<Variable sfConnexion>.Déconnecte (Fonction)](../pages/1000018760.md) — *<sfConnection variable>.Disconnect*
+- [<Variable sfConnexion>.ExécuteRequête (Fonction)](../pages/1000018762.md) — *<sfConnection variable>.ExecuteQuery*
+- [<Variable sfConnexion>.ExécuteTraitement (Fonction)](../pages/1000018766.md) — *<sfConnection variable>.ExecuteProcess*
+- [<Variable sfConnexion>.Fusionne (Fonction)](../pages/1000018769.md) — *<sfConnection variable>.Merge*
+- [<Variable sfConnexion>.Lit (Fonction)](../pages/1000018770.md) — *<sfConnection variable>.Read*
+- [<Variable sfConnexion>.Modifie (Fonction)](../pages/1000018771.md) — *<sfConnection variable>.Modify*
+- [<Variable sfConnexion>.Recherche (Fonction)](../pages/1000018772.md) — *<sfConnection variable>.Search*
+- [<Variable sfConnexion>.RechercheModifié (Fonction)](../pages/1000018773.md) — *<sfConnection variable>.SeekModified*
+- [<Variable sfConnexion>.RechercheSupprimé (Fonction)](../pages/1000018774.md) — *<sfConnection variable>.SeekDeleted*
+- [<Variable sfConnexion>.Restaure (Fonction)](../pages/1000018775.md) — *<sfConnection variable>.Undelete*
+- [<Variable sfConnexion>.Supprime (Fonction)](../pages/1000018776.md) — *<sfConnection variable>.Delete*
+- [<Variable sfConnexion>.VideCorbeille (Fonction)](../pages/1000018778.md) — *<sfConnection variable>.EmptyRecycleBin*
+- [Fonctions Salesforce](../pages/1000018464.md)
+- [Fonctions Salesforce (syntaxe préfixée)](../pages/1000018783.md)
+- [SFAjoute (Fonction)](../pages/1000018463.md) — *SFAdd*
+- [SFAvanceRequête (Fonction)](../pages/1000018483.md) — *SFForwardQuery*
+- [SFConnecte (Fonction)](../pages/1000017583.md) — *SFConnect*
+- [sfConnexion (Type de variable)](../pages/1000017579.md) — *sfConnection*
+- [sfConversionPiste (Type de variable)](../pages/1000018742.md) — *sfLeadConvert*
+- [SFConvertitPiste (Fonction)](../pages/1000018498.md) — *SFConvertLead*
+- [SFDéconnecte (Fonction)](../pages/1000017585.md) — *SFDisconnect*
+- [sfEnregistrementSupprimé (Type de variable)](../pages/1000018751.md) — *sfDeletedRecord*
+- [sfErreur (Type de variable)](../pages/1000018455.md) — *sfError*
+- [SFExécuteRequête (Fonction)](../pages/1000018438.md) — *SFExecuteQuery*
+- [SFExécuteTraitement (Fonction)](../pages/1000018523.md) — *SFExecuteProcess*
+- [SFFusionne (Fonction)](../pages/1000018509.md) — *SFMerge*
+- [sfInfoSession (Type de variable)](../pages/1000018416.md) — *sfSessionInfo*
+- [sfInfoUtilisateur (Type de variable)](../pages/1000018423.md) — *sfUserInfo*
+- [SFLit (Fonction)](../pages/1000018524.md) — *SFRead*
+- [SFModifie (Fonction)](../pages/1000018478.md) — *SFModify*
+- [sfObjet (Type de variable)](../pages/1000018439.md) — *sfObject*
+- [SFRecherche (Fonction)](../pages/1000018555.md) — *SFSearch*
+- [SFRechercheModifié (Fonction)](../pages/1000018554.md) — *SFSeekModified*
+- [SFRechercheSupprimé (Fonction)](../pages/1000018475.md) — *SFSeekDeleted*
+- [sfRequêteFusionne (Type de variable)](../pages/1000018506.md) — *sfMergeRequest*
+- [sfRequêteTraitementSoumission (Type de variable)](../pages/1000018516.md) — *sfProcessSubmitRequest*
+- [sfRequêteTraitementTâche (Type de variable)](../pages/1000018520.md) — *sfProcessWorkItemRequest*
+- [SFRestaure (Fonction)](../pages/1000018527.md) — *SFUndelete*
+- [sfRésultatConvertitPiste (Type de variable)](../pages/1000018739.md) — *sfLeadConvertResult*
+- [sfRésultatDéconnecte (Type de variable)](../pages/1000018560.md) — *sfDisconnectResult*
+- [sfRésultatExécuteRequête (Type de variable)](../pages/1000018558.md) — *sfExecuteQueryResult*
+- [sfRésultatExécuteTraitement (Type de variable)](../pages/1000018559.md) — *sfExecuteProcessResult*
+- [sfRésultatFusionne (Type de variable)](../pages/1000018499.md) — *sfMergeResult*
+- [sfRésultatRecherche (Type de variable)](../pages/1000018525.md) — *sfSearchResult*
+- [sfRésultatRechercheModifié (Type de variable)](../pages/1000018561.md) — *sfSeekUpdatedResult*
+- [sfRésultatRechercheSupprimé (Type de variable)](../pages/1000018562.md) — *sfSeekDeletedResult*
+- [sfRésultatRestaure (Type de variable)](../pages/1000018526.md) — *sfUndeleteResult*
+- [sfRésultatSauvegarde (Type de variable)](../pages/1000018460.md) — *sfSaveResult*
+- [sfRésultatSupprime (Type de variable)](../pages/1000018546.md) — *sfDeleteResult*
+- [sfRésultatVideCorbeille (Type de variable)](../pages/1000018467.md) — *sfEmptyRecycleBinResult*
+- [SFSupprime (Fonction)](../pages/1000018465.md) — *SFDelete*
+- [SFVideCorbeille (Fonction)](../pages/1000018466.md) — *SFEmptyRecycleBin*
+- [Utiliser le service Salesforce](../pages/1000018468.md)
+
+## fonctions_xls
+
+- [<Variable xlsDocument>.AjouteFeuille (Fonction)](../pages/1000021509.md) — *<xlsDocument variable>.AddWorksheet*
+- [<Variable xlsDocument>.DéfusionneCellule (Fonction)](../pages/1410089571.md) — *<xlsDocument variable>.UnmergeCell*
+- [<Variable xlsDocument>.Ferme (Fonction)](../pages/1000021510.md) — *<xlsDocument variable>.Close*
+- [<Variable xlsDocument>.FusionneCellule (Fonction)](../pages/1410089568.md) — *<xlsDocument variable>.MergeCell*
+- [<Variable xlsDocument>.RecalculeTout (Fonction)](../pages/1410089739.md) — *<xlsDocument variable>.RecalculateAll*
+- [<Variable xlsDocument>.RécupèreFusion (Fonction)](../pages/1410089569.md) — *<xlsDocument variable>.GetMerge*
+- [<Variable xlsDocument>.Sauve (Fonction)](../pages/1000021511.md) — *<xlsDocument variable>.Save*
+- [<Variable xlsDocument>.SupprimeFeuille (Fonction)](../pages/1000021512.md) — *<xlsDocument variable>.DeleteWorksheet*
+- [Constantes de gestion des fichiers XLS](../pages/3080002.md)
+- [Fonctions de gestion des fichiers XLS](../pages/3080009.md)
+- [Fonctions de gestion des fichiers XLS (syntaxe préfixée)](../pages/1000021513.md)
+- [Manipulez vos fichiers XLS](../pages/3080020.md)
+- [Manipulez vos fichiers XLS (syntaxe préfixée)](../pages/1000021514.md)
+- [Type XLSCellule : Propriété MasqueWD](../pages/1000017473.md)
+- [xlsAjouteFeuille (Fonction)](../pages/1000017285.md) — *xlsAddWorksheet*
+- [xlsCellule (Type de variable)](../pages/1000017472.md) — *xlsCell*
+- [xlsColonne (Type de variable)](../pages/1000017471.md) — *xlsColumn*
+- [xlsCommentaire (Type de variable)](../pages/1000024870.md) — *xlsComment*
+- [xlsCoordonnéesVersNom (Fonction)](../pages/1000021500.md) — *xlsCoordinatesToName*
+- [xlsDocument (Exemple)](../pages/1000018059.md)
+- [xlsDocument (Type de variable)](../pages/1000017464.md) — *xlsDocument*
+- [xlsDonnée (Exemple)](../pages/1000003080021.md)
+- [xlsDonnée (Fonction)](../pages/3080021.md) — *xlsData*
+- [xlsDéfusionneCellule (Fonction)](../pages/1410089538.md) — *xlsUnmergeCell*
+- [xlsFerme (Exemple)](../pages/1000003080015.md)
+- [xlsFerme (Fonction)](../pages/3080015.md) — *xlsClose*
+- [xlsFeuilleEnCours (Fonction)](../pages/3080022.md) — *xlsCurrentWorksheet*
+- [xlsFusionneCellule (Fonction)](../pages/1410089537.md) — *xlsMergeCell*
+- [xlsLigne (Type de variable)](../pages/1000017325.md) — *xlsRow*
+- [xlsMiseEnPage (Type de variable)](../pages/1000023139.md) — *xlsLayout*
+- [xlsMsgErreur (Exemple)](../pages/1000003080016.md)
+- [xlsMsgErreur (Fonction)](../pages/3080016.md) — *xlsMsgError*
+- [xlsNbColonne (Exemple)](../pages/1000003080014.md)
+- [xlsNbColonne (Fonction)](../pages/3080014.md) — *xlsNbColumn*
+- [xlsNbColonnes (Fonction)](../pages/3080007.md) — *xlsNbColumns*
+- [xlsNbFeuille (Fonction)](../pages/3080023.md) — *xlsNbWorksheet*
+- [xlsNbLigne (Exemple)](../pages/1000003080011.md)
+- [xlsNbLigne (Fonction)](../pages/3080011.md) — *xlsNbRow*
+- [xlsNbLignes (Fonction)](../pages/3080013.md) — *xlsNbRows*
+- [xlsNomVersCoordonnées (Fonction)](../pages/1000021501.md) — *xlsNameToCoordinates*
+- [xlsOuvre (Exemple)](../pages/1000003080017.md)
+- [xlsOuvre (Fonction)](../pages/3080017.md) — *xlsOpen*
+- [xlsRecalculeTout (Fonction)](../pages/1410089617.md) — *xlsRecalculateAll*
+- [xlsRécupèreFusion (Fonction)](../pages/1410089567.md) — *xlsGetMerge*
+- [xlsSauve (Fonction)](../pages/1000018057.md) — *xlsSave*
+- [xlsSupprimeFeuille (Fonction)](../pages/1000017288.md) — *xlsDeleteWorksheet*
+- [xlsTitreColonne (Exemple)](../pages/1000003080012.md)
+- [xlsTitreColonne (Fonction)](../pages/3080012.md) — *xlsColumnTitle*
+- [xlsTypeColonne (Exemple)](../pages/1000003080019.md)
+- [xlsTypeColonne (Fonction)](../pages/3080019.md) — *xlsColumnType*
+- [xlsVersion (Exemple)](../pages/1000003080018.md)
+- [xlsVersion (Fonction)](../pages/3080018.md) — *xlsVersion*
+
+## fonctions_xml
+
+- [<Variable xmlDocument>.ConstruitChaîne (Fonction)](../pages/1000023891.md) — *<xmlDocument variable>.BuildString*
+- [<Variable xmlDocument>.DocumentValide (Fonction)](../pages/1000023892.md) — *<xmlDocument variable>.ValidDocument*
+- [<Variable xmlDocument>.ExécuteXPath (Fonction)](../pages/1000023893.md) — *<xmlDocument variable>.ExecuteXPath*
+- [<Variable xmlDocument>.Sauve (Fonction)](../pages/1000023895.md) — *<xmlDocument variable>.Save*
+- [<Variable xmlNoeud>.ChercheNamespaceParNom (Fonction)](../pages/1000023889.md) — *<xmlNode variable>.FindNamespaceByName*
+- [<Variable xmlNoeud>.ChercheNamespaceParURI (Fonction)](../pages/1000023890.md) — *<xmlNode variable>.FindNamespaceByURI*
+- [<Variable xmlNoeud>.NoeudValide (Fonction)](../pages/1000023894.md) — *<xmlNode variable>.ValidNode*
+- [<xmlDocument>.VersJSON (Fonction)](../pages/1410087334.md) — *<xmlDocument>.ToJSON*
+- [<xmlNoeud>.VersJSON (Fonction)](../pages/1410087333.md) — *<xmlNode>.ToJSON*
+- [Constantes de gestion des documents XML](../pages/3081003.md)
+- [Exemple d'utilisation des types XML](../pages/3081042.md)
+- [Fonctions XML](../pages/3081005.md)
+- [Fonctions XML (syntaxe préfixée)](../pages/1000023896.md)
+- [Gestion du XML](../pages/3081018.md)
+- [Gestion du XSD](../pages/1000019170.md)
+- [Gestion XML : Exemple d'utilisation](../pages/3081041.md)
+- [JSONXMLConvertisseur (Type de variable)](../pages/1410087323.md) — *JSONXMLConverter*
+- [Modifier une image SVG (fonctions XML)](../pages/1000023905.md)
+- [TexteVersXML (Fonction)](../pages/3081006.md) — *TextToXML*
+- [XML : Manipulations de fichiers de plusieurs gigaoctets](../pages/1000023442.md)
+- [XMLAjouteAttribut (Fonction)](../pages/3081011.md) — *XMLAddAttribute*
+- [XMLAjouteFils (Exemple)](../pages/1000003081002.md)
+- [XMLAjouteFils (Fonction)](../pages/3081002.md) — *XMLAddChild*
+- [XMLAnnuleRecherche (Fonction)](../pages/3081001.md) — *XMLCancelSearch*
+- [xmlAttribut (Type de variable)](../pages/1000018799.md) — *xmlAttribute (Type of variable)*
+- [XMLChercheNamespaceParNom (Fonction)](../pages/1000019167.md) — *XMLFindNamespaceByName*
+- [XMLChercheNamespaceParURI (Fonction)](../pages/1000019168.md) — *XMLFindNamespaceByURI*
+- [XMLConstruitChaîne (Exemple)](../pages/1000003081016.md)
+- [XMLConstruitChaîne (Fonction)](../pages/3081016.md) — *XMLBuildString*
+- [XMLDernier (Fonction)](../pages/3081013.md) — *XMLLast*
+- [XMLDocument](../pages/1000019281.md)
+- [XMLDocument (Exemple)](../pages/1000003081008.md)
+- [XMLDocument (Fonction)](../pages/3081008.md) — *XMLDocument*
+- [xmlDocument (Type de variable)](../pages/1000018782.md) — *xmlDocument (Type of variable)*
+- [XMLDocumentValide (Fonction)](../pages/1000019272.md) — *XMLValidDocument*
+- [XMLDonnée (Exemple)](../pages/1000003081004.md)
+- [XMLDonnée (Fonction)](../pages/3081004.md) — *XMLData*
+- [XMLEcrit (Fonction)](../pages/1000017031.md) — *XMLWrite*
+- [XMLEnDehors (Fonction)](../pages/3081009.md) — *XMLOut*
+- [XMLExtraitChaîne (Fonction)](../pages/3081017.md) — *XMLExtractString*
+- [XMLExtraitDocument (Fonction)](../pages/3081010.md) — *XMLExtractDocument*
+- [XMLExécuteXPath (Exemple)](../pages/1000003081015.md)
+- [XMLExécuteXPath (Fonction)](../pages/3081015.md) — *XMLExecuteXPath*
+- [XMLFils (Exemple)](../pages/1000003081012.md)
+- [XMLFils (Fonction)](../pages/3081012.md) — *XMLChild*
+- [XMLFilsExiste (Fonction)](../pages/3081038.md) — *XMLChildExist*
+- [XMLInsèreDocument (Fonction)](../pages/3081014.md) — *XMLInsertDocument*
+- [XMLInsèreElément (Fonction)](../pages/3081007.md) — *XMLInsertElement*
+- [xmlLecteur (Type de variable)](../pages/1000023392.md) — *xmlReader*
+- [XMLLit (Fonction)](../pages/1000017030.md) — *XMLRead*
+- [XMLModifie (Fonction)](../pages/3081037.md) — *XMLModify*
+- [XMLNamespace (Fonction)](../pages/3081039.md) — *XMLNamespace*
+- [xmlNamespace (Type de variable)](../pages/1000018803.md) — *xmlNamespace (Type of variable)*
+- [XMLNamespaceURI (Fonction)](../pages/3081040.md) — *XMLNamespaceURI*
+- [xmlNoeud (Type de variable)](../pages/1000018786.md) — *xmlNode*
+- [XMLNoeudValide (Fonction)](../pages/1000019280.md) — *XMLValidNode*
+- [XMLNomElément (Exemple)](../pages/1000003081026.md)
+- [XMLNomElément (Fonction)](../pages/3081026.md) — *XMLElementName*
+- [XMLNomParent (Fonction)](../pages/3081035.md) — *XMLParentName*
+- [XMLOuvre (Fonction)](../pages/1000018792.md) — *XMLOpen*
+- [XMLOuvreLecteur (Exemple)](../pages/1000023780.md)
+- [XMLOuvreLecteur (Fonction)](../pages/1000023396.md) — *XMLOpenReader*
+- [XMLParent (Exemple)](../pages/1000003081022.md)
+- [XMLParent (Fonction)](../pages/3081022.md) — *XMLParent*
+- [XMLPosition (Fonction)](../pages/3081028.md) — *XMLPath*
+- [XMLPremier (Fonction)](../pages/3081024.md) — *XMLFirst*
+- [XMLPrécédent (Fonction)](../pages/3081023.md) — *XMLPrevious*
+- [XMLRacine (Exemple)](../pages/1000003081019.md)
+- [XMLRacine (Fonction)](../pages/3081019.md) — *XMLRoot*
+- [XMLRecherche (Exemple)](../pages/1000003081025.md)
+- [XMLRecherche (Fonction)](../pages/3081025.md) — *XMLFind*
+- [XMLRenomme (Fonction)](../pages/3081021.md) — *XMLRename*
+- [XMLRetourPosition (Exemple)](../pages/1000003081032.md)
+- [XMLRetourPosition (Fonction)](../pages/3081032.md) — *XMLRestorePosition*
+- [XMLRésultat (Fonction)](../pages/3081027.md) — *XMLResult*
+- [XMLSauve (Fonction)](../pages/1000019026.md) — *XMLSave*
+- [XMLSauvePosition (Exemple)](../pages/1000003081033.md)
+- [XMLSauvePosition (Fonction)](../pages/3081033.md) — *XMLSavePosition*
+- [xmlSignature (Type de variable)](../pages/1000020736.md) — *xmlSignature*
+- [xmlSignatureXAdES (Type de variable)](../pages/1410091158.md) — *xmlXAdESSignature*
+- [XMLSigne (Fonction)](../pages/1000020753.md) — *XMLSign*
+- [XMLSuivant (Fonction)](../pages/3081030.md) — *XMLNext*
+- [XMLSupprime (Exemple)](../pages/1000003081036.md)
+- [XMLSupprime (Fonction)](../pages/3081036.md) — *XMLDelete*
+- [XMLTermine (Fonction)](../pages/3081034.md) — *XMLClose*
+- [XMLTrouve (Fonction)](../pages/3081020.md) — *XMLFound*
+- [XMLTypeElement (Fonction)](../pages/3081031.md) — *XMLElementType*
+- [XMLVersJSON (Fonction)](../pages/1410087331.md) — *XMLToJSON*
+- [XMLVersTexte (Fonction)](../pages/3081029.md) — *XMLToText*
+- [xmlVérificationSignature (Type de variable)](../pages/1410090389.md) — *xmlSignatureVerification*
+- [XMLVérifieSignature (Fonction)](../pages/1410090391.md) — *XMLVerifySignature*
+- [xpathRésultat (Type de variable)](../pages/1000021967.md) — *xpathResult*

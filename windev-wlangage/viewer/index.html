@@ -1,0 +1,452 @@
+﻿<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>WLangage — Aperçu coloré</title>
+<style>
+  /* Thème SOMBRE = palette exacte de l'éditeur de code PC SOFT */
+  body[data-theme="dark"]{
+    --kw:#FF8000; --fn:#91B5FE; --typ:#9575CD; --lit:#BA68C8; --com:#808080;
+    --mem:#009180; --lvar:#4CAF50; --gvar:#00C0C0; --cst:#B1C33A; --txt:#CDD3DE;
+    --bg:#1e1e28; --panel:#16161e; --gutter:#1a1a24; --gutter-txt:#5b5b75;
+    --border:#2c2c3c; --hl:#ffffff0d; --sep-bg:#262633; --sep-txt:#e6e6f0; --sep-acc:#FF8000; --mlbg:#3a2b3a;
+  }
+  /* Thème CLAIR = palette officielle PC SOFT (claire) */
+  body[data-theme="light"]{
+    --kw:#000000; --fn:#0000FF; --typ:#5D00BA; --lit:#800080; --com:#808080;
+    --mem:#008080; --lvar:#008000; --gvar:#00807A; --cst:#0000FF; --txt:#1a1a1a;
+    --bg:#ffffff; --panel:#f4f4f8; --gutter:#f0f0f5; --gutter-txt:#b0b0c0;
+    --border:#e2e2ec; --hl:#fff8e6; --sep-bg:#eef0f6; --sep-txt:#1a1a45; --sep-acc:#0000FF; --mlbg:#FAE6E6;
+  }
+  *{box-sizing:border-box;margin:0;padding:0;}
+  body{font-family:'Segoe UI',system-ui,sans-serif;background:var(--panel);color:var(--txt);
+    min-height:100vh;padding:18px;transition:background .25s,color .25s;}
+  .bar{display:flex;align-items:center;gap:10px;margin-bottom:14px;flex-wrap:wrap;}
+  .bar h1{font-size:1rem;font-weight:600;margin-right:auto;letter-spacing:.02em;}
+  .bar h1 .dot{color:var(--kw);}
+  button{font:inherit;font-size:.82rem;font-weight:600;cursor:pointer;background:var(--bg);
+    color:var(--txt);border:1px solid var(--border);border-radius:8px;padding:7px 13px;
+    display:inline-flex;align-items:center;gap:7px;transition:border-color .15s,transform .1s;}
+  button:hover{border-color:var(--kw);}
+  button:active{transform:translateY(1px);}
+  button svg{width:15px;height:15px;}
+  .editor{background:var(--bg);border:1px solid var(--border);border-radius:12px;overflow:hidden;
+    box-shadow:0 6px 28px rgba(0,0,0,.18);}
+  .editor-head{display:flex;align-items:center;gap:8px;padding:10px 14px;border-bottom:1px solid var(--border);
+    font-size:.78rem;color:var(--com);}
+  .editor-head .lights{display:flex;gap:6px;margin-right:6px;}
+  .editor-head .lights i{width:11px;height:11px;border-radius:50%;display:block;}
+  .l1{background:#ff5f57;} .l2{background:#febc2e;} .l3{background:#28c840;}
+  .code-scroll{overflow:auto;max-height:80vh;}
+  pre.code{font-family:'Consolas','Cascadia Code','SF Mono',monospace;font-size:13.5px;
+    line-height:1.65;tab-size:4;-moz-tab-size:4;margin:0;padding:10px 0;}
+  .row{display:flex;white-space:pre;}
+  .row:hover{background:var(--hl);}
+  .gutter{flex:0 0 auto;min-width:48px;text-align:right;padding:0 14px 0 12px;color:var(--gutter-txt);
+    background:var(--gutter);user-select:none;border-right:1px solid var(--border);position:sticky;left:0;}
+  .line{flex:1 1 auto;padding:0 16px;white-space:pre;}
+  .line.mlrow{background:var(--mlbg);}  /* contenu d'une chaîne multiligne [ ... ] */
+  /* séparateur de section */
+  .sep{display:flex;align-items:center;gap:10px;margin:6px 0;padding:7px 16px 7px 14px;
+    background:var(--sep-bg);border-left:3px solid var(--sep-acc);color:var(--sep-txt);
+    font-family:'Segoe UI',sans-serif;font-weight:700;font-size:.83rem;letter-spacing:.01em;
+    position:sticky;left:0;}
+  .sep svg{width:14px;height:14px;color:var(--sep-acc);flex-shrink:0;}
+  .sep .kind{font-weight:600;color:var(--com);font-size:.74rem;text-transform:uppercase;letter-spacing:.08em;}
+  .t-kw{color:var(--kw);font-weight:600;} .t-fn{color:var(--fn);} .t-typ{color:var(--typ);}
+  .t-lit{color:var(--lit);} .t-com{color:var(--com);font-style:italic;} .t-mem{color:var(--mem);}
+  .t-lvar{color:var(--lvar);} .t-gvar{color:var(--gvar);} .t-cst{color:var(--cst);font-style:italic;}
+  .t-op{color:var(--txt);} .t-id{color:var(--txt);}
+  .legend{margin-top:12px;font-size:.74rem;color:var(--com);display:flex;flex-wrap:wrap;gap:13px;}
+  .legend span{display:inline-flex;align-items:center;gap:5px;}
+  .legend i{width:11px;height:11px;border-radius:3px;display:block;}
+  .toast{position:fixed;bottom:22px;left:50%;transform:translateX(-50%) translateY(20px);background:var(--fn);
+    color:#fff;padding:9px 18px;border-radius:9px;font-size:.84rem;opacity:0;pointer-events:none;
+    transition:opacity .25s,transform .25s;}
+  .toast.show{opacity:1;transform:translateX(-50%) translateY(0);}
+  /* menu contextuel (clic droit) */
+  .ctxmenu{position:fixed;z-index:300;min-width:170px;background:var(--bg);border:1px solid var(--border);
+    border-radius:9px;box-shadow:0 10px 34px rgba(0,0,0,.4);padding:5px;display:none;}
+  .ctxmenu.open{display:block;}
+  .ctxmenu button{width:100%;justify-content:flex-start;border:none;background:transparent;border-radius:6px;
+    padding:8px 12px;font-size:.85rem;color:var(--txt);}
+  .ctxmenu button:hover{background:var(--hl);border:none;}
+  .ctxmenu .sepline{height:1px;background:var(--border);margin:4px 6px;}
+</style>
+</head>
+<body data-theme="dark">
+
+  <div class="bar">
+    <h1>WLangage <span class="dot">·</span> aperçu coloré</h1>
+    <button onclick="toggleTheme()"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></svg><span id="themeLabel">Thème clair</span></button>
+    <button onclick="copyCode()"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="9" y="9" width="13" height="13" rx="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg>Copier</button>
+    <button onclick="exporter()"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><path d="M7 10l5 5 5-5"/><path d="M12 15V3"/></svg>Exporter .wl</button>
+  </div>
+
+  <div class="editor">
+    <div class="editor-head"><span class="lights"><i class="l1"></i><i class="l2"></i><i class="l3"></i></span><span id="fileName">FEN_GoogleSheet.wl</span></div>
+    <div class="code-scroll"><pre class="code" id="out"></pre></div>
+  </div>
+
+  <div class="legend">
+    <span><i style="background:var(--kw)"></i>Mot-clé</span>
+    <span><i style="background:var(--fn)"></i>Fonction</span>
+    <span><i style="background:var(--typ)"></i>Type</span>
+    <span><i style="background:var(--lvar)"></i>Var. locale</span>
+    <span><i style="background:var(--gvar)"></i>Var. globale</span>
+    <span><i style="background:var(--mem)"></i>Champ/membre</span>
+    <span><i style="background:var(--lit)"></i>Chaîne/nombre</span>
+    <span><i style="background:var(--cst)"></i>Constante</span>
+    <span><i style="background:var(--com)"></i>Commentaire</span>
+  </div>
+
+  <!-- CODE SOURCE (échappé). Les lignes "//§ Titre" deviennent des séparateurs de section. -->
+  <pre id="source" hidden>
+//§ Procédure locale Exemple
+PROCÉDURE LOCAL Exemple()
+sMessage est une chaîne = "Lancez le viewer via un serveur (voir README) pour charger code.wl."
+nActifs est un entier = 0
+
+POUR TOUT REQ_Client
+	SI REQ_Client.Actif = Vrai ALORS
+		nActifs++
+	FIN
+FIN
+Info(ChaîneConstruit("%1 client(s) actif(s).", nActifs))
+</pre>
+
+  <div class="ctxmenu" id="ctxmenu">
+    <button onclick="ctxCopier()"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="9" y="9" width="13" height="13" rx="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg>Copier</button>
+    <div class="sepline"></div>
+    <button onclick="exporter();hideCtx()"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><path d="M7 10l5 5 5-5"/><path d="M12 15V3"/></svg>Exporter .wl</button>
+  </div>
+
+  <div class="toast" id="toast">Code copié ✓</div>
+
+<script src="constants.js"></script>
+<script src="types.js"></script>
+<script src="functions.js"></script>
+<script>
+const KEYWORDS = new Set(("si alors sinon sinonsi fin finsi finpour fintantque pour tout toute à dans " +
+  "boucle tantque faire selon cas autre autrecas retour renvoyer retourner quitter continuer sortir " +
+  "recommencer procedure procédure fonction interne externe local locale global globale est sont un une " +
+  "et ou pas non dynamique constant constante structure classe hérite herite surcharge redéfinition membre " +
+  "quand exception dans throw lève leve " +
+  "public privé prive protégé protege statique par référence reference valeur sans alias combinaison " +
+  "abstraite virtuelle mafenêtre mafenetre mapage masource moimême moimeme moiparent objet:self").split(/\s+/));
+const TYPES = new Set(("chaîne chaine entier réel reel booléen booleen monétaire monetaire date heure durée " +
+  "duree dateheure tableau buffer variant numérique numerique caractère caractere octet de des associatif " +
+  "file pile enregistrement source").split(/\s+/));
+const CONSTS = new Set("vrai faux null".split(/\s+/));
+
+// motifs identifiants
+const reGlobal = /^g[a-z]{0,3}[A-Z]/;             // gbEnroule, gLien, gTAB, gtabCommandes
+const reCtrl   = /^(m_|_)|^[A-Z][A-Z0-9]*_/;       // m_bADMIN, BTN_X, PG_SITE, FI_PRODUCTION
+const reConst  = /^[a-zà-ÿ]+[A-ZÀ-Ÿ]/;             // toastCourt, cvMilieu, chCentre (constantes prédéfinies)
+let DECLARED = new Set();                          // variables déclarées (x est un…, paramètres)
+let VARIANT_VARS = new Set();                      // variables de type Variant / JSON (membres dynamiques colorés)
+
+function collectDeclared(src){
+  DECLARED = new Set();
+  VARIANT_VARS = new Set();
+  src.split('\n').forEach(l=>{
+    // "x est un…" ou "a, b, c sont…"
+    const m = l.match(/^\s*([A-Za-zÀ-ÿ_][\wÀ-ÿ]*(?:\s*,\s*[A-Za-zÀ-ÿ_][\wÀ-ÿ]*)*)\s+(?:est|sont)\b/);
+    if(m) m[1].split(/\s*,\s*/).forEach(x=>DECLARED.add(x));
+    // variable de type Variant / JSON -> ses sous-membres seront colorés
+    const v = l.match(/^\s*([A-Za-zÀ-ÿ_][\wÀ-ÿ]*)\s+est\s+un[e]?\s+(Variant|JSON)\b/i);
+    if(v) VARIANT_VARS.add(v[1]);
+    // paramètres de PROCÉDURE
+    const p = l.match(/PROC[ÉE]DURE(?:\s+(?:INTERNE|LOCALE?|GLOBALE?))?\s+[A-Za-zÀ-ÿ_][\wÀ-ÿ]*\s*\(([^)]*)\)/i);
+    if(p && p[1].trim()) p[1].split(',').forEach(seg=>{
+      const mm = seg.trim().match(/^([A-Za-zÀ-ÿ_][\wÀ-ÿ]*)/); if(mm) DECLARED.add(mm[1]);
+    });
+    // variables de boucle : POUR TOUT x …, POUR x = …
+    const b1 = l.match(/\bPOUR\s+TOUT\s+([A-Za-zÀ-ÿ_][\wÀ-ÿ]*)/i);
+    if(b1) DECLARED.add(b1[1]);
+    const b2 = l.match(/\bPOUR\s+([A-Za-zÀ-ÿ_][\wÀ-ÿ]*)\s*=/i);
+    if(b2) DECLARED.add(b2[1]);
+  });
+}
+
+let DATAFILES = new Set();   // fichiers de données HFSQL (déduits du 1er arg des fonctions Hxxx)
+function collectDataFiles(src){
+  DATAFILES = new Set();
+  const re = /\bH[A-ZÀ-Ÿ][\wÀ-ÿ]*\s*\(\s*([A-Za-zÀ-ÿ_][\wÀ-ÿ]*)/g;
+  src.split('\n').forEach(l=>{
+    re.lastIndex = 0; let m;
+    while((m=re.exec(l))!==null){ if(!DECLARED.has(m[1])) DATAFILES.add(m[1]); }
+  });
+}
+
+let RUBRIQUES = new Set();   // rubriques HFSQL = 2e arg des Hxxx dont le 1er arg est un fichier
+function collectRubriques(src){
+  RUBRIQUES = new Set();
+  const re = /\bH[A-ZÀ-Ÿ][\wÀ-ÿ]*\s*\(\s*([A-Za-zÀ-ÿ_][\wÀ-ÿ]*)\s*,\s*([A-Za-zÀ-ÿ_][\wÀ-ÿ]*)\s*[,)]/g;
+  src.split('\n').forEach(l=>{
+    re.lastIndex = 0; let m;
+    while((m=re.exec(l))!==null){ if(DATAFILES.has(m[1])) RUBRIQUES.add(m[2]); }
+  });
+}
+
+let PROCS = new Set();   // noms de procédures déclarées dans le code (locales/internes)
+function collectProcs(src){
+  PROCS = new Set();
+  src.split('\n').forEach(l=>{
+    // déclaration réelle : début de ligne + nom suivi de '('
+    const m = l.match(/^\s*PROC[ÉE]DURE\s+(?:(?:INTERNE|LOCALE?|GLOBALE?)\s+)?([A-Za-zÀ-ÿ_][\wÀ-ÿ]*)\s*\(/i);
+    if(m) PROCS.add(m[1]);
+    // séparateur de section "//§ Procédure locale X"
+    const s = l.match(/^\s*\/\/§\s*Proc[ée]dure\s+locale\s+([A-Za-zÀ-ÿ_][\wÀ-ÿ]*)/i);
+    if(s) PROCS.add(s[1]);
+  });
+}
+
+const RE = /(\/\*[\s\S]*?\*\/|\/\/[^\n]*)|("(?:\\.|[^"\\])*")|(\d+(?:[.,]\d+)?)|([A-Za-zÀ-ÿ_][\wÀ-ÿ]*)|([ \t]+)|([^\sA-Za-zÀ-ÿ0-9_])/g;
+
+function rawTokens(line){
+  const out=[]; let m; RE.lastIndex=0;
+  while((m=RE.exec(line))!==null){
+    if(m[1]!==undefined) out.push({k:'com',v:m[1]});
+    else if(m[2]!==undefined) out.push({k:'str',v:m[2]});
+    else if(m[3]!==undefined) out.push({k:'num',v:m[3]});
+    else if(m[4]!==undefined) out.push({k:'word',v:m[4]});
+    else if(m[5]!==undefined) out.push({k:'sp',v:m[5]});
+    else out.push({k:'op',v:m[6]});
+  }
+  return out;
+}
+
+// racine d'une chaîne d'accès a.b[1].c -> renvoie le token 'a'
+function chainRoot(toks, idx){
+  const sp = k => { while(k>=0 && toks[k].k==='sp') k--; return k; };
+  let k = sp(idx-1);
+  while(k >= 0){
+    const tk = toks[k];
+    if(tk.k==='op' && tk.v==='.'){ k = sp(k-1); continue; }
+    if(tk.k==='op' && tk.v===']'){
+      let d=1, j=k-1;
+      while(j>=0 && d>0){ if(toks[j].v===']') d++; else if(toks[j].v==='[') d--; j--; }
+      k = sp(j); continue;
+    }
+    if(tk.k==='word'){
+      const p = sp(k-1);
+      if(p>=0 && toks[p].k==='op' && toks[p].v==='.'){ k = sp(p-1); continue; }
+      return tk;
+    }
+    break;
+  }
+  return null;
+}
+
+function classifyLine(line){
+  const toks = rawTokens(line);
+  const sig = i => { for(let j=i+1;j<toks.length;j++){ if(toks[j].k!=='sp') return toks[j]; } return null; };
+  const psig= i => { for(let j=i-1;j>=0;j--){ if(toks[j].k!=='sp') return toks[j]; } return null; };
+  const isPourTout = /\bPOUR\s+TOUT\b/i.test(line);   // "DE" = mot-clé dans une boucle POUR TOUT
+  const hasFn = typeof FUNC_SET !== 'undefined';
+  return toks.map((t,i)=>{
+    if(t.k==='word'){
+      const low=t.v.toLowerCase(), prev=psig(i), next=sig(i);
+      const prevDot = prev && prev.k==='op' && prev.v==='.';
+      const nextParen = next && next.k==='op' && next.v==='(';
+      const prevWord = (prev && prev.k==='word') ? prev.v.toLowerCase() : '';
+      // racine de la chaîne d'accès (pour distinguer fichier/Variant -> sarcelle, vs autre variable -> défaut)
+      const rootTok = prevDot ? chainRoot(toks, i) : null;
+      const afterType = (prevWord==='un'||prevWord==='une'||((prevWord==='de'||prevWord==='des')&&!isPourTout));
+      let cls;
+      if(['procédure','procedure','interne','local','locale','global','globale'].includes(prevWord) && !KEYWORDS.has(low)) cls='mem'; // nom de procédure -> sarcelle (pas les mots-clés INTERNE/LOCAL/GLOBAL)
+      else if(low==='de'||low==='des') cls = isPourTout ? 'kw' : 'typ';                   // DE boucle / "tableau de" type
+      else if(KEYWORDS.has(low)) cls='kw';
+      else if(CONSTS.has(low)) cls='cst';
+      else if(/^(RC|TAB|CR|LF)$/.test(t.v)) cls='cst';   // constantes-chaînes (retour chariot, tabulation…)
+      else if(prevDot) cls = (rootTok && rootTok.k==='word' && (DATAFILES.has(rootTok.v) || VARIANT_VARS.has(rootTok.v))) ? 'mem' : 'id'; // membre de fichier/Variant = sarcelle ; propriété d'une autre variable = couleur par défaut
+      else if(afterType) cls='typ';                   // type après un/une/de (ex. STClient)
+      else if(nextParen) cls = (hasFn && FUNC_SET.has(low)) ? 'fn' : 'mem'; // fonction intégrée -> bleu ; proc utilisateur -> sarcelle
+      else if(TYPES.has(low)) cls='typ';
+      else if(typeof TYPE_SET!=='undefined' && TYPE_SET.has(low)) cls='typ';
+      else if(typeof CONST_SET!=='undefined' && CONST_SET.has(t.v)) cls='cst';
+      else if(reGlobal.test(t.v)) cls='gvar';
+      else if(reCtrl.test(t.v)) cls='mem';
+      else if(DECLARED.has(t.v)) cls='lvar';
+      else if(PROCS.has(t.v)) cls='mem';              // référence à une procédure déclarée (ex. callback)
+      else if(DATAFILES.has(t.v)) cls='mem';          // fichier de données HFSQL (analyse)
+      else if(RUBRIQUES.has(t.v)) cls='mem';          // rubrique HFSQL (champ de table)
+      else if(reConst.test(t.v)) cls='cst';
+      else cls='id';
+      return {cls,v:t.v};
+    }
+    if(t.k==='com') return {cls:'com',v:t.v};
+    if(t.k==='str'||t.k==='num') return {cls:'lit',v:t.v};
+    if(t.k==='op') return {cls:'op',v:t.v};
+    return {cls:'sp',v:t.v};
+  });
+}
+
+function esc(s){return s.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');}
+
+/* Alignement esthétique : aligne les "est" (déclarations) et les "=" (affectations)
+   par blocs de lignes consécutives de même indentation. */
+function alignSource(code){
+  const reDecl   = /^(\s*)([A-Za-zÀ-ÿ_][\wÀ-ÿ]*)(\s+)(est\b.*)$/;
+  const reAssign = /^(\s*)([A-Za-zÀ-ÿ_][\wÀ-ÿ.\[\]]*)(\s*)=(?!=)(\s*)(.*)$/;
+  function info(line){
+    let m = line.match(reDecl);
+    if(m) return {indent:m[1], cat:'decl', lhs:m[2], rest:m[4]};
+    m = line.match(reAssign);
+    if(m) return {indent:m[1], cat:'assign', lhs:m[2], rhs:m[5]};
+    return null;
+  }
+  const lines = code.split('\n'), out = lines.slice();
+  // repère les lignes à l'intérieur d'une chaîne multiligne [ ... ] (à ne pas aligner)
+  const inML = new Array(lines.length).fill(false);
+  let ml = false;
+  for(let x=0; x<lines.length; x++){
+    const t = lines[x].trim();
+    if(ml){ inML[x]=true; if(t.charAt(0)===']') ml=false; continue; }
+    if(/=\s*\[\s*$/.test(t)) ml = true;
+  }
+  const infoAt = idx => inML[idx] ? null : info(lines[idx]);
+  let i = 0;
+  while(i < lines.length){
+    const inf = infoAt(i);
+    if(!inf){ i++; continue; }
+    let j = i; const grp = [];
+    while(j < lines.length){
+      const f = infoAt(j);
+      if(f && f.cat===inf.cat && f.indent===inf.indent){ grp.push([j,f]); j++; }
+      else break;
+    }
+    if(grp.length >= 2){
+      const maxL = Math.max(...grp.map(g => g[1].lhs.length));
+      for(const [idx,f] of grp){
+        const pad = ' '.repeat(maxL - f.lhs.length + 1);
+        out[idx] = (f.cat==='decl')
+          ? f.indent + f.lhs + pad + f.rest
+          : f.indent + f.lhs + pad + '= ' + f.rhs;
+      }
+    }
+    i = j;
+  }
+  return out.join('\n');
+}
+
+const SEP_ICON='<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 7h16M4 12h16M4 17h10"/></svg>';
+function sepKind(title){
+  const t=title.toLowerCase();
+  if(t.startsWith('déclarations')||t.startsWith('declarations')) return 'Globales';
+  if(t.includes('initialisation')) return 'Init';
+  if(t.startsWith('procédure')||t.startsWith('procedure')){
+    if(t.includes('globale')) return 'Proc. globale';
+    if(t.includes('interne')) return 'Proc. interne';
+    return 'Proc. locale';
+  }
+  if(t.startsWith('clic')) return 'Clic';
+  if(t.startsWith('double-clic')||t.startsWith('double clic')) return 'Double-clic';
+  if(t.includes('clic droit')) return 'Clic droit';
+  if(t.startsWith('survol')) return 'Survol';
+  if(t.startsWith('sélection')||t.startsWith('selection')) return 'Sélection';
+  if(t.startsWith('entrée')||t.startsWith('sortie')||t.includes('modification')) return 'Événement';
+  return 'Section';
+}
+
+function render(){
+  const src = SOURCE_CODE;
+  collectDeclared(src);
+  collectProcs(src);
+  collectDataFiles(src);
+  collectRubriques(src);
+  const lines = src.split('\n');
+  const out=[]; let n=0; let inStr=false;
+  const renderCode = raw => classifyLine(raw).map(s => s.cls==='sp' ? esc(s.v) : '<span class="t-'+s.cls+'">'+esc(s.v)+'</span>').join('');
+  const row = (num, inner, extra) => '<div class="row"><span class="gutter">'+(num||'')+'</span><span class="line'+(extra||'')+'">'+(inner||' ')+'</span></div>';
+  for(const raw of lines){
+    const trimmed = raw.trim();
+    if(inStr){
+      if(trimmed.charAt(0)===']'){ inStr=false; n++; out.push(row(n, renderCode(raw))); }   // ligne de fermeture
+      else { n++; out.push(row(n, '<span class="t-lit">'+esc(raw)+'</span>', ' mlrow')); }    // contenu littéral
+      continue;
+    }
+    const sep = trimmed.match(/^\/\/§\s*(.+)$/);
+    if(sep){
+      out.push('<div class="sep">'+SEP_ICON+'<span class="kind">'+esc(sepKind(sep[1]))+'</span>'+esc(sep[1])+'</div>');
+      n = 0; // la numérotation repart à 1 à chaque nouvelle section
+      continue;
+    }
+    n++;
+    out.push(row(n, renderCode(raw)));
+    if(/=\s*\[\s*$/.test(trimmed)) inStr=true;   // ouverture d'une chaîne multiligne "= ["
+  }
+  document.getElementById('out').innerHTML = out.join('');
+}
+
+function toggleTheme(){
+  const b=document.body, dark=b.getAttribute('data-theme')==='dark';
+  b.setAttribute('data-theme', dark?'light':'dark');
+  document.getElementById('themeLabel').textContent = dark?'Thème sombre':'Thème clair';
+}
+let SOURCE_CODE = '';
+function srcText(){ return SOURCE_CODE; }
+function showToast(msg){
+  const t=document.getElementById('toast'); t.textContent=msg||'Code copié ✓'; t.classList.add('show');
+  clearTimeout(window._t); window._t=setTimeout(()=>t.classList.remove('show'),1700);
+}
+function copyCode(){ navigator.clipboard.writeText(srcText()).then(()=>showToast('Code copié ✓')); }
+
+/* ---- menu contextuel (clic droit) ---- */
+function showCtx(x,y){
+  const m=document.getElementById('ctxmenu');
+  m.style.left=Math.min(x, window.innerWidth-185)+'px';
+  m.style.top=Math.min(y, window.innerHeight-90)+'px';
+  m.classList.add('open');
+}
+function hideCtx(){ document.getElementById('ctxmenu').classList.remove('open'); }
+function ctxCopier(){
+  const sel=(window.getSelection&&window.getSelection().toString())||'';
+  const txt=sel.trim()?sel:srcText();
+  navigator.clipboard.writeText(txt).then(()=>showToast(sel.trim()?'Sélection copiée ✓':'Code copié ✓'));
+  hideCtx();
+}
+document.addEventListener('contextmenu', e=>{
+  if(e.target.closest('.code-scroll')){ e.preventDefault(); showCtx(e.clientX, e.clientY); }
+});
+document.addEventListener('click', hideCtx);
+window.addEventListener('scroll', hideCtx, true);
+
+/* ---- export vers un fichier .wl ---- */
+async function exporter(){
+  const code=srcText();
+  let fn=(document.getElementById('fileName').textContent||'code').trim();
+  if(!/\.wl$/i.test(fn)) fn=fn.replace(/\.[^.]*$/,'')+'.wl';
+  if(window.showSaveFilePicker){
+    try{
+      const h=await window.showSaveFilePicker({
+        suggestedName:fn, startIn:'downloads',
+        types:[{description:'Code WLangage', accept:{'text/plain':['.wl']}}]
+      });
+      const w=await h.createWritable(); await w.write(code); await w.close();
+      showToast('Exporté : '+fn); return;
+    }catch(err){ if(err && err.name==='AbortError') return; }
+  }
+  // repli : téléchargement direct dans le dossier Téléchargements
+  const b=new Blob([code],{type:'text/plain;charset=utf-8'}); const a=document.createElement('a');
+  a.href=URL.createObjectURL(b); a.download=fn; document.body.appendChild(a); a.click();
+  setTimeout(()=>{URL.revokeObjectURL(a.href); a.remove();},100);
+  showToast('Téléchargé : '+fn);
+}
+async function loadAndRender(){
+  try{
+    const r = await fetch('code.wl?t=' + Date.now());
+    if(r.ok) SOURCE_CODE = alignSource((await r.text()).replace(/^\n/,'').replace(/\s+$/,''));
+    else throw 0;
+  }catch(e){
+    // repli : bloc embarqué
+    SOURCE_CODE = document.getElementById('source').textContent.replace(/^\n/,'').replace(/\s+$/,'');
+  }
+  render();
+}
+loadAndRender();
+</script>
+</body>
+</html>

@@ -1,59 +1,65 @@
-# Playbook — Front & Back en React (options recommandées)
+# Playbook — Fullstack React avec Next.js (Option A)
 
-Ce dépôt sert de modèle pour migrer une application WinDev/HFSQL vers une stack où le front et le back sont conçus autour de l'écosystème React/TypeScript.
-Deux approches recommandées (choisir selon besoins projet) :
+Ce dépôt décrit la méthode recommandée pour migrer une application WinDev/HFSQL vers une stack **Next.js fullstack** : front React, API routes intégrées, et partage de types au sein d'un monorepo.
 
-- **Option A — Fullstack React (monorepo) : Next.js (App Router)**
-	- Front + API routes dans le même projet Next.js : partage facile des types, SSR/SSG si besoin, bon pour SEO et déploiement simplifié (Vercel, Node).
-- **Option B — Séparation front / API (best-of-breed)**
-	- Front : React + Vite (SPA) ou Next.js si SSR désiré.
-	- API : Node.js (Fastify / Express) ou NestJS pour structure, ou tRPC si tu veux un contrat TypeScript strict entre front et back.
-Pourquoi ces choix ?
+## Pourquoi choisir l'Option A ?
 
-- Next.js = solution fullstack éprouvée (pages/API intégrées, partage types, SSR si besoin).
-- Vite + API séparée = flexibilité, builds très rapides pour le front et liberté de choix pour l'API.
-- tRPC = productivité maximale si tu veux typage end-to-end sans boilerplate d'API REST.
+- **Front + API ensemble** : une seule base de code, un seul déploiement.
+- **Partage de types** facile entre pages, API et logique métier.
+- **SSR/SSG** disponibles si l'application en a besoin.
+- **Déploiement simplifié** sur Vercel, Netlify (Next.js) ou un serveur Node.
+- **Structure claire** pour migrer écran par écran dans un projet React.
 
-Structure conseillée (monorepo pnpm):
+## Ce que couvre ce playbook
+
+- le cadre de migration WinDev → React
+- la méthode de travail avec Cowork / Claude Code
+- les étapes indispensables : cartographie, prompt d'initialisation, roadmap, ADR, passation
+- les bonnes pratiques pour garder une séparation front/API solide et éviter tout accès DB direct depuis le navigateur
+
+## Choix techniques recommandés
+
+- Front : **Next.js + React + TypeScript**
+- Back : **API routes Next.js** ou **API intégrée dans le même monorepo**
+- DB cible : **PostgreSQL / SQLite / SQL Server** exposée via API REST ou GraphQL
+- ORM : **Prisma** ou **Drizzle**
+- Tests : **Vitest/Jest** pour le code, **Playwright** pour les parcours
+- Gestion de l'état : **React Query** pour les données serveur, **Context / Zustand / Redux Toolkit** pour l'état applicatif local
+
+## Structure recommandée
+
+```
+origine/          # sources WinDev, captures, exports
+templates/        # prompts, ADR, passation, skills
+docs/             # roadmap, ADR, runbooks, cartographie
 apps/
-	web/    # React (Vite or Next.js)
-	api/    # API Node (Express/Fastify/NestJS) or Next.js API routes
-packages/ # types/shared utils
-origine/  # sources WinDev, captures, exports
-docs/
-Commandes de démarrage (exemples) :
-
-```bash
-pnpm install
-pnpm --filter web build
-pnpm --filter api build
-pnpm lint
-Recommandations rapides :
-
-- Si tu veux un **développement très rapide** et un rendu SPA statique : `Vite + React` pour le front, API `Fastify/Express/NestJS` pour le back.
-- Si tu veux **unifier front et back** (partage de types, SSR, déploiement simple) : `Next.js` (App Router) avec Prisma et NextAuth.
-- Pour un API TypeScript typé de bout en bout : considère `tRPC` (monorepo) ou GraphQL selon les besoins.
-
-Voir aussi les documents du playbook pour la méthode (cartographie, ADR, roadmap, passation) présents dans `templates/` et `docs/`.
-
-**Option B — Mise en place (séparation front / API)**
-
-Pour démarrer localement avec l'approche séparée (Vite front + API Fastify) :
-
-```bash
-pnpm install
-pnpm dev:web    # lance le front (Vite)
-pnpm dev:api    # lance l'API (Fastify)
+  web/            # front Next.js + pages/routes
+  api/            # API partagée ou API routes Next.js
+packages/         # types et utilitaires partagés
 ```
 
-Le front appelle `/api/health`. En dev, configure un proxy (vite) ou lance l'API sur `http://localhost:3000` et ouvre `http://localhost:5173` pour le front.
+## Débuter la migration
 
-Si tu veux que je crée la configuration Vite proxy et un script `dev` unique (concurrently), dis-le moi et je l'ajoute.
-# Playbook — Migration WinDev/HFSQL → React, pilotée par IA
+1. Prépare le dossier `origine/` avec le code WLangage en texte, les scripts SQL, les exports de données et les captures d'écran.
+2. Remplis `templates/PromptInit.md` pour cadrer le projet et lancer la cartographie.
+3. Crée les premiers ADR dans `docs/adr/` : choix d'architecture, design system, base de données.
+4. Génère `CLAUDE.md` et `docs/roadmap.md` pour suivre l'état d'avancement.
+5. Pour chaque étape : prompt, implémentation, tests, commit, push, puis passation.
 
-Adaptation du playbook [windev-vers-dotnet](https://github.com/migration-windev/windev-vers-dotnet) à une cible **React** (front) + **API REST/GraphQL** (back) + base de données moderne, pilotée par deux assistants IA Claude (Cowork = le cerveau, Claude Code = les mains), l'humain validant à chaque étape.
+## Commandes type
 
-Ce dépôt est un **modèle réutilisable** : tu le clones au démarrage de chaque projet et il sert de cadre permanent.
+```bash
+pnpm install
+pnpm dev      # si la configuration Next.js fullstack est en place
+pnpm build
+pnpm lint
+pnpm test
+pnpm exec playwright test
+```
+
+## Annexe
+
+Voir `00-prerequis-et-installation.md`, `01-principes-et-roles.md`, `02-infrastructure.md`, `03-perimetre.md`, `04-memoire-projet-claude.md`, `05-boucle-de-travail.md`, `06-demarrage-de-zero.md`, `07-perspectives.md`, et `08-donnees.md` pour la méthode complète.
 
 ## L'idée en une phrase
 

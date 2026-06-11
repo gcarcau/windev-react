@@ -1,6 +1,0 @@
-node_modules/
-pnpm-lock.yaml
-dist/
-apps/web/dist/
-apps/api/dist/
-.env

@@ -1,0 +1,33 @@
+# Mots réservés WLangage — 31 rubriques
+
+- [Allouer (Mot réservé)](../pages/1511011.md) — *New*
+- [Arrondi (mot-clé)](../pages/1000017324.md) — *Round*
+- [Buffer (Mot-clé)](../pages/1000023538.md) — *Buffer*
+- [Champ (mot-clé)](../pages/1410089756.md) — *Control*
+- [Désignation de l'élément en cours (Mot réservé)](../pages/1511008.md)
+- [Externe (Mot réservé)](../pages/1511013.md) — *Extern*
+- [Heure (Mot-clé)](../pages/2511304.md) — *Hour/Time*
+- [Image (Mot-clé)](../pages/1000017780.md) — *Image*
+- [Libérer (Mot réservé)](../pages/1511012.md) — *Delete*
+- [MaFenêtre (Mot réservé)](../pages/1511004.md) — *MyWindow*
+- [MaFenêtreCoulissanteBasse (Mot réservé)](../pages/1511030.md) — *MyBottomSlidingWindow*
+- [MaFenêtreCoulissanteDroite (Mot réservé)](../pages/1511023.md) — *MyRightSlidingWindow*
+- [MaFenêtreCoulissanteGauche (Mot réservé)](../pages/1511022.md) — *MyLeftSlidingWindow*
+- [MaFenêtreFille (Mot réservé)](../pages/1511021.md) — *MyChildWindow*
+- [MaFenêtreInterne (Mot réservé)](../pages/1511024.md) — *MyInternalWindow*
+- [MaPage (Mot réservé)](../pages/1511017.md) — *MyPage*
+- [MaSource (Mot réservé)](../pages/1511001.md) — *MySource*
+- [MesParamètres (Mot réservé)](../pages/1511018.md) — *MyParameters*
+- [Modulo (Mot réservé)](../pages/1511002.md) — *Modulo*
+- [MoiMême (Mot réservé)](../pages/1511007.md) — *MySelf*
+- [MonChamp (Mot réservé)](../pages/1511027.md) — *MyControl*
+- [MonChampHôte (Mot réservé)](../pages/1511028.md) — *MyHostControl*
+- [MonChampPopup (Mot réservé)](../pages/1511005.md) — *MyPopupControl*
+- [MonEtat (Mot réservé)](../pages/1511010.md) — *MyReport*
+- [MonFichier (Mot réservé)](../pages/1511019.md) — *MyFile*
+- [MonParent (Mot réservé)](../pages/1511016.md) — *MyParent*
+- [Null (Mot réservé)](../pages/1511015.md)
+- [Null (mot-clé)](../pages/1000020984.md) — *Null*
+- [Point (mot-clé)](../pages/1410086573.md) — *Point*
+- [STOP (Mot réservé)](../pages/1511014.md) — *Stop*
+- [SUR (Mot réservé)](../pages/1511020.md) — *ON*

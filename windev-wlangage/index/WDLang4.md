@@ -1,0 +1,1282 @@
+# WDLang4 — 1224 rubriques
+
+## as400
+
+- [AS/400 : Méthode de développement](../pages/3072101.md)
+- [Connecteur Natif AS/400](../pages/3072100.md)
+- [WEBDEV : Connecteur Natif AS/400 pour PHP](../pages/3072102.md)
+
+## client_serveur
+
+- [Base HFSQL Client/Serveur : Recommandations](../pages/1000017310.md)
+- [Client/Serveur : Connexion des postes client au serveur](../pages/3044301.md)
+- [Comment sauvegarder des bases de données HFSQL Client/Serveur ?](../pages/1000017308.md)
+- [Compression de trames (ADSL, 3G, Edge, VPN, ...)](../pages/1000017306.md)
+- [Différences et spécificités d'une application HFSQL Client/Serveur](../pages/3044302.md)
+- [Fichier HFConf.Ini](../pages/3044345.md)
+- [Gestion des droits sur HFSQL Client/Serveur](../pages/3044333.md)
+- [Gestion des groupes et des utilisateurs (HFSQL Client/Serveur)](../pages/3044315.md)
+- [Gestion du load balancing (équilibrage dynamique de charge du serveur)](../pages/3044362.md)
+- [HFSQL Client/Serveur : Gestion des ports](../pages/3044334.md)
+- [HFSQL Client/Serveur : Paramétrage des fichiers de données sur le serveur](../pages/3044305.md)
+- [HFSQL Client/Serveur : Paramétrage du serveur](../pages/3044304.md)
+- [HFSQL Client/Serveur : Présentation](../pages/3044306.md)
+- [HFSQL Client/Serveur : Sauvegarde des bases de données](../pages/1000017182.md)
+- [HFSQL Client/Serveur : Tâches planifiées](../pages/1000017181.md)
+- [HFSQL et Docker](../pages/1000017420.md)
+- [Image Docker du serveur HFSQL](../pages/1000017421.md)
+- [Mode de fonctionnement d'une application HFSQL](../pages/3044303.md)
+- [Notifications d'un serveur HFSQL](../pages/1000017311.md)
+- [Optimiser les temps de connexion aux bases HFSQL Client/Serveur](../pages/9000176.md)
+- [Politique de gestion des mots de passe](../pages/1000017425.md)
+- [Procédures et requêtes stockées (HFSQL Client/Serveur)](../pages/3044360.md)
+- [Restauration d'une base de données HFSQL Client/Serveur](../pages/1000017309.md)
+- [Serveur Spare](../pages/1000017424.md)
+- [Structure HClient](../pages/3044340.md)
+- [Transactions Client/Serveur : Modes d'isolation disponibles](../pages/1000017316.md)
+- [Transactions en mode HFSQL Client/Serveur](../pages/3044337.md)
+- [Triggers serveur](../pages/3044369.md)
+
+## cluster
+
+- [Administration de HFSQL Cluster](../pages/1000019032.md)
+- [Installation et configuration de HFSQL Cluster](../pages/1000019031.md)
+- [Présentation de HFSQL Cluster](../pages/1000019030.md)
+- [Questions fréquemment posées sur HFSQL Cluster](../pages/1000019045.md)
+
+## fonctions_cluster
+
+- [Constantes des fonctions de gestion de Cluster HFSQL](../pages/1000019309.md)
+- [Fonctions de gestion de HFSQL Cluster](../pages/1000019033.md)
+- [HClusterAjouteNoeud (Fonction)](../pages/1000019061.md) — *HClusterAddNode*
+- [HClusterArrête (Fonction)](../pages/1000019058.md) — *HClusterStop*
+- [HClusterDémarre (Fonction)](../pages/1000019057.md) — *HClusterStart*
+- [HClusterEtat (Fonction)](../pages/1000019059.md) — *HClusterState*
+- [HClusterIgnoreSynchro (Fonction)](../pages/1000019243.md) — *HClusterIgnoreSynchro*
+- [HClusterInfoErreurSynchronisation (Fonction)](../pages/1000021975.md) — *HClusterSynchronizationErrorInfo*
+- [HClusterInfoNoeud (Fonction)](../pages/1000019060.md) — *HClusterNodeInfo*
+- [HClusterInfoSynchronisation (Fonction)](../pages/1000021974.md) — *HClusterSynchronizationInfo*
+- [HClusterNoeudMaître (Fonction)](../pages/1410087885.md) — *HClusterMasterNode*
+- [HClusterParamètre (Fonction)](../pages/1000019305.md) — *HClusterParameter*
+- [HClusterSupprimeNoeud (Fonction)](../pages/1000019062.md) — *HClusterDeleteNode*
+
+## fonctions_cs
+
+- [<Connexion HFSQL>.ListeHistoriqueReindexation (Fonction)](../pages/1410091225.md) — *<HFSQL connection>.ListReindexingHistory*
+- [<Connexion HFSQL>.RéindexeAsynchrone (Fonction)](../pages/1410091221.md) — *<HFSQL connection>.ReindexAsynchronous*
+- [<Connexion HFSQL>.StatCalculeAsynchrone (Fonction)](../pages/1410091224.md) — *<HFSQL connection>.StatCalculateAsynchronous*
+- [<Connexion HFSQL>.VérifieIndexAsynchrone (Fonction)](../pages/1410091223.md) — *<HFSQL connection>.CheckIndexAsynchronous*
+- [<Connexion HFSQL>.VérifieMémoAsynchrone (Fonction)](../pages/1410091222.md) — *<HFSQL connection>.CheckMemoAsynchronous*
+- [<Source>.ChangeMotDePasse (Fonction)](../pages/1000024591.md) — *<Source>.ChangePassword*
+- [<Source>.InfoBlocage (Fonction)](../pages/1000024995.md) — *<Source>.InfoLock*
+- [<Source>.MiseAJourLiaison (Fonction)](../pages/1000025025.md) — *<Source>.UpdateLink*
+- [<Source>.Surveille (Fonction)](../pages/1000025029.md) — *<Source>.Watch*
+- [<Source>.SurveilleStop (Fonction)](../pages/1000025030.md) — *<Source>.WatchStop*
+- [<Variable Connexion>.ActiveTriggerServeur (Fonction)](../pages/1000022637.md) — *<Connection variable>.ActivateServerTrigger*
+- [<Variable Connexion>.AjouteGroupe (Fonction)](../pages/1000022638.md) — *<Connection variable>.AddGroup*
+- [<Variable Connexion>.AjouteLiaison (Fonction)](../pages/1000022639.md) — *<Connection variable>.AddLink*
+- [<Variable Connexion>.AjouteOptimisationPlanifiée (Fonction)](../pages/1000022641.md) — *<Connection variable>.AddScheduledOptimization*
+- [<Variable Connexion>.AjoutePlanification (Fonction)](../pages/1000022642.md) — *<Connection variable>.AddScheduling*
+- [<Variable Connexion>.AjouteSauvegardePlanifiée (Fonction)](../pages/1000022644.md) — *<Connection variable>.AddScheduledBackup*
+- [<Variable Connexion>.AjouteTâche (Fonction)](../pages/1000022645.md) — *<Connection variable>.AddTask*
+- [<Variable Connexion>.AjouteUtilisateur (Fonction)](../pages/1000022646.md) — *<Connection variable>.AddUser*
+- [<Variable Connexion>.AnnuleSauvegarde (Fonction)](../pages/1000022647.md) — *<Connection variable>.CancelBackup*
+- [<Variable Connexion>.ArrêteServeur (Fonction)](../pages/1000022648.md) — *<Connection variable>.StopServer*
+- [<Variable Connexion>.ChargeParamètre (Fonction)](../pages/1000022649.md) — *<Connection variable>.LoadParameter*
+- [<Variable Connexion>.CopieFichier (Fonction)](../pages/1000022650.md) — *<Connection variable>.CopyFile*
+- [<Variable Connexion>.DupliqueBaseDeDonnées (Fonction)](../pages/1000022656.md) — *<Connection variable>.DuplicateDatabase*
+- [<Variable Connexion>.DéclencheMiseAJourServeur (Fonction)](../pages/1000022651.md) — *<Connection variable>.StartServerUpdate*
+- [<Variable Connexion>.DéconnecteClient (Fonction)](../pages/1000022652.md) — *<Connection variable>.DisconnectClient*
+- [<Variable Connexion>.DécritTriggerServeur (Fonction)](../pages/1000022653.md) — *<Connection variable>.DescribeServerTrigger*
+- [<Variable Connexion>.DésactiveTriggerServeur (Fonction)](../pages/1000022654.md) — *<Connection variable>.DeactivateServerTrigger*
+- [<Variable Connexion>.DétruitTriggerServeur (Fonction)](../pages/1000022655.md) — *<Connection variable>.DeleteServerTrigger*
+- [<Variable Connexion>.EnvoieMessageVersClient (Fonction)](../pages/1000022657.md) — *<Connection variable>.SendMessageToClient*
+- [<Variable Connexion>.ExécutePlanification (Fonction)](../pages/1000022658.md) — *<Connection variable>.ExecuteScheduling*
+- [<Variable Connexion>.ExécuteProcédure (Fonction)](../pages/1000022659.md) — *<Connection variable>.ExecuteProcedure*
+- [<Variable Connexion>.ExécuteProcédureAsynchrone (Fonction)](../pages/1410091179.md) — *<Connection variable>.ExecuteAsynchronousProcedure*
+- [<Variable Connexion>.ExécuteSauvegardePlanifiée (Fonction)](../pages/1000022660.md) — *<Connection variable >.ExecuteScheduledBackup*
+- [<Variable Connexion>.FinInterditAccèsBaseDeDonnées (Fonction)](../pages/1000022661.md) — *<Connection variable>.EndNoDatabaseAccess*
+- [<Variable Connexion>.GèreMiseAJourServeur (Fonction)](../pages/1000022662.md) — *<Connection variable>.ManageServerUpdate*
+- [<Variable Connexion>.GèreServeur (Fonction)](../pages/1000022664.md) — *<Connection variable>.SetServer*
+- [<Variable Connexion>.GèreTâche (Fonction)](../pages/1000022665.md) — *<Connection variable>.ManageTask*
+- [<Variable Connexion>.InfoBlocage (Fonction)](../pages/1000022774.md) — *<Connection variable>.InfoLock*
+- [<Variable Connexion>.InfoDroitBaseDeDonnées (Fonction)](../pages/1000022666.md) — *<Connection variable>.InfoDatabaseRights*
+- [<Variable Connexion>.InfoDroitFichier (Fonction)](../pages/1000022667.md) — *<Connection variable>.InfoFileRights*
+- [<Variable Connexion>.InfoDroitRubrique (Fonction)](../pages/1410090543.md) — *<Connection variable>.InfoItemRights*
+- [<Variable Connexion>.InfoDroitServeur (Fonction)](../pages/1000022668.md) — *<Connection variable>.InfoServerRights*
+- [<Variable Connexion>.InfoDroitVue (Fonction)](../pages/1000022669.md) — *<Connection variable>.InfoViewRights*
+- [<Variable Connexion>.InfoGroupe (Fonction)](../pages/1000022670.md) — *<Connection variable>.InfoGroup*
+- [<Variable Connexion>.InfoPropriétéBaseDeDonnées (Fonction)](../pages/1000022673.md) — *<Connection variable>.InfoDatabaseProperty*
+- [<Variable Connexion>.InfoPropriétéFichier (Fonction)](../pages/1000022674.md) — *<Connection variable>.InfoFileProperty*
+- [<Variable Connexion>.InfoPropriétéServeur (Fonction)](../pages/1000022675.md) — *<Connection variable>.InfoServerProperty*
+- [<Variable Connexion>.InfoSauvegarde (Fonction)](../pages/1000022679.md) — *<Connection variable>.InfoBackup*
+- [<Variable Connexion>.InfoServeur (Fonction)](../pages/1000022682.md) — *<Connection variable>.InfoServer*
+- [<Variable Connexion>.InfoTâche (Fonction)](../pages/1000022686.md) — *<Connection variable>.InfoTask*
+- [<Variable Connexion>.InfoUtilisateur (Fonction)](../pages/1000022687.md) — *<Connection variable>.InfoUser*
+- [<Variable Connexion>.InfoVue (Fonction)](../pages/1000022688.md) — *<Connection variable>.InfoView*
+- [<Variable Connexion>.InterditAccèsBaseDeDonnées (Fonction)](../pages/1000022690.md) — *<Connection variable>.NoDatabaseAccess*
+- [<Variable Connexion>.ListeBaseDeDonnées (Fonction)](../pages/1000022692.md) — *<Connection variable>.ListDatabase*
+- [<Variable Connexion>.ListeElémentStocké (Fonction)](../pages/1000022693.md) — *<Connection variable>.ListStoredElement*
+- [<Variable Connexion>.ListeFichiersSurveillés (Fonction)](../pages/1410090429.md) — *<Connection variable>.ListWatchedFiles*
+- [<Variable Connexion>.ListeGroupe (Fonction)](../pages/1000022694.md) — *<Connection variable>.ListGroup*
+- [<Variable Connexion>.ListeHistoriquePlanification (Fonction)](../pages/1410090890.md) — *<Connection variable>.ListSchedulingHistory*
+- [<Variable Connexion>.ListeOptimisationPlanifiée (Fonction)](../pages/1000022695.md) — *<Connection variable>.ListScheduledOptimization*
+- [<Variable Connexion>.ListeParamètre (Fonction)](../pages/1000022697.md) — *<Connection variable>.ListParameter*
+- [<Variable Connexion>.ListePlanification (Fonction)](../pages/1000022698.md) — *<Connection variable>.ListScheduling*
+- [<Variable Connexion>.ListeSauvegardePlanifiée (Fonction)](../pages/1000022699.md) — *<Connection variable>.ListScheduledBackup*
+- [<Variable Connexion>.ListeTâche (Fonction)](../pages/1000022700.md) — *<Connection variable>.ListTask*
+- [<Variable Connexion>.ListeUtilisateur (Fonction)](../pages/1000022701.md) — *<Connection variable>.ListUser*
+- [<Variable Connexion>.MaintenanceServeur (Fonction)](../pages/1000022702.md) — *<Connection variable>.ServerMaintenance*
+- [<Variable Connexion>.MiseAJourCollection (Fonction)](../pages/1000022704.md) — *<Connection variable>.UpdateSet*
+- [<Variable Connexion>.MiseAJourRequête (Fonction)](../pages/1000022705.md) — *<Connection variable>.UpdateQuery*
+- [<Variable Connexion>.MiseAJourVue (Fonction)](../pages/1000022706.md) — *<Connection variable>.UpdateView*
+- [<Variable Connexion>.ModifieDroitBaseDeDonnées (Fonction)](../pages/1000022707.md) — *<Connection variable>.ModifyDatabaseRights*
+- [<Variable Connexion>.ModifieDroitFichier (Fonction)](../pages/1000022709.md) — *<Connection variable>.ModifyFileRights*
+- [<Variable Connexion>.ModifieDroitRubrique (Fonction)](../pages/1410090544.md) — *<Connection variable>.ModifyItemRights*
+- [<Variable Connexion>.ModifieDroitServeur (Fonction)](../pages/1000022710.md) — *<Connection variable>.ModifyServerRights*
+- [<Variable Connexion>.ModifieDroitVue (Fonction)](../pages/1000022711.md) — *<Connection variable>.ModifyViewRights*
+- [<Variable Connexion>.ModifieGroupe (Fonction)](../pages/1000022714.md) — *<Connection variable>.ModifyGroup*
+- [<Variable Connexion>.ModifieOptimisationPlanifiée (Fonction)](../pages/1000022715.md) — *<Connection variable>.ModifyScheduledOptimization*
+- [<Variable Connexion>.ModifiePlanification (Fonction)](../pages/1000022716.md) — *<Connection variable>.ModifyScheduling*
+- [<Variable Connexion>.ModifiePropriétéBaseDeDonnées (Fonction)](../pages/1000022717.md) — *<Connection variable>.ModifyDatabaseProperty*
+- [<Variable Connexion>.ModifiePropriétéFichier (Fonction)](../pages/1000022718.md) — *<Connection variable>.ModifyFileProperty*
+- [<Variable Connexion>.ModifiePropriétéServeur (Fonction)](../pages/1000022720.md) — *<Connection variable>.ModifyServerProperty*
+- [<Variable Connexion>.ModifieSauvegardePlanifiée (Fonction)](../pages/1000022721.md) — *<Connection variable>.ModifyScheduledBackup*
+- [<Variable Connexion>.ModifieTâche (Fonction)](../pages/1000022722.md) — *<Connection variable>.ModifyTask*
+- [<Variable Connexion>.ModifieUtilisateur (Fonction)](../pages/1000022723.md) — *<Connection variable>.ModifyUser*
+- [<Variable Connexion>.NotifAjouteDestinataireCC (Fonction)](../pages/1000022724.md) — *<Connection variable>.NotifAddCCRecipient*
+- [<Variable Connexion>.NotifAjouteDestinataireEmail (Fonction)](../pages/1000022725.md) — *<Connection variable>.NotifAddEmailRecipient*
+- [<Variable Connexion>.NotifConfigure (Fonction)](../pages/1000022726.md) — *<Connection variable>.NotifConfigure*
+- [<Variable Connexion>.NotifListeDestinataireCC (Fonction)](../pages/1000022727.md) — *<Connection variable>.NotifListCCRecipient*
+- [<Variable Connexion>.NotifListeDestinataireEmail (Fonction)](../pages/1000022729.md) — *<Connection variable>.NotifListEmailRecipient*
+- [<Variable Connexion>.NotifSupprimeDestinataireCC (Fonction)](../pages/1000022731.md) — *<Connection variable>.NotifDeleteCCRecipient*
+- [<Variable Connexion>.NotifSupprimeDestinataireEmail (Fonction)](../pages/1000022733.md) — *<Connection variable>.NotifDeleteEmailRecipient*
+- [<Variable Connexion>.OpérationEncours (Fonction)](../pages/1000022745.md) — *<Connection variable>.OperationInProgress*
+- [<Variable Connexion>.PolitiqueSécuritéDébloqueCompte (Fonction)](../pages/1410091327.md) — *<Connection variable>.SecurityPolicyUnlockAccount*
+- [<Variable Connexion>.PolitiqueSécuritéModifie (Fonction)](../pages/1410091328.md) — *<Connection variable>.SecurityPolicySet*
+- [<Variable Connexion>.PolitiqueSécuritéRécupère (Fonction)](../pages/1410086666.md) — *<Connection variable>.SecurityPolicyGet*
+- [<Variable Connexion>.PolitiqueSécuritéVérifie (Fonction)](../pages/1410091329.md) — *<Connection variable>.SecurityPolicyCheck*
+- [<Variable Connexion>.Priorité (Fonction)](../pages/1000022746.md) — *<Connection variable>.Priority*
+- [<Variable Connexion>.PrioritéClient (Fonction)](../pages/1000022747.md) — *<Connection variable>.PriorityClient*
+- [<Variable Connexion>.QualitéConnexion (Fonction)](../pages/1000022748.md) — *<Connection variable>.ConnectionQuality*
+- [<Variable Connexion>.RestaureSauvegarde (Fonction)](../pages/1000022751.md) — *<Connection variable>.RestoreBackup*
+- [<Variable Connexion>.RécupèreLog (Fonction)](../pages/1000022749.md) — *<Connection variable>.RetrieveLog*
+- [<Variable Connexion>.RécupèreSauvegarde (Fonction)](../pages/1000022750.md) — *<Connection variable>.RetrieveBackup*
+- [<Variable Connexion>.Sauvegarde (Fonction)](../pages/1000022752.md) — *<Connection variable>.Backup*
+- [<Variable Connexion>.SauveParamètre (Fonction)](../pages/1000022753.md) — *<Connection variable>.SaveParameter*
+- [<Variable Connexion>.SimuleRéseau (Fonction)](../pages/1000022754.md) — *<Connection variable>.SimulateNetwork*
+- [<Variable Connexion>.SupprimeBaseDeDonnées (Fonction)](../pages/1000022755.md) — *<Connection variable>.DeleteDatabase*
+- [<Variable Connexion>.SupprimeCollection (Fonction)](../pages/1000022756.md) — *<Connection variable>.DeleteSet*
+- [<Variable Connexion>.SupprimeFichier (Fonction)](../pages/1000022757.md) — *<Connection variable>.DeleteFile*
+- [<Variable Connexion>.SupprimeGroupe (Fonction)](../pages/1000022758.md) — *<Connection variable>.DeleteGroup*
+- [<Variable Connexion>.SupprimeHistoriquePlanification (Fonction)](../pages/1410090891.md) — *<Connection variable>.DeleteSchedulingHistory*
+- [<Variable Connexion>.SupprimeLiaison (Fonction)](../pages/1000022759.md) — *<Connection variable>.DeleteLink*
+- [<Variable Connexion>.SupprimeOptimisationPlanifiée (Fonction)](../pages/1000022760.md) — *<Connection variable>.DeleteScheduledOptimization*
+- [<Variable Connexion>.SupprimeParamètre (Fonction)](../pages/1000022761.md) — *<Connection variable>.DeleteParameter*
+- [<Variable Connexion>.SupprimePlanification (Fonction)](../pages/1000022762.md) — *<Connection variable>.DeleteScheduling*
+- [<Variable Connexion>.SupprimeRequête (Fonction)](../pages/1000022764.md) — *<Connection variable>.DeleteQuery*
+- [<Variable Connexion>.SupprimeRépertoire (Fonction)](../pages/1000022763.md) — *<Connection variable>.DeleteDirectory*
+- [<Variable Connexion>.SupprimeSauvegarde (Fonction)](../pages/1000022765.md) — *<Connection variable>.DeleteBackup*
+- [<Variable Connexion>.SupprimeSauvegardePlanifiée (Fonction)](../pages/1000022766.md) — *<Connection variable>.DeleteScheduledBackup*
+- [<Variable Connexion>.SupprimeTâche (Fonction)](../pages/1000022767.md) — *<Connection variable>.DeleteTask*
+- [<Variable Connexion>.SupprimeUtilisateur (Fonction)](../pages/1000022769.md) — *<Connection variable>.DeleteUser*
+- [<Variable Connexion>.SupprimeVue (Fonction)](../pages/1410088611.md) — *<Connection variable>.DropView*
+- [<Variable Connexion>.TransactionIsolation (Fonction)](../pages/1000022770.md) — *<Connection variable>.TransactionIsolation*
+- [<Variable Connexion>.TransactionListe (Fonction)](../pages/1000022771.md) — *<Connection variable>.TransactionList*
+- [<Variable Connexion>.TransactionPointDeSauvegarde (Fonction)](../pages/1410087876.md) — *<Connection variable>.TransactionSavepoint*
+- [<Variable Connexion>.TransactionRetourneAuPointDeSauvegarde (Fonction)](../pages/1410087877.md) — *<Connection variable>.TransactionRollbackToSavepoint*
+- [<Variable Connexion>.VérifieMiseAJourServeur (Fonction)](../pages/1000022772.md) — *<Connection variable>.CheckServerUpdate*
+- [Fonctions de gestion de HFSQL Client/Serveur](../pages/3044316.md)
+- [Fonctions de gestion de HFSQL Client/Serveur (syntaxe préfixée)](../pages/1000025031.md)
+- [HActiveTriggerServeur (Fonction)](../pages/1000017034.md) — *HActivateServerTrigger*
+- [HAjouteGroupe (Fonction)](../pages/3044280.md) — *HAddGroup*
+- [HAjouteLiaison (Fonction)](../pages/3044312.md) — *HAddLink*
+- [HAjouteOptimisationPlanifiée (Fonction)](../pages/1000018860.md) — *HAddScheduledOptimization*
+- [HAjoutePlanification (Fonction)](../pages/1000021447.md) — *HAddScheduling*
+- [HAjouteSauvegardePlanifiée (Fonction)](../pages/1000018866.md) — *HAddScheduledBackup*
+- [HAjouteTâche (Fonction)](../pages/1000017091.md) — *HAddTask*
+- [HAjouteUtilisateur (Fonction)](../pages/3044281.md) — *HAddUser*
+- [HAnnuleSauvegarde (Fonction)](../pages/1000017082.md) — *HCancelBackup*
+- [HArrêteServeur (Fonction)](../pages/3044317.md) — *HStopServer*
+- [HChangeMotDePasse (Fonction)](../pages/1000018781.md) — *HChangePassword*
+- [HChargeParamètre (Fonction)](../pages/1000017314.md) — *HLoadParameter*
+- [HCopieFichier (Exemple)](../pages/1000021620.md)
+- [HCopieFichier (Fonction)](../pages/3044282.md) — *HCopyFile*
+- [HCréeTriggerServeur (Fonction)](../pages/1000018986.md) — *HCreateServerTrigger*
+- [HCS.DélaiReponse (Variable)](../pages/3044363.md) — *HCS.Timeout*
+- [HCS.TailleTrame (Variable)](../pages/3044364.md) — *HCS.FrameSize*
+- [HDupliqueBaseDeDonnées (Fonction)](../pages/1000022166.md) — *HDuplicateDatabase*
+- [HDéclencheMiseAJourServeur (Fonction)](../pages/1000022521.md) — *HStartServerUpdate*
+- [HDéconnecteClient (Fonction)](../pages/3044339.md) — *HDisconnectClient*
+- [HDécritTriggerServeur (Fonction)](../pages/1000017033.md) — *HDescribeServerTrigger*
+- [HDémarreServeur (Fonction)](../pages/3044318.md) — *HStartServer*
+- [HDésactiveTriggerServeur (Fonction)](../pages/1000017035.md) — *HDeactivateServerTrigger*
+- [HDétruitTriggerServeur (Fonction)](../pages/1000017036.md) — *HDeleteServerTrigger*
+- [HEnvoieMessageVersClient (Fonction)](../pages/3044346.md) — *HSendMessageToClient*
+- [HEtatServeur (Fonction)](../pages/3044319.md) — *HServerStatus*
+- [HExécutePlanification (Fonction)](../pages/1000021453.md) — *HExecuteScheduling*
+- [HExécuteProcédure (Fonction)](../pages/3044358.md) — *HExecuteProcedure*
+- [HExécuteProcédureAsynchrone (Fonction)](../pages/1410091042.md) — *HExecuteAsynchronousProcedure*
+- [HExécuteSauvegardePlanifiée (Fonction)](../pages/1000018937.md) — *HExecuteScheduledBackup*
+- [HFinInterditAccèsBaseDeDonnées (Fonction)](../pages/3044287.md) — *HEndNoDatabaseAccess*
+- [HGèreCache (Fonction)](../pages/3044310.md) — *HSetCache*
+- [HGèreMiseAJourServeur (Fonction)](../pages/1000022635.md) — *HManageServerUpdate*
+- [HGèreServeur (Fonction)](../pages/3044359.md) — *HSetServer*
+- [HGèreTâche (Fonction)](../pages/1000017113.md) — *HManageTask*
+- [HInfoBlocage (Fonction)](../pages/3044307.md) — *HInfoLock*
+- [HInfoDroitBaseDeDonnées (Exemple)](../pages/1000003044320.md)
+- [HInfoDroitBaseDeDonnées (Fonction)](../pages/3044320.md) — *HInfoDatabaseRights*
+- [HInfoDroitFichier (Exemple)](../pages/1000003044321.md)
+- [HInfoDroitFichier (Fonction)](../pages/3044321.md) — *HInfoFileRights*
+- [HInfoDroitRubrique (Fonction)](../pages/1410089919.md) — *HInfoItemRights*
+- [HInfoDroitServeur (Exemple)](../pages/1000003044322.md)
+- [HInfoDroitServeur (Fonction)](../pages/3044322.md) — *HInfoServerRights*
+- [HInfoDroitVue (Fonction)](../pages/1000021475.md) — *HInfoViewRights*
+- [HInfoGroupe (Fonction)](../pages/3044283.md) — *HInfoGroup*
+- [HInfoLog (Fonction)](../pages/3044356.md) — *HInfoLog*
+- [HInfoPropriétéBaseDeDonnées (Fonction)](../pages/3044323.md) — *HInfoDatabaseProperty*
+- [HInfoPropriétéFichier (Fonction)](../pages/3044324.md) — *HInfoFileProperty*
+- [HInfoPropriétéServeur (Fonction)](../pages/3044325.md) — *HInfoServerProperty*
+- [HInfoSauvegarde (Fonction)](../pages/1000017083.md) — *HInfoBackup*
+- [HInfoServeur (Fonction)](../pages/3044284.md) — *HInfoServer*
+- [HInfoTâche (Fonction)](../pages/1000017409.md) — *HInfoTask*
+- [HInfoUtilisateur (Fonction)](../pages/3044285.md) — *HInfoUser*
+- [HInfoVue (Fonction)](../pages/1000021619.md) — *HInfoView*
+- [HInterditAccèsBaseDeDonnées (Fonction)](../pages/3044286.md) — *HNoDatabaseAccess*
+- [HListeBaseDeDonnées (Fonction)](../pages/3044288.md) — *HListDatabase*
+- [HListeElémentStocké (Fonction)](../pages/3044367.md) — *HListStoredElement*
+- [HListeFichiersSurveillés (Fonction)](../pages/1410089900.md) — *HListWatchedFiles*
+- [HListeGroupe (Fonction)](../pages/3044289.md) — *HListGroup*
+- [HListeHistoriquePlanification (Fonction)](../pages/1410090762.md) — *HListSchedulingHistory*
+- [HListeHistoriqueRéindexation (Fonction)](../pages/1410091060.md) — *HListReindexingHistory*
+- [HListeOptimisationPlanifiée (Fonction)](../pages/1000018863.md) — *HListScheduledOptimization*
+- [HListeParamètre (Fonction)](../pages/1000017321.md) — *HListParameter*
+- [HListePlanification (Fonction)](../pages/1000021452.md) — *HListScheduling*
+- [HListeSauvegardePlanifiée (Fonction)](../pages/1000018868.md) — *HListScheduledBackup*
+- [HListeServeur (Fonction)](../pages/1000018777.md) — *HListServer*
+- [HListeTriggerServeur (Fonction)](../pages/1000017037.md) — *HListServerTrigger*
+- [HListeTâche (Fonction)](../pages/1000017092.md) — *HListTask*
+- [HListeUtilisateur (Fonction)](../pages/3044290.md) — *HListUser*
+- [HListeUtilisateurConnecté (Fonction)](../pages/3044291.md) — *HListConnectedUser*
+- [HMaintenanceServeur (Fonction)](../pages/1000022325.md) — *HServerMaintenance*
+- [HMiseAJourCollection (Fonction)](../pages/3044354.md) — *HUpdateSet*
+- [HMiseAJourLiaison (Fonction)](../pages/1000024555.md) — *HUpdateLink*
+- [HMiseAJourRequête (Fonction)](../pages/3044365.md) — *HUpdateQuery*
+- [HMiseAJourVue (Fonction)](../pages/1000021520.md) — *HUpdateView*
+- [HModifieDroitBaseDeDonnées (Fonction)](../pages/3044326.md) — *HModifyDatabaseRights*
+- [HModifieDroitFichier (Fonction)](../pages/3044327.md) — *HModifyFileRights*
+- [HModifieDroitRubrique (Fonction)](../pages/1410089918.md) — *HModifyItemRights*
+- [HModifieDroitServeur (Fonction)](../pages/3044328.md) — *HModifyServerRights*
+- [HModifieDroitVue (Fonction)](../pages/1000021368.md) — *HModifyViewRights*
+- [HModifieGroupe (Fonction)](../pages/3044308.md) — *HModifyGroup*
+- [HModifieOptimisationPlanifiée (Fonction)](../pages/1000018931.md) — *HModifyScheduledOptimization*
+- [HModifiePlanification (Fonction)](../pages/1000021450.md) — *HModifyScheduling*
+- [HModifiePropriétéBaseDeDonnées (Fonction)](../pages/3044329.md) — *HModifyDatabaseProperty*
+- [HModifiePropriétéFichier (Fonction)](../pages/3044330.md) — *HModifyFileProperty*
+- [HModifiePropriétéServeur (Fonction)](../pages/3044331.md) — *HModifyServerProperty*
+- [HModifieSauvegardePlanifiée (Fonction)](../pages/1000018932.md) — *HModifyScheduledBackup*
+- [HModifieTâche (Fonction)](../pages/1000017374.md) — *HModifyTask*
+- [HModifieUtilisateur (Fonction)](../pages/3044309.md) — *HModifyUser*
+- [HNotifAjouteDestinataireCC (Fonction)](../pages/1000020387.md) — *HNotifAddCCRecipient*
+- [HNotifAjouteDestinataireEmail (Fonction)](../pages/1000020386.md) — *HNotifAddEmailRecipient*
+- [HNotifConfigure (Fonction)](../pages/1000020390.md) — *HNotifConfigure*
+- [HNotifListeDestinataireCC (Fonction)](../pages/1000020391.md) — *HNotifListCCRecipient*
+- [HNotifListeDestinataireEmail (Fonction)](../pages/1000020388.md) — *HNotifListEmailRecipient*
+- [HNotifSupprimeDestinataireCC (Fonction)](../pages/1000020398.md) — *HNotifDeleteCCRecipient*
+- [HNotifSupprimeDestinataireEmail (Fonction)](../pages/1000020399.md) — *HNotifDeleteEmailRecipient*
+- [HOpérationEncours (Fonction)](../pages/1000022480.md) — *HOperationInProgress*
+- [hOpérationServeur (Type de variable)](../pages/1000022471.md) — *hServerOperation*
+- [hPolitiqueSécurité (Type de variable)](../pages/1410091181.md) — *hSecurityPolicy*
+- [HPolitiqueSécuritéDébloqueCompte (Fonction)](../pages/1410091235.md) — *HSecurityPolicyUnlockAccount*
+- [HPolitiqueSécuritéModifie (Fonction)](../pages/1410091205.md) — *HSecurityPolicySet*
+- [HPolitiqueSécuritéRécupère (Fonction)](../pages/1410091207.md) — *HSecurityPolicyGet*
+- [HPolitiqueSécuritéVérifie (Fonction)](../pages/1410091206.md) — *HSecurityPolicyCheck*
+- [HPriorité (Fonction)](../pages/3044352.md) — *HPriority*
+- [HPrioritéClient (Fonction)](../pages/3044353.md) — *HPriorityClient*
+- [HPurgeRepTravail (Fonction)](../pages/1000017767.md) — *HClearWorkingDir*
+- [HQualitéConnexion (Fonction)](../pages/1000018291.md) — *HConnectionQuality*
+- [HRAZClient (Fonction)](../pages/3044341.md) — *HResetClient*
+- [HRAZGroupe (Fonction)](../pages/3044292.md) — *HResetGroup*
+- [HRAZUtilisateur (Fonction)](../pages/3044293.md) — *HResetUser*
+- [HReconnecte (Fonction)](../pages/1000017278.md) — *HReconnect*
+- [HRepTravailServeur (Fonction)](../pages/1000017768.md) — *HServerWorkingDir*
+- [HRestaureSauvegarde (Exemple)](../pages/1000020402.md)
+- [HRestaureSauvegarde (Fonction)](../pages/1000017230.md) — *HRestoreBackup*
+- [HRécupèreLog (Fonction)](../pages/3044357.md) — *HRetrieveLog*
+- [HRécupèreSauvegarde (Fonction)](../pages/1000022468.md) — *HRetrieveBackup*
+- [HRéindexeAsynchrone (Fonction)](../pages/1410091053.md) — *HReindexAsynchronous*
+- [HSauvegarde (Fonction)](../pages/1000017081.md) — *HBackup*
+- [HSauveParamètre (Fonction)](../pages/1000017313.md) — *HSaveParameter*
+- [HSimuleRéseau (Fonction)](../pages/1000018954.md) — *HSimulateNetwork*
+- [HStatCalculeAsynchrone (Fonction)](../pages/1410091108.md) — *HStatCalculateAsynchronous*
+- [HSuggèreClé (Fonction)](../pages/1000025903.md) — *HSuggestKey*
+- [HSuggèreCléDébut (Fonction)](../pages/1000025905.md) — *HSuggestKeyStart*
+- [HSuggèreCléFin (Fonction)](../pages/1000025906.md) — *HSuggestKeyEnd*
+- [HSupprimeBaseDeDonnées (Fonction)](../pages/3044332.md) — *HDeleteDatabase*
+- [HSupprimeCollection (Fonction)](../pages/3044355.md) — *HDeleteSet*
+- [HSupprimeFichier (Fonction)](../pages/3044294.md) — *HDeleteFile*
+- [HSupprimeGroupe (Fonction)](../pages/3044295.md) — *HDeleteGroup*
+- [HSupprimeHistoriquePlanification (Fonction)](../pages/1410090760.md) — *HDeleteSchedulingHistory*
+- [HSupprimeLiaison (Fonction)](../pages/3044314.md) — *HDeleteLink*
+- [HSupprimeOptimisationPlanifiée (Fonction)](../pages/1000018865.md) — *HDeleteScheduledOptimization*
+- [HSupprimeParamètre (Fonction)](../pages/1000017315.md) — *HDeleteParameter*
+- [HSupprimePlanification (Fonction)](../pages/1000021448.md) — *HDeleteScheduling*
+- [HSupprimeRequête (Fonction)](../pages/3044366.md) — *HDeleteQuery*
+- [HSupprimeRépertoire (Fonction)](../pages/1000019001.md) — *HDeleteDirectory*
+- [HSupprimeSauvegarde (Fonction)](../pages/1000017373.md) — *HDeleteBackup*
+- [HSupprimeSauvegardePlanifiée (Fonction)](../pages/1000018870.md) — *HDeleteScheduledBackup*
+- [HSupprimeToutHistoriquePlanification (Fonction)](../pages/1410090761.md) — *HClearSchedulingHistory*
+- [HSupprimeTâche (Fonction)](../pages/1000017093.md) — *HDeleteTask*
+- [HSupprimeUtilisateur (Fonction)](../pages/3044296.md) — *HDeleteUser*
+- [HSupprimeVue (Fonction)](../pages/1410088606.md) — *HDropView*
+- [HSurAppelServeur (Fonction)](../pages/3044343.md) — *HOnServerCall*
+- [HSurveille (Fonction)](../pages/1000022407.md) — *HWatch*
+- [HSurveilleStop (Fonction)](../pages/1000022430.md) — *HWatchStop*
+- [HTransactionIsolation (Fonction)](../pages/1000020926.md) — *HTransactionIsolation*
+- [HTransactionListe (Fonction)](../pages/3044351.md) — *HTransactionList*
+- [HTransactionPointDeSauvegarde (Fonction)](../pages/1410087841.md) — *HTransactionSavepoint*
+- [HTransactionRetourneAuPointDeSauvegarde (Fonction)](../pages/1410087842.md) — *HTransactionRollbackToSavepoint*
+- [HVérifieIndexAsynchrone (Fonction)](../pages/1410091105.md) — *HCheckIndexAsynchronous*
+- [HVérifieMiseAJourServeur (Fonction)](../pages/1000022520.md) — *HCheckServerUpdate*
+- [HVérifieMémoAsynchrone (Fonction)](../pages/1410091107.md) — *HCheckMemoAsynchronous*
+- [Paramètres de la procédure utilisée par la fonction HRéindexeAsynchrone](../pages/1410091054.md)
+- [Paramètres de la procédure utilisée par la fonction HStatCalculeAsynchrone](../pages/1410091116.md)
+- [Paramètres de la procédure utilisée par la fonction HVérifieIndexAsynchrone](../pages/1410091216.md)
+- [Paramètres de la procédure utilisée par la fonction HVérifieMémoAsynchrone](../pages/1410091106.md)
+- [Procédure WLangage appelée par la fonction HSurveille](../pages/1000024804.md)
+
+## fonctions_h_base
+
+- [Fonctions HBase](../pages/1410086588.md)
+- [Gestion des bases HBase](../pages/1410086585.md)
+- [hbCellule (Type de variable)](../pages/1000021707.md) — *hbCell*
+- [hbColonne (Type de variable)](../pages/1000021698.md) — *hbColumn*
+- [hbConnexion (Type de variable)](../pages/1000021685.md) — *hbConnection*
+- [hbCréeTable (Fonction)](../pages/1000021696.md) — *hbCreateTable*
+- [hbDescriptionColonne (Type de variable)](../pages/1000021694.md) — *hbColumnDescription*
+- [hbDescriptionTable (Type de variable)](../pages/1000021688.md) — *hbTableDescription*
+- [hbEcrit (Fonction)](../pages/1000021712.md) — *hbWrite*
+- [hbEcriture (Type de variable)](../pages/1000021710.md) — *hbWriting*
+- [hbLecture (Type de variable)](../pages/1000021701.md) — *hbReading*
+- [hbListeTable (Fonction)](../pages/1000021687.md) — *hbListTable*
+- [hbLit (Fonction)](../pages/1000021706.md) — *hbRead*
+- [hbParamètreScan (Type de variable)](../pages/1000021715.md) — *hbScanParameter*
+- [hbRécupèreDescriptionTable (Fonction)](../pages/1000021695.md) — *hbGetTableDescription*
+- [hbRésultatScan (Type de variable)](../pages/1000021724.md) — *hbResultScan*
+- [hbSupprime (Fonction)](../pages/1000021714.md) — *hbDelete*
+- [hbSupprimeTable (Fonction)](../pages/1000021713.md) — *hbDeleteTable*
+
+## fonctions_hdfs
+
+- [<Variable hdfsConnexion>.CopieDepuis (Fonction)](../pages/1000021980.md) — *<hdfsConnection variable>.CopyFrom*
+- [<Variable hdfsConnexion>.CopieVers (Fonction)](../pages/1000021981.md) — *<hdfsConnection variable>.CopyTo*
+- [<Variable hdfsConnexion>.CréeRépertoire (Fonction)](../pages/1000021982.md) — *<hdfsConnection variable>.CreateDirectory*
+- [<Variable hdfsConnexion>.FermeConnexion (Fonction)](../pages/1000021983.md) — *<hdfsConnection variable>.CloseConnection*
+- [<Variable hdfsConnexion>.Liste (Fonction)](../pages/1000021984.md) — *<hdfsConnection variable>.List*
+- [<Variable hdfsConnexion>.OuvreConnexion (Fonction)](../pages/1000021985.md) — *<hdfsConnection variable>.OpenConnection*
+- [<Variable hdfsConnexion>.Renomme (Fonction)](../pages/1000021986.md) — *<hdfsConnection variable>.Rename*
+- [<Variable hdfsConnexion>.Supprime (Fonction)](../pages/1000021987.md) — *<hdfsConnection variable>.Delete*
+- [Constantes HDFS](../pages/1000021976.md)
+- [Fonctions HDFS](../pages/1000021978.md)
+- [Fonctions HDFS (syntaxe préfixée)](../pages/1000021989.md)
+- [Gestion des bases Hive](../pages/1000021979.md)
+- [Gestion du système HDFS](../pages/1000021977.md)
+- [Gestion du système HDFS (syntaxe préfixée)](../pages/1000021990.md)
+- [hdfsConnexion (Type de variable)](../pages/1000021650.md) — *hdfsConnection*
+- [hdfsCopieDepuis (Fonction)](../pages/1000021678.md) — *hdfsCopyFrom*
+- [hdfsCopieVers (Fonction)](../pages/1000021679.md) — *hdfsCopyTo*
+- [hdfsCréeRépertoire (Fonction)](../pages/1000021675.md) — *hdfsCreateDirectory*
+- [hdfsDroit (Type de variable)](../pages/1000021662.md) — *hdfsRights*
+- [hdfsFermeConnexion (Fonction)](../pages/1000021867.md) — *hdfsCloseConnection*
+- [hdfsInformation (Type de variable)](../pages/1000021973.md) — *hdfsStatus*
+- [hdfsListe (Fonction)](../pages/1000021677.md) — *hdfsList*
+- [hdfsOuvreConnexion (Fonction)](../pages/1000021866.md) — *hdfsOpenConnection*
+- [hdfsRenomme (Fonction)](../pages/1000021676.md) — *hdfsRename*
+- [hdfsSupprime (Fonction)](../pages/1000021674.md) — *hdfsDelete*
+
+## fonctions_hf_compat
+
+- [Structure HTâchePlanifiée](../pages/1000017180.md) — *HScheduledTask structure*
+
+## fonctions_hyper_file
+
+- [<Destination>.CopieEnreg (Fonction)](../pages/1000024206.md) — *<Destination>.CopyRecord*
+- [<Source>.ActiveFiltre (Fonction)](../pages/1000023969.md) — *<Source>.ActivateFilter*
+- [<Source>.ActiveFiltreAuto (Fonction)](../pages/1000024171.md) — *<Source>.ActivateAutoFilter*
+- [<Source>.Ajoute (Fonction)](../pages/1000024187.md) — *<Source>.Add*
+- [<Source>.Alias (Fonction)](../pages/1000024191.md) — *<Source>.Alias*
+- [<Source>.AnnuleDéclaration (Fonction)](../pages/1000024192.md) — *<Source>.CancelDeclaration*
+- [<Source>.AnnuleRecherche (Fonction)](../pages/1000024193.md) — *<Source>.CancelSeek*
+- [<Source>.AttacheMémo (Fonction)](../pages/1000024194.md) — *<Source>.LinkMemo*
+- [<Source>.Avance (Fonction)](../pages/1000024195.md) — *<Source>.Forward*
+- [<Source>.BloqueFichier (Fonction)](../pages/1000024196.md) — *<Source>.LockFile*
+- [<Source>.BloqueNumEnr (Fonction)](../pages/1000024197.md) — *<Source>.LockRecNum*
+- [<Source>.ChangeClé (Fonction)](../pages/1000024198.md) — *<Source>.ChangeKey*
+- [<Source>.ChangeConnexion (Fonction)](../pages/1000024199.md) — *<Source>.ChangeConnection*
+- [<Source>.ChangeLocalisation (Fonction)](../pages/1000024200.md) — *<Source>.ChangeLocation*
+- [<Source>.ChangeNom (Fonction)](../pages/1000024201.md) — *<Source>.ChangeName*
+- [<Source>.ChangeRep (Fonction)](../pages/1000024202.md) — *<Source>.ChangeDir*
+- [<Source>.ChangeRepJnl (Fonction)](../pages/1000024203.md) — *<Source>.ChangeLogDir*
+- [<Source>.CompareRubrique (Fonction)](../pages/1000024204.md) — *<Source>.CompareItem*
+- [<Source>.ConstruitValClé (Fonction)](../pages/1000024205.md) — *<Source>.BuildKeyValue*
+- [<Source>.Création (Fonction)](../pages/1000024207.md) — *<Source>.Creation*
+- [<Source>.CréationSiInexistant (Fonction)](../pages/1000024208.md) — *<Source>.CreationIfNotFound*
+- [<Source>.CréeVue (Fonction)](../pages/1000024209.md) — *<Source>.CreateView*
+- [<Source>.DateEnreg (Fonction)](../pages/1000024210.md) — *<Source>.RecordDate*
+- [<Source>.Dernier (Fonction)](../pages/1000024217.md) — *<Source>.Last*
+- [<Source>.DupliqueEnregistrement (Fonction)](../pages/1000024222.md) — *<Source>.DuplicateRecord*
+- [<Source>.DébloqueFichier (Fonction)](../pages/1000024211.md) — *<Source>.UnlockFile*
+- [<Source>.DébloqueNumEnr (Fonction)](../pages/1000024212.md) — *<Source>.UnlockRecNum*
+- [<Source>.Déclare (Fonction)](../pages/1000024213.md) — *<Source>.Declare*
+- [<Source>.DéclareExterne (Fonction)](../pages/1000024214.md) — *<Source>.DeclareExternal*
+- [<Source>.DécritFichier (Fonction)](../pages/1000024215.md) — *<Source>.DescribeFile*
+- [<Source>.DécritTrigger (Fonction)](../pages/1000024216.md) — *<Source>.DescribeTrigger*
+- [<Source>.DésactiveFiltre (Fonction)](../pages/1000024218.md) — *<Source>.DeactivateFilter*
+- [<Source>.DésactiveFiltreAuto (Fonction)](../pages/1000024219.md) — *<Source>.DeactivateAutoFilter*
+- [<Source>.DétruitTrigger (Fonction)](../pages/1000024220.md) — *<Source>.DeleteTrigger*
+- [<Source>.DétruitVue (Fonction)](../pages/1000024221.md) — *<Source>.DeleteView*
+- [<Source>.Ecrit (Fonction)](../pages/1000024331.md) — *<Source>.Write*
+- [<Source>.EnDehors (Fonction)](../pages/1000024605.md) — *<Source>.Out*
+- [<Source>.Enregistre (Fonction)](../pages/1000024606.md) — *<Source>.Save*
+- [<Source>.EnregistrementVersChaîne (Fonction)](../pages/1000026034.md) — *<Source>.RecordToString*
+- [<Source>.EnregistrementVersJSON (Fonction)](../pages/1000024607.md) — *<Source>.RecordToJSON*
+- [<Source>.EnregistrementVersXML (Fonction)](../pages/1000024610.md) — *<Source>.RecordToXML*
+- [<Source>.ErreurEtatModification (Fonction)](../pages/1000024941.md) — *<Source>.ErrorStatusModification*
+- [<Source>.ErreurModification (Fonction)](../pages/1000024942.md) — *<Source>.ErrorModification*
+- [<Source>.Etat (Fonction)](../pages/1000024943.md) — *<Source>.State*
+- [<Source>.ExporteChaîneJSON (Fonction)](../pages/1410088491.md) — *<Source>.ExportJSONString*
+- [<Source>.ExporteCSV (Fonction)](../pages/1000024952.md) — *<Source>.ExportCSV*
+- [<Source>.ExporteJSON (Fonction)](../pages/1000024954.md) — *<Source>.ExportJSON*
+- [<Source>.ExporteXLS (Fonction)](../pages/1000024955.md) — *<Source>.ExportXLS*
+- [<Source>.ExporteXML (Fonction)](../pages/1000024956.md) — *<Source>.ExportXML*
+- [<Source>.ExtraitMémo (Fonction)](../pages/1000024957.md) — *<Source>.ExtractMemo*
+- [<Source>.ExécuteRequête (Fonction)](../pages/1000024944.md) — *<Source>.ExecuteQuery*
+- [<Source>.ExécuteRequêteAsynchrone (Fonction)](../pages/1000026111.md) — *<Source>.ExecuteQueryAsynchronous*
+- [<Source>.ExécuteRequêteSQL (Fonction)](../pages/1000024948.md) — *<Source>.ExecuteSQLQuery*
+- [<Source>.ExécuteRequêteSQLAsynchrone (Fonction)](../pages/1000026112.md) — *<Source>.ExecuteSQLQueryAsynchronous*
+- [<Source>.ExécuteVue (Fonction)](../pages/1000024949.md) — *<Source>.ExecuteView*
+- [<Source>.Ferme (Fonction)](../pages/1000024958.md) — *<Source>.Close*
+- [<Source>.FichierExiste (Fonction)](../pages/1000024959.md) — *<Source>.FileExist*
+- [<Source>.Filtre (Fonction)](../pages/1000024960.md) — *<Source>.Filter*
+- [<Source>.FiltreCommencePar (Fonction)](../pages/1000024976.md) — *<Source>.FilterStartsWith*
+- [<Source>.FiltreComprisEntre (Fonction)](../pages/1000024977.md) — *<Source>.FilterIncludedBetween*
+- [<Source>.FiltreContient (Fonction)](../pages/1000024978.md) — *<Source>.FilterContains*
+- [<Source>.FiltreIdentique (Fonction)](../pages/1000024979.md) — *<Source>.FilterIdentical*
+- [<Source>.FinInterditModif (Fonction)](../pages/1000024980.md) — *<Source>.EndNoModif*
+- [<Source>.ForceEcriture (Fonction)](../pages/1000024981.md) — *<Source>.Flush*
+- [<Source>.FTListeMot (Fonction)](../pages/1000024982.md) — *<Source>.FTListWord*
+- [<Source>.FusionneVue (Fonction)](../pages/1000024983.md) — *<Source>.MergeView*
+- [<Source>.GèreDoublon (Fonction)](../pages/1000024985.md) — *<Source>.SetDuplicates*
+- [<Source>.GèreJournal (Fonction)](../pages/1000024986.md) — *<Source>.SetLog*
+- [<Source>.GèreMémo (Fonction)](../pages/1000024987.md) — *<Source>.SetMemo*
+- [<Source>.GèreTransaction (Fonction)](../pages/1000024988.md) — *<Source>.SetTransaction*
+- [<Source>.HistoriqueModification (Fonction)](../pages/1000024989.md) — *<Source>.HistoryModification*
+- [<Source>.ImporteCSV (Fonction)](../pages/1410090623.md) — *<Source>.ImportCSV*
+- [<Source>.ImporteHF55 (Fonction)](../pages/1000024990.md) — *<Source>.ImportHF55*
+- [<Source>.ImporteJSON (Fonction)](../pages/1000024991.md) — *<Source>.ImportJSON*
+- [<Source>.ImporteTexte (Fonction)](../pages/1000024992.md) — *<Source>.ImportText*
+- [<Source>.ImporteXLS (Fonction)](../pages/1000024993.md) — *<Source>.ImportXLS*
+- [<Source>.ImporteXML (Fonction)](../pages/1000024994.md) — *<Source>.ImportXML*
+- [<Source>.InfoFichier (Fonction)](../pages/1000024996.md) — *<Source>.InfoFile*
+- [<Source>.InfoMémo (Fonction)](../pages/1000024997.md) — *<Source>.InfoMemo*
+- [<Source>.InitAbonné (Fonction)](../pages/1000024998.md) — *<Source>.InitSubscriber*
+- [<Source>.InterditModif (Fonction)](../pages/1000024999.md) — *<Source>.NoModif*
+- [<Source>.JournalInfo (Fonction)](../pages/1000025000.md) — *<Source>.LogInfo*
+- [<Source>.JournalRecrée (Fonction)](../pages/1000025006.md) — *<Source>.LogRecreate*
+- [<Source>.JournalRedémarre (Fonction)](../pages/1000025007.md) — *<Source>.LogRestart*
+- [<Source>.JournalStop (Fonction)](../pages/1000025008.md) — *<Source>.LogStop*
+- [<Source>.JSONVersEnregistrement (Fonction)](../pages/1000025009.md) — *<Source>.JSONToRecord*
+- [<Source>.LibèreRequête (Fonction)](../pages/1000025011.md) — *<Source>.FreeQuery*
+- [<Source>.ListeClé (Fonction)](../pages/1000025012.md) — *<Source>.ListKey*
+- [<Source>.ListeClésSpatiales (Fonction)](../pages/1410090489.md) — *<Source>.ListSpatialKeys*
+- [<Source>.ListeIndexFullText (Fonction)](../pages/1000025013.md) — *<Source>.ListFullTextIndex*
+- [<Source>.ListeLiaison (Fonction)](../pages/1000025014.md) — *<Source>.ListLink*
+- [<Source>.ListeMotVide (Fonction)](../pages/1000025015.md) — *<Source>.ListStopWord*
+- [<Source>.ListeParamRequête (Fonction)](../pages/1000025016.md) — *<Source>.ListQueryParameter*
+- [<Source>.ListeRubrique (Fonction)](../pages/1000025017.md) — *<Source>.ListItem*
+- [<Source>.ListeSynonyme (Fonction)](../pages/1000025018.md) — *<Source>.ListSynonym*
+- [<Source>.Lit (Fonction)](../pages/1000025019.md) — *<Source>.Read*
+- [<Source>.LitDernier (Fonction)](../pages/1000025020.md) — *<Source>.ReadLast*
+- [<Source>.LitPremier (Fonction)](../pages/1000025022.md) — *<Source>.ReadFirst*
+- [<Source>.LitPrécédent (Fonction)](../pages/1000025021.md) — *<Source>.ReadPrevious*
+- [<Source>.LitRecherche (Fonction)](../pages/1000025023.md) — *<Source>.ReadSeek*
+- [<Source>.LitRechercheDernier (Fonction)](../pages/1000025024.md) — *<Source>.ReadSeekLast*
+- [<Source>.LitRecherchePremier (Fonction)](../pages/1000025034.md) — *<Source>.ReadSeekFirst*
+- [<Source>.LitSuivant (Fonction)](../pages/1000025035.md) — *<Source>.ReadNext*
+- [<Source>.MigreCléComposéeReliée (Fonction)](../pages/1000025036.md) — *<Source>.MigrateLinkedCompositeKey*
+- [<Source>.Mode (Fonction)](../pages/1000025037.md) — *<Source>.Mode*
+- [<Source>.Modifie (Fonction)](../pages/1000025038.md) — *<Source>.Modify*
+- [<Source>.ModifieStructure (Fonction)](../pages/1000025039.md) — *<Source>.ModifyStructure*
+- [<Source>.MotDePasse (Fonction)](../pages/1000025044.md) — *<Source>.Password*
+- [<Source>.NbEnr (Fonction)](../pages/1000025040.md) — *<Source>.NbRec*
+- [<Source>.NumEnr (Fonction)](../pages/1000025041.md) — *<Source>.RecNum*
+- [<Source>.Optimise (Fonction)](../pages/1000025042.md) — *<Source>.Optimize*
+- [<Source>.Ouvre (Fonction)](../pages/1000025043.md) — *<Source>.Open*
+- [<Source>.PositionCourante (Fonction)](../pages/1000025045.md) — *<Source>.GetCurrentPosition*
+- [<Source>.Positionne (Fonction)](../pages/1000025046.md) — *<Source>.SetPosition*
+- [<Source>.Premier (Fonction)](../pages/1000025048.md) — *<Source>.First*
+- [<Source>.Précédent (Fonction)](../pages/1000025047.md) — *<Source>.Previous*
+- [<Source>.PrépareRequête (Fonction)](../pages/1000025049.md) — *<Source>.PrepareQuery*
+- [<Source>.PrépareRequêteSQL (Fonction)](../pages/1000025050.md) — *<Source>.PrepareSQLQuery*
+- [<Source>.Raye (Fonction)](../pages/1000025051.md) — *<Source>.Cross*
+- [<Source>.RAZ (Fonction)](../pages/1000025052.md) — *<Source>.Reset*
+- [<Source>.Recherche (Fonction)](../pages/1000025053.md) — *<Source>.Seek*
+- [<Source>.RechercheDernier (Fonction)](../pages/1000025054.md) — *<Source>.SeekLast*
+- [<Source>.RecherchePremier (Fonction)](../pages/1000025055.md) — *<Source>.SeekFirst*
+- [<Source>.Recule (Fonction)](../pages/1000025056.md) — *<Source>.Backward*
+- [<Source>.RequêteExécutée (Fonction)](../pages/1410090480.md) — *<Source>.QueryExecuted*
+- [<Source>.RetourPosition (Fonction)](../pages/1000025061.md) — *<Source>.RestorePosition*
+- [<Source>.RécupèreEnregistrement (Fonction)](../pages/1000025057.md) — *<Source>.RetrieveRecord*
+- [<Source>.RécupèreRubrique (Fonction)](../pages/1000025058.md) — *<Source>.RetrieveItem*
+- [<Source>.RéindexationEnCours (Fonction)](../pages/1000025059.md) — *<Source>.ReindexingInProgress*
+- [<Source>.Réindexe (Fonction)](../pages/1000025060.md) — *<Source>.Index*
+- [<Source>.SauvePosition (Fonction)](../pages/1000025062.md) — *<Source>.SavePosition*
+- [<Source>.SourceDeDonnéesConnue (Fonction)](../pages/1410090481.md) — *<Source>.DataSourceKnown*
+- [<Source>.StatCalcule (Fonction)](../pages/1000025064.md) — *<Source>.StatCalculate*
+- [<Source>.StatDate (Fonction)](../pages/1000025065.md) — *<Source>.StatDate*
+- [<Source>.StatHeure (Fonction)](../pages/1000025066.md) — *<Source>.StatTime*
+- [<Source>.StatNbDoublon (Fonction)](../pages/1000025067.md) — *<Source>.StatNbDuplicates*
+- [<Source>.StatNbEnr (Fonction)](../pages/1000025068.md) — *<Source>.StatNbRec*
+- [<Source>.StatNbEnrIntervalle (Fonction)](../pages/1000025069.md) — *<Source>.StatNbRecRange*
+- [<Source>.Suivant (Fonction)](../pages/1000025070.md) — *<Source>.Next*
+- [<Source>.Supprime (Fonction)](../pages/1000025071.md) — *<Source>.Delete*
+- [<Source>.SupprimeTout (Fonction)](../pages/1000025072.md) — *<Source>.DeleteAll*
+- [<Source>.SupprimeToutRayé (Fonction)](../pages/1000025010.md) — *<Source>.Free*
+- [<Source>.SurErreur (Fonction)](../pages/1000025073.md) — *<Source>.OnError*
+- [<Source>.Sécurité (Fonction)](../pages/1000025063.md) — *<Source>.Security*
+- [<Source>.TransactionLibère (Fonction)](../pages/1000025074.md) — *<Source>.TransactionFree*
+- [<Source>.TrieVue (Fonction)](../pages/1000025075.md) — *<Source>.SortView*
+- [<Source>.Trouve (Fonction)](../pages/1000025076.md) — *<Source>.Found*
+- [<Source>.VersFichier (Fonction)](../pages/1000025081.md) — *<Source>.ToFile*
+- [<Source>.Version (Fonction)](../pages/1000025082.md) — *<Source>.Version*
+- [<Source>.VersRubrique (Fonction)](../pages/1000025083.md) — *<Source>.ToItem*
+- [<Source>.VueVersFichier (Fonction)](../pages/1000025084.md) — *<Source>.ViewToFile*
+- [<Source>.VérifieInaltéré (Fonction)](../pages/1000025077.md) — *<Source>.CheckUnaltered*
+- [<Source>.VérifieIndex (Fonction)](../pages/1000025078.md) — *<Source>.CheckIndex*
+- [<Source>.VérifieMémo (Fonction)](../pages/1000025079.md) — *<Source>.CheckMemo*
+- [<Source>.VérifieStructure (Fonction)](../pages/1000025080.md) — *<Source>.CheckStructure*
+- [<Variable Connexion>.FermeConnexion (Fonction)](../pages/1000023941.md) — *<Connection variable>.CloseConnection*
+- [<Variable Connexion>.FichierExiste (Fonction)](../pages/1000023959.md) — *<Connection variable>.FileExist*
+- [<Variable Connexion>.GèreIntégrité (Fonction)](../pages/1000023960.md) — *<Connection variable>.SetIntegrity*
+- [<Variable Connexion>.InfoFichier (Fonction)](../pages/1000023961.md) — *<Connection variable>.InfoFile*
+- [<Variable Connexion>.OuvreConnexion (Fonction)](../pages/1000023962.md) — *<Connection variable>.OpenConnection*
+- [<Variable Connexion>.RafraîchitVue (Fonction)](../pages/1000023963.md) — *<Connection variable>.RefreshView*
+- [<Variable Connexion>.RégénèreFichier (Fonction)](../pages/1000023964.md) — *<Connection variable>.RegenerateFile*
+- [<Variable Connexion>.Transaction (Fonction)](../pages/1000023965.md) — *<Connection variable>.Transaction*
+- [<Variable Connexion>.TransactionAnnule (Fonction)](../pages/1000023966.md) — *<Connection variable>.TransactionCancel*
+- [<Variable Connexion>.TransactionDébut (Fonction)](../pages/1000023967.md) — *<Connection variable>.TransactionStart*
+- [<Variable Connexion>.TransactionFin (Fonction)](../pages/1000023968.md) — *<Connection variable>.TransactionEnd*
+- [Constantes de gestion de la réplication](../pages/3044368.md)
+- [Constantes HFSQL](../pages/3044144.md)
+- [Convert (Fonction)](../pages/3044244.md) — *Convert*
+- [EspaceSignificatif (Exemple)](../pages/1000003044142.md)
+- [EspaceSignificatif (Fonction)](../pages/3044142.md) — *WithSpace*
+- [Fonctions de gestion HFSQL](../pages/3044156.md)
+- [Fonctions de gestion HFSQL (syntaxe préfixée)](../pages/1000025085.md)
+- [HAccélèreVitesse (Fonction)](../pages/1000019375.md) — *HAccelerateSpeed*
+- [HActiveFiltre (Fonction)](../pages/3044158.md) — *HActivateFilter*
+- [HActiveFiltreAuto (Fonction)](../pages/3044297.md) — *HActivateAutoFilter*
+- [HActiveTrigger (Fonction)](../pages/3044155.md) — *HActivateTrigger*
+- [HAjoute (Exemple)](../pages/1000003044147.md)
+- [HAjoute (Fonction)](../pages/3044147.md) — *HAdd*
+- [HAlias (Exemple)](../pages/1000003044176.md)
+- [HAlias (Fonction)](../pages/3044176.md) — *HAlias*
+- [HAnnuleAlias (Fonction)](../pages/3044149.md) — *HCancelAlias*
+- [HAnnuleDéclaration (Exemple)](../pages/1000003044174.md)
+- [HAnnuleDéclaration (Fonction)](../pages/3044174.md) — *HCancelDeclaration*
+- [HAnnuleRecherche (Fonction)](../pages/3044157.md) — *HCancelSeek*
+- [HAttacheMémo (Exemple)](../pages/1000003044173.md)
+- [HAttacheMémo (Fonction)](../pages/3044173.md) — *HLinkMemo*
+- [HAvance (Exemple)](../pages/1000003044154.md)
+- [HAvance (Fonction)](../pages/3044154.md) — *HForward*
+- [HBloqueFichier (Fonction)](../pages/3044153.md) — *HLockFile*
+- [HBloqueNumEnr (Fonction)](../pages/3044152.md) — *HLockRecNum*
+- [HChangeClé (Exemple)](../pages/1000003044151.md)
+- [HChangeClé (Fonction)](../pages/3044151.md) — *HChangeKey*
+- [HChangeConnexion (Exemple)](../pages/1000003044150.md)
+- [HChangeConnexion (Fonction)](../pages/3044150.md) — *HChangeConnection*
+- [HChangeLocalisation (Fonction)](../pages/3044167.md) — *HChangeLocation*
+- [HChangeNom (Exemple)](../pages/1000003044141.md)
+- [HChangeNom (Fonction)](../pages/3044141.md) — *HChangeName*
+- [HChangeRep (Fonction)](../pages/3044168.md) — *HChangeDir*
+- [HChangeRepJnl (Fonction)](../pages/3044164.md) — *HChangeLogDir*
+- [HChangeRepRpl (Fonction)](../pages/3044236.md) — *HChangeRplDir*
+- [HCompareRubrique (Fonction)](../pages/1000021103.md) — *HCompareItem*
+- [HConnecte (Exemple)](../pages/1000003044263.md)
+- [HConnecte (Fonction)](../pages/3044263.md) — *HConnect*
+- [HConstruitValClé (Exemple)](../pages/1000003044258.md)
+- [HConstruitValClé (Fonction)](../pages/3044258.md) — *HBuildKeyValue*
+- [HConstruitValCléANSI (Fonction)](../pages/3044259.md) — *HBuildKeyValueANSI*
+- [HConvertX (Fonction)](../pages/3044260.md) — *HConvertX*
+- [HCopieEnreg (Exemple)](../pages/1000003044261.md)
+- [HCopieEnreg (Fonction)](../pages/3044261.md) — *HCopyRecord*
+- [HCréation (Exemple)](../pages/1000003044255.md)
+- [HCréation (Fonction)](../pages/3044255.md) — *HCreation*
+- [HCréationSiInexistant (Exemple)](../pages/1000003044254.md)
+- [HCréationSiInexistant (Fonction)](../pages/3044254.md) — *HCreationIfNotFound*
+- [HCréeRéplicaAbonné (Fonction)](../pages/3044253.md) — *HCreateSubscriberReplica*
+- [HCréeRéplicaMaître (Fonction)](../pages/3044175.md) — *HCreateMasterReplica*
+- [HCréeRéplicaTransportable (Fonction)](../pages/3044209.md) — *HCreateMovableReplica*
+- [HCréeVue (Exemple)](../pages/1000003044159.md)
+- [HCréeVue (Fonction)](../pages/3044159.md) — *HCreateView*
+- [HDateEnreg (Fonction)](../pages/3044338.md) — *HRecordDate*
+- [HDBCréation (Fonction)](../pages/3044171.md) — *HDBCreation*
+- [HDBDécritFichier (Fonction)](../pages/3044172.md) — *HDBDescribeFile*
+- [HDBDécritIndex (Fonction)](../pages/3044166.md) — *HDBDescribeIndex*
+- [HDBDécritRubrique (Fonction)](../pages/3044170.md) — *HDBDescribeField*
+- [HDBIndex (Fonction)](../pages/3044165.md) — *HDBIndex*
+- [HDBOuvre (Fonction)](../pages/3044163.md) — *HDBOpen*
+- [HDBOuvreSansBloquer (Fonction)](../pages/3044162.md) — *HDBOpenNoLock*
+- [HDBTypeTri (Fonction)](../pages/3044161.md) — *HDBSortType*
+- [HDernier (Fonction)](../pages/3044101.md) — *HLast*
+- [HDupliqueEnregistrement (Fonction)](../pages/1000020538.md) — *HDuplicateRecord*
+- [HDébloqueFichier (Fonction)](../pages/3044160.md) — *HUnlockFile*
+- [HDébloqueNumEnr (Fonction)](../pages/3044194.md) — *HUnlockRecNum*
+- [HDéclare (Exemple)](../pages/1000003044203.md)
+- [HDéclare (Fonction)](../pages/3044203.md) — *HDeclare*
+- [HDéclareExterne (Exemple)](../pages/1000003044204.md)
+- [HDéclareExterne (Fonction)](../pages/3044204.md) — *HDeclareExternal*
+- [HDécritConnexion (Exemple)](../pages/1000003044205.md)
+- [HDécritConnexion (Fonction)](../pages/3044205.md) — *HDescribeConnection*
+- [HDécritFichier (Fonction)](../pages/3044206.md) — *HDescribeFile*
+- [HDécritIndexFullText (Exemple)](../pages/1001000017407.md)
+- [HDécritIndexFullText (Fonction)](../pages/1000017407.md) — *HDescribeFullTextIndex*
+- [HDécritLiaison (Fonction)](../pages/3044191.md) — *HDescribeLink*
+- [HDécritRubrique (Exemple)](../pages/1000003044233.md)
+- [HDécritRubrique (Fonction)](../pages/3044233.md) — *HDescribeItem*
+- [HDécritTrigger (Fonction)](../pages/3044074.md) — *HDescribeTrigger*
+- [HDésactiveFiltre (Exemple)](../pages/1000003044085.md)
+- [HDésactiveFiltre (Fonction)](../pages/3044085.md) — *HDeactivateFilter*
+- [HDésactiveFiltreAuto (Fonction)](../pages/3044298.md) — *HDeactivateAutoFilter*
+- [HDésactiveTrigger (Fonction)](../pages/3044089.md) — *HDeactivateTrigger*
+- [HDétruitTrigger (Fonction)](../pages/3044090.md) — *HDeleteTrigger*
+- [HDétruitVue (Exemple)](../pages/1000003044091.md)
+- [HDétruitVue (Fonction)](../pages/3044091.md) — *HDeleteView*
+- [HEcrit (Fonction)](../pages/3044092.md) — *HWrite*
+- [HEnDehors (Exemple)](../pages/1000003044094.md)
+- [HEnDehors (Fonction)](../pages/3044094.md) — *HOut*
+- [HEnregistre (Fonction)](../pages/1000021375.md) — *HSave*
+- [HEnregistrementVersChaîne (Fonction)](../pages/1000025983.md) — *HRecordToString*
+- [HEnregistrementVersJSON (Fonction)](../pages/1000021909.md) — *HRecordToJSON*
+- [HEnregistrementVersXML (Fonction)](../pages/3044093.md) — *HRecordToXML*
+- [HErreur (Exemple)](../pages/1000003044088.md)
+- [HErreur (Fonction)](../pages/3044088.md) — *HError*
+- [HErreurBlocage (Fonction)](../pages/3044099.md) — *HErrorLock*
+- [HErreurDoublon (Exemple)](../pages/1000003044077.md)
+- [HErreurDoublon (Fonction)](../pages/3044077.md) — *HErrorDuplicates*
+- [HErreurEtatModification (Fonction)](../pages/3044103.md) — *HErrorStatusModification*
+- [HErreurInfo (Exemple)](../pages/1000003044071.md)
+- [HErreurInfo (Fonction)](../pages/3044071.md) — *HErrorInfo*
+- [HErreurIntégrité (Fonction)](../pages/3044086.md) — *HErrorIntegrity*
+- [HErreurModification (Fonction)](../pages/3044102.md) — *HErrorModification*
+- [HErreurMotDePasse (Fonction)](../pages/3044082.md) — *HErrorPassword*
+- [HEtat (Exemple)](../pages/1000003044081.md)
+- [HEtat (Fonction)](../pages/3044081.md) — *HState*
+- [HExporteChaîneJSON (Fonction)](../pages/1410088487.md) — *HExportJSONString*
+- [HExporteCSV (Fonction)](../pages/1000023935.md) — *HExportCSV*
+- [HExporteJSON (Fonction)](../pages/1000021964.md) — *HExportJSON*
+- [HExporteXLS (Fonction)](../pages/1000023934.md) — *HExportXLS*
+- [HExporteXML (Fonction)](../pages/3044069.md) — *HExportXML*
+- [HExtraitMémo (Exemple)](../pages/1000003044072.md)
+- [HExtraitMémo (Fonction)](../pages/3044072.md) — *HExtractMemo*
+- [HExécuteRequête (Exemple)](../pages/1000003044080.md)
+- [HExécuteRequête (Fonction)](../pages/3044080.md) — *HExecuteQuery*
+- [HExécuteRequêteAsynchrone (Exemple)](../pages/1000026142.md)
+- [HExécuteRequêteAsynchrone (Fonction)](../pages/1000026094.md) — *HExecuteQueryAsynchronous*
+- [HExécuteRequêteSQL (Exemple)](../pages/1000003044084.md)
+- [HExécuteRequêteSQL (Fonction)](../pages/3044084.md) — *HExecuteSQLQuery*
+- [HExécuteRequêteSQLAsynchrone (Fonction)](../pages/1000026095.md) — *HExecuteSQLQueryAsynchronous*
+- [HExécuteVue (Exemple)](../pages/1000003044079.md)
+- [HExécuteVue (Fonction)](../pages/3044079.md) — *HExecuteView*
+- [HFerme (Fonction)](../pages/3044073.md) — *HClose*
+- [HFermeAnalyse (Fonction)](../pages/3044054.md) — *HCloseAnalysis*
+- [HFermeConnexion (Exemple)](../pages/1000003044095.md)
+- [HFermeConnexion (Fonction)](../pages/3044095.md) — *HCloseConnection*
+- [HFichierExiste (Exemple)](../pages/1000003044096.md)
+- [HFichierExiste (Fonction)](../pages/3044096.md) — *HFileExist*
+- [HFiltre (Fonction)](../pages/3044100.md) — *HFilter*
+- [HFiltreCommencePar (Fonction)](../pages/3044098.md) — *HFilterStartsWith*
+- [HFiltreComprisEntre (Fonction)](../pages/3044097.md) — *HFilterIncludedBetween*
+- [HFiltreContient (Fonction)](../pages/1000020267.md) — *HFilterContains*
+- [HFiltreIdentique (Fonction)](../pages/3044105.md) — *HFilterIdentical*
+- [HFinInterditModif (Fonction)](../pages/3044123.md) — *HEndNoModif*
+- [HForceEcriture (Fonction)](../pages/3044004.md) — *HFlush*
+- [HFTListeMot (Fonction)](../pages/1000021580.md) — *HFTListWord*
+- [HFusionneVue (Exemple)](../pages/1000003044124.md)
+- [HFusionneVue (Fonction)](../pages/3044124.md) — *HMergeView*
+- [HGèreDoublon (Fonction)](../pages/3044057.md) — *HSetDuplicates*
+- [HGèreIntégrité (Fonction)](../pages/3044058.md) — *HSetIntegrity*
+- [HGèreJournal (Fonction)](../pages/3044052.md) — *HSetLog*
+- [HGèreMémo (Fonction)](../pages/3044139.md) — *HSetMemo*
+- [HGèreREP (Fonction)](../pages/3044061.md) — *HSetREP*
+- [HGèreRéplication (Fonction)](../pages/3044067.md) — *HSetReplication*
+- [HGèreTransaction (Fonction)](../pages/3044066.md) — *HSetTransaction*
+- [HGèreTrigger (Fonction)](../pages/3044065.md) — *HSetTrigger*
+- [HHistoriqueModification (Fonction)](../pages/3044344.md) — *HHistoryModification*
+- [HImporteCSV (Fonction)](../pages/1410090596.md) — *HImportCSV*
+- [HImporteHF55 (Fonction)](../pages/3044055.md) — *HImportHF55*
+- [HImporteJSON (Fonction)](../pages/1000021965.md) — *HImportJSON*
+- [HImporteTexte (Fonction)](../pages/3044011.md) — *HImportText*
+- [HImporteXLS (Fonction)](../pages/1000021197.md) — *HImportXLS*
+- [HImporteXML (Fonction)](../pages/3044007.md) — *HImportXML*
+- [HInfoAnalyse (Fonction)](../pages/1000019773.md) — *HInfoAnalysis*
+- [HInfoFichier (Fonction)](../pages/3044311.md) — *HInfoFile*
+- [HInfoMémo (Fonction)](../pages/3044008.md) — *HInfoMemo*
+- [HInfoRéplica (Fonction)](../pages/3044015.md) — *HInfoReplica*
+- [HInitAbonné (Fonction)](../pages/3044013.md) — *HInitSubscriber*
+- [HInitHF55 (Fonction)](../pages/3044010.md) — *HInitHF55*
+- [HInterditModif (Fonction)](../pages/3044053.md) — *HNoModif*
+- [HJournalInfo (Fonction)](../pages/3044009.md) — *HLogInfo*
+- [HJournalRecrée (Fonction)](../pages/3044033.md) — *HLogRecreate*
+- [HJournalRedémarre (Fonction)](../pages/3044019.md) — *HLogRestart*
+- [HJournalStop (Fonction)](../pages/3044035.md) — *HLogStop*
+- [HJSONVersEnregistrement (Fonction)](../pages/1000021910.md) — *HJSONToRecord*
+- [HLibère (Fonction)](../pages/3044064.md) — *HFree*
+- [HLibèrePosition (Fonction)](../pages/3044062.md) — *HFreePosition*
+- [HLibèreRequête (Fonction)](../pages/1000019374.md) — *HFreeQuery*
+- [HListeAnalyse (Exemple)](../pages/1000003044049.md)
+- [HListeAnalyse (Fonction)](../pages/3044049.md) — *HListAnalysis*
+- [HListeClé (Exemple)](../pages/1000003044060.md)
+- [HListeClé (Fonction)](../pages/3044060.md) — *HListKey*
+- [HListeClésSpatiales (Fonction)](../pages/1410090426.md) — *HListSpatialKeys*
+- [HListeConnexion (Fonction)](../pages/3044046.md) — *HListConnection*
+- [HListeFichier (Exemple)](../pages/1000003044045.md)
+- [HListeFichier (Fonction)](../pages/3044045.md) — *HListFile*
+- [HListeIndexFullText (Fonction)](../pages/1000017328.md) — *HListFullTextIndex*
+- [HListeLiaison (Fonction)](../pages/3044138.md) — *HListLink*
+- [HListeMotVide (Fonction)](../pages/1000021594.md) — *HListStopWord*
+- [HListeParamRequête (Fonction)](../pages/3044078.md) — *HListQueryParameter*
+- [HListePersoDossier (Fonction)](../pages/1000019775.md) — *HListCustomFolder*
+- [HListeProvider (Fonction)](../pages/3044232.md) — *HListProvider*
+- [HListeREP (Fonction)](../pages/3044229.md) — *HListREP*
+- [HListeRubrique (Exemple)](../pages/1000003044230.md)
+- [HListeRubrique (Fonction)](../pages/3044230.md) — *HListItem*
+- [HListeSynonyme (Fonction)](../pages/1000021593.md) — *HListSynonym*
+- [HListeTrigger (Fonction)](../pages/3044231.md) — *HListTrigger*
+- [HLit (Fonction)](../pages/3044047.md) — *HRead*
+- [HLitDernier (Exemple)](../pages/1000003044140.md)
+- [HLitDernier (Fonction)](../pages/3044140.md) — *HReadLast*
+- [HLitPremier (Fonction)](../pages/3044051.md) — *HReadFirst*
+- [HLitPrécédent (Fonction)](../pages/3044048.md) — *HReadPrevious*
+- [HLitRecherche (Exemple)](../pages/1000003044050.md)
+- [HLitRecherche (Fonction)](../pages/3044050.md) — *HReadSeek*
+- [HLitRechercheDernier (Fonction)](../pages/3044034.md) — *HReadSeekLast*
+- [HLitRecherchePremier (Exemple)](../pages/1000003044036.md)
+- [HLitRecherchePremier (Fonction)](../pages/3044036.md) — *HReadSeekFirst*
+- [HLitSuivant (Fonction)](../pages/3044037.md) — *HReadNext*
+- [HMigreCléComposéeReliée (Fonction)](../pages/3044038.md) — *HMigrateLinkedCompositeKey*
+- [HMode (Fonction)](../pages/3044039.md) — *HMode*
+- [HModifie (Exemple)](../pages/1000003044042.md)
+- [HModifie (Fonction)](../pages/3044042.md) — *HModify*
+- [HModifieStructure (Exemple)](../pages/1000021445.md)
+- [HModifieStructure (Fonction)](../pages/1000019439.md) — *HModifyStructure*
+- [HNbEnr (Exemple)](../pages/1000003044006.md)
+- [HNbEnr (Fonction)](../pages/3044006.md) — *HNbRec*
+- [HNumEnr (Exemple)](../pages/1000003044063.md)
+- [HNumEnr (Fonction)](../pages/3044063.md) — *HRecNum*
+- [HOptimise (Fonction)](../pages/3044005.md) — *HOptimize*
+- [HOptimiseRequête (Fonction)](../pages/3044003.md) — *HOptimizeQuery*
+- [HOuvre (Fonction)](../pages/3044120.md) — *HOpen*
+- [HOuvreAnalyse (Fonction)](../pages/3044106.md) — *HOpenAnalysis*
+- [HOuvreAnalyseComplémentaire (Fonction)](../pages/1410090082.md) — *HOpenComplementaryAnalysis*
+- [HOuvreConnexion (Exemple)](../pages/1000003044107.md)
+- [HOuvreConnexion (Fonction)](../pages/3044107.md) — *HOpenConnection*
+- [HPasse (Fonction)](../pages/3044108.md) — *HPass*
+- [HPositionCourante (Fonction)](../pages/3044109.md) — *HGetCurrentPosition*
+- [HPositionne (Exemple)](../pages/1000003044110.md)
+- [HPositionne (Fonction)](../pages/3044110.md) — *HSetPosition*
+- [HPoste (Fonction)](../pages/3044111.md) — *HComputer*
+- [HPremier (Fonction)](../pages/3044113.md) — *HFirst*
+- [HPrécédent (Fonction)](../pages/3044112.md) — *HPrevious*
+- [HPrépareRequête (Fonction)](../pages/1000019028.md) — *HPrepareQuery*
+- [HPrépareRequêteSQL (Fonction)](../pages/3044119.md) — *HPrepareSQLQuery*
+- [HRafraîchitVue (Fonction)](../pages/1000021376.md) — *HRefreshView*
+- [HRaye (Fonction)](../pages/3044121.md) — *HCross*
+- [HRAZ (Fonction)](../pages/3044118.md) — *HReset*
+- [HRecherche (Fonction)](../pages/3044130.md) — *HSeek*
+- [HRechercheDernier (Fonction)](../pages/3044129.md) — *HSeekLast*
+- [HRecherchePremier (Fonction)](../pages/3044125.md) — *HSeekFirst*
+- [HRecréeRéplicaAbonné (Fonction)](../pages/3044350.md) — *HRecreateSubscriberReplica*
+- [HRecule (Fonction)](../pages/3044126.md) — *HBackward*
+- [HRequêteExécutée (Fonction)](../pages/1410090242.md) — *HQueryExecuted*
+- [HRetourPosition (Fonction)](../pages/3044137.md) — *HRestorePosition*
+- [HRécupèreEnregistrement (Fonction)](../pages/3044127.md) — *HRetrieveRecord*
+- [HRécupèreRubrique (Fonction)](../pages/3044128.md) — *HRetrieveItem*
+- [HRégénèreFichier (Fonction)](../pages/3044122.md) — *HRegenerateFile*
+- [HRéindexationEnCours (Fonction)](../pages/3044131.md) — *HIndexingInProgress*
+- [HRéindexe (Exemple)](../pages/1000003044133.md)
+- [HRéindexe (Fonction)](../pages/3044133.md) — *HIndex*
+- [HSauvePosition (Fonction)](../pages/3044136.md) — *HSavePosition*
+- [HSourceDeDonnéesConnue (Fonction)](../pages/1410090243.md) — *HDataSourceKnown*
+- [HStatCalcule (Fonction)](../pages/3044134.md) — *HStatCalculate*
+- [HStatDate (Fonction)](../pages/3044117.md) — *HStatDate*
+- [HStatHeure (Fonction)](../pages/3044116.md) — *HStatTime*
+- [HStatNbDoublon (Fonction)](../pages/3044031.md) — *HStatNbDuplicates*
+- [HStatNbEnr (Fonction)](../pages/3044030.md) — *HStatNbRec*
+- [HStatNbEnrIntervalle (Fonction)](../pages/3044029.md) — *HStatNbRecRange*
+- [HSubstRep (Exemple)](../pages/1000003044028.md)
+- [HSubstRep (Fonction)](../pages/3044028.md) — *HSubstDir*
+- [HSuivant (Fonction)](../pages/3044027.md) — *HNext*
+- [HSupprime (Fonction)](../pages/3044018.md) — *HDelete*
+- [HSupprimeTout (Fonction)](../pages/1000017331.md) — *HDeleteAll*
+- [HSurErreur (Exemple)](../pages/1000003044017.md)
+- [HSurErreur (Fonction)](../pages/3044017.md) — *HOnError*
+- [HSynchroniseRéplica (Exemple)](../pages/1000003044014.md)
+- [HSynchroniseRéplica (Fonction)](../pages/3044014.md) — *HSynchronizeReplica*
+- [HSécurité (Fonction)](../pages/3044135.md) — *HSecurity*
+- [HTransaction (Fonction)](../pages/1000023384.md) — *HTransaction*
+- [HTransactionAnnule (Fonction)](../pages/3044001.md) — *HTransactionCancel*
+- [HTransactionDébut (Fonction)](../pages/3044002.md) — *HTransactionStart*
+- [HTransactionEnCours (Fonction)](../pages/1000025274.md) — *HTransactionInProgress*
+- [HTransactionFin (Fonction)](../pages/3044032.md) — *HTransactionEnd*
+- [HTransactionInterrompue (Fonction)](../pages/3044026.md) — *HTransactionInterrupted*
+- [HTransactionLibère (Fonction)](../pages/3044016.md) — *HTransactionFree*
+- [HTrieVue (Fonction)](../pages/3044114.md) — *HSortView*
+- [HTriggerEnregistrementAvant (Fonction)](../pages/1000025873.md) — *HTriggerRecordBefore*
+- [HTrouve (Fonction)](../pages/3044104.md) — *HFound*
+- [HVersFichier (Fonction)](../pages/3044347.md) — *HToFile*
+- [HVersion (Fonction)](../pages/3044020.md) — *HVersion*
+- [HVersRubrique (Fonction)](../pages/3044025.md) — *HToItem*
+- [HVueVersFichier (Exemple)](../pages/1000003044021.md)
+- [HVueVersFichier (Fonction)](../pages/3044021.md) — *HViewToFile*
+- [HVérifieInaltéré (Fonction)](../pages/1000023377.md) — *HCheckUnaltered*
+- [HVérifieIndex (Fonction)](../pages/3044044.md) — *HCheckIndex*
+- [HVérifieMémo (Fonction)](../pages/1000023126.md) — *HCheckMemo*
+- [HVérifieStructure (Fonction)](../pages/3044068.md) — *HCheckStructure*
+- [Mot-clé HVérifieMémo](../pages/1000026143.md) — *HCheckMemo*
+
+## fonctions_liaison
+
+- [<Fenêtre>.DepuisFichier (Fonction)](../pages/1000021387.md) — *<Window>.FromFile*
+- [<Fenêtre>.DepuisSource (Fonction)](../pages/1000021388.md) — *<Window>.FromSource*
+- [<Fenêtre>.VersFichier (Fonction)](../pages/1000021385.md) — *<Window>.ToFile*
+- [<Fenêtre>.VersSource (Fonction)](../pages/1000021386.md) — *<Window>.ToSource*
+- [<Page>.DepuisFichier (Fonction)](../pages/1000021389.md) — *<Page>.FromFile*
+- [<Page>.DepuisSource (Fonction)](../pages/1000021393.md) — *<Page>.FromSource*
+- [<Page>.VersFichier (Fonction)](../pages/1000021390.md) — *<Page>.ToFile*
+- [<Page>.VersSource (Fonction)](../pages/1000021392.md) — *<Page>.ToSource*
+- [<Source>.DepuisFenêtre (Fonction)](../pages/1000021403.md) — *<Source>.FromWindow*
+- [<Source>.DepuisPage (Fonction)](../pages/1000021405.md) — *<Source>.FromPage*
+- [<Source>.VersFenêtre (Fonction)](../pages/1000021397.md) — *<Source>.ToWindow*
+- [<Source>.VersPage (Fonction)](../pages/1000021401.md) — *<Source>.ToPage*
+- [ChampVersSource (Fonction)](../pages/1000021384.md) — *ControlToSource*
+- [EcranVersFichier (Fonction)](../pages/3044146.md) — *ScreenToFile*
+- [EcranVersSource (Fonction)](../pages/1000017342.md) — *ScreenToSource*
+- [FenêtreDepuisSource (Fonction)](../pages/1000021396.md) — *WindowFromSource*
+- [FichierVersEcran (Fonction)](../pages/3044210.md) — *FileToScreen*
+- [FichierVersPage (Fonction)](../pages/3044148.md) — *FileToPage*
+- [Fonctions de liaison](../pages/1000017408.md)
+- [Fonctions de liaison (syntaxe préfixée)](../pages/1000021394.md)
+- [PageDepuisSource (Fonction)](../pages/1000021400.md) — *PageFromSource*
+- [PageVersFichier (Fonction)](../pages/3044022.md) — *PageToFile*
+- [PageVersSource (Fonction)](../pages/1000017406.md) — *PageToSource*
+- [SourceDepuisFenêtre (Fonction)](../pages/1000021402.md) — *SourceFromWindow*
+- [SourceDepuisPage (Fonction)](../pages/1000021404.md) — *SourceFromPage*
+- [SourceVersEcran (Fonction)](../pages/1000017341.md) — *SourceToScreen*
+- [SourceVersPage (Fonction)](../pages/1000017405.md) — *SourceToPage*
+
+## fonctions_memcached
+
+- [Fonctions Memcached](../pages/1000023435.md)
+- [MemcachedAffecte (Fonction)](../pages/1000023342.md) — *MemcachedAssign*
+- [MemcachedAffecteGroupeClé (Fonction)](../pages/1000023354.md) — *MemcachedAssignKeyGroup*
+- [MemcachedAjoute (Fonction)](../pages/1000023340.md) — *MemcachedAdd*
+- [MemcachedAjouteGroupeClé (Fonction)](../pages/1000023349.md) — *MemcachedAddKeyGroup*
+- [MemcachedAjoutePréfixe (Fonction)](../pages/1000023343.md) — *MemcachedAddPrefix*
+- [MemcachedAjoutePréfixeGroupeClé (Fonction)](../pages/1000023357.md) — *MemcachedAddPrefixKeyGroup*
+- [MemcachedAjouteSuffixe (Fonction)](../pages/1000023344.md) — *MemcachedAddSuffix*
+- [MemcachedAjouteSuffixeGroupeClé (Fonction)](../pages/1000023350.md) — *MemcachedAddSuffixKeyGroup*
+- [MemcachedCAS (Fonction)](../pages/1000023348.md) — *MemcachedCAS*
+- [MemcachedCASGroupeClé (Fonction)](../pages/1000023356.md) — *MemcachedCASKeyGroup*
+- [memcachedConnexion (Type de variable)](../pages/1000023339.md) — *memcachedConnection*
+- [MemcachedDécrémente (Fonction)](../pages/1000023347.md) — *MemcachedDecrement*
+- [MemcachedDécrémenteGroupeClé (Fonction)](../pages/1000023355.md) — *MemcachedDecrementKeyGroup*
+- [MemcachedIncrémente (Fonction)](../pages/1000023346.md) — *MemcachedIncrement*
+- [MemcachedIncrémenteGroupeClé (Fonction)](../pages/1000023352.md) — *MemcachedIncrementKeyGroup*
+- [MemcachedModifie (Fonction)](../pages/1000023341.md) — *MemcachedModify*
+- [MemcachedModifieGroupeClé (Fonction)](../pages/1000023351.md) — *MemcachedModifyKeyGroup*
+- [MemcachedRécupère (Fonction)](../pages/1000023363.md) — *MemcachedGet*
+- [MemcachedRécupèreGroupeClé (Fonction)](../pages/1000023364.md) — *MemcachedGetKeyGroup*
+- [memcachedRésultat (Type de variable)](../pages/1000023359.md) — *memcachedResult*
+- [MemcachedSupprime (Fonction)](../pages/1000023345.md) — *MemcachedDelete*
+- [MemcachedSupprimeGroupeClé (Fonction)](../pages/1000023353.md) — *MemcachedDeleteKeyGroup*
+
+## fonctions_mongo
+
+- [<Variable mongoBase>.CréeCollection (Fonction)](../pages/1000023612.md) — *<mongoDatabase variable>.CreateCollection*
+- [<Variable mongoBase>.ExécuteCommande (Fonction)](../pages/1000023636.md) — *<mongoDatabase variable>.ExecuteCommand*
+- [<Variable mongoBase>.Info (Fonction)](../pages/1000025396.md) — *<mongoDatabase variable>.Info*
+- [<Variable mongoBase>.SupprimeBase (Fonction)](../pages/1000025399.md) — *<mongoDatabase variable>.DeleteDatabase*
+- [<Variable mongoCollection>.Ajoute (Fonction)](../pages/1000025345.md) — *<mongoCollection variable>.Add*
+- [<Variable mongoCollection>.Cherche (Fonction)](../pages/1000025356.md) — *<mongoCollection variable>.Find*
+- [<Variable mongoCollection>.ExécuteCommande (Fonction)](../pages/1000023819.md) — *<mongoCollection variable>.ExecuteCommand*
+- [<Variable mongoCollection>.ExécuteLotOpérations (Fonction)](../pages/1410089633.md) — *<mongoCollection variable>.ExecuteOperations*
+- [<Variable mongoCollection>.ModifieTout (Fonction)](../pages/1000025397.md) — *<mongoCollection variable>.ModifyAll*
+- [<Variable mongoCollection>.ModifieUn (Fonction)](../pages/1000025398.md) — *<mongoCollection variable>.ModifyOne*
+- [<Variable mongoCollection>.SupprimeCollection (Fonction)](../pages/1000025400.md) — *<mongoCollection variable>.DeleteCollection*
+- [<Variable mongoCollection>.SupprimeTout (Fonction)](../pages/1000025401.md) — *<mongoCollection variable>.DeleteAll*
+- [<Variable mongoCollection>.SupprimeUn (Fonction)](../pages/1000025402.md) — *<mongoCollection variable>.DeleteOne*
+- [<Variable mongoGridFS>.EnvoieFichier (Fonction)](../pages/1000025357.md) — *<mongoGridFS variable>.SendFile*
+- [<Variable mongoGridFS>.ListeFichier (Fonction)](../pages/1000025358.md) — *<mongoGridFS variable>.ListFile*
+- [<Variable mongoGridFS>.RécupèreFichier (Fonction)](../pages/1000025391.md) — *<mongoGridFS variable>.GetFile*
+- [<Variable mongoGridFS>.RécupèreFichierParID (Fonction)](../pages/1000025392.md) — *<mongoGridFS variable>.GetFileByID*
+- [<Variable mongoGridFS>.RécupèreInfoFichier (Fonction)](../pages/1000025393.md) — *<mongoGridFS variable>.GetFileInfo*
+- [<Variable mongoGridFS>.SupprimeFichier (Fonction)](../pages/1000025394.md) — *<mongoGridFS variable>.DeleteFile*
+- [<Variable mongoGridFS>.SupprimeFichierParID (Fonction)](../pages/1000025395.md) — *<mongoGridFS variable>.DeleteFileByID*
+- [Bases MongoDB / GRIDFS](../pages/1000022619.md)
+- [Constantes de gestion des bases de données MongoDB](../pages/1000022616.md)
+- [Fonctions MongoDB](../pages/1000022442.md)
+- [Fonctions MongoDB (syntaxe préfixée)](../pages/1000023897.md)
+- [MongoAjoute (Fonction)](../pages/1000022432.md) — *MongoAdd*
+- [mongoBase (Type de variable)](../pages/1000022410.md) — *mongoDatabase*
+- [mongoBaseInfo (Type de variable)](../pages/1000022412.md) — *mongoDatabaseInfo*
+- [MongoCherche (Exemple)](../pages/1000022623.md)
+- [MongoCherche (Fonction)](../pages/1000022433.md) — *MongoFind*
+- [mongoChercheOption (Type de variable)](../pages/1000022414.md) — *mongoFindOption*
+- [mongoCollection (Type de variable)](../pages/1000022411.md) — *mongoCollection*
+- [mongoCollectionOption (Type de variable)](../pages/1000022413.md) — *mongoCollectionOption*
+- [mongoConnexion (Type de variable)](../pages/1000022409.md) — *mongoConnection*
+- [MongoCrée (Exemple)](../pages/1000022624.md)
+- [MongoCrée (Fonction)](../pages/1000022408.md) — *MongoCreate*
+- [MongoCréeCollection (Exemple)](../pages/1000022625.md)
+- [MongoCréeCollection (Fonction)](../pages/1000022434.md) — *MongoCreateCollection*
+- [MongoExécuteCommande (Fonction)](../pages/1000022435.md) — *MongoExecuteCommand*
+- [MongoExécuteLotOpérations (Fonction)](../pages/1410089189.md) — *MongoExecuteOperations*
+- [mongoGridFS (Type de variable)](../pages/1000022416.md) — *mongoGridFS*
+- [MongoGridFSEnvoieFichier (Fonction)](../pages/1000022436.md) — *MongoGridFSSendFile*
+- [mongoGridFSInfoFichier (Type de variable)](../pages/1000022417.md) — *mongoGridFSFileInfo*
+- [MongoGridFSListeFichier (Fonction)](../pages/1000022438.md) — *MongoGridFSListFile*
+- [MongoGridFSRécupèreFichier (Fonction)](../pages/1000022439.md) — *MongoGridFSGetFile*
+- [MongoGridFSRécupèreFichierParID (Fonction)](../pages/1000022595.md) — *MongoGridFSGetFileByID*
+- [MongoGridFSRécupèreInfoFichier (Fonction)](../pages/1000023495.md) — *MongoGridFSGetFileInfo*
+- [MongoGridFSSupprimeFichier (Fonction)](../pages/1000022440.md) — *MongoGridFSDeleteFile*
+- [MongoGridFSSupprimeFichierParID (Fonction)](../pages/1000022596.md) — *MongoGridFSDeleteFileByID*
+- [MongoInfo (Fonction)](../pages/1000022441.md) — *MongoInfo*
+- [mongoLotOpérationsOption (Type de variable)](../pages/1410089271.md) — *mongoOperationsOption*
+- [MongoModifieTout (Fonction)](../pages/1000022603.md) — *MongoModifyAll*
+- [MongoModifieUn (Fonction)](../pages/1000022443.md) — *MongoModifyOne*
+- [mongoOptionEcriture (Type de variable)](../pages/1000022597.md) — *mongoWriteConcern*
+- [mongoOpération (Type de variable)](../pages/1410089157.md) — *mongoOperation*
+- [mongoOpérationAjout (Type de variable)](../pages/1410089163.md) — *mongoOperationAdd*
+- [mongoOpérationModificationTout (Type de variable)](../pages/1410089165.md) — *mongoOperationUpdateAll*
+- [mongoOpérationModificationUn (Type de variable)](../pages/1410089164.md) — *mongoOperationUpdateOne*
+- [mongoOpérationRemplacementUn (Type de variable)](../pages/1410089166.md) — *mongoOperationReplaceOne*
+- [mongoOpérationSuppressionTout (Type de variable)](../pages/1410089162.md) — *mongoOperationDeleteAll*
+- [mongoOpérationSuppressionUn (Type de variable)](../pages/1410089161.md) — *mongoOperationDeleteOne*
+- [MongoPipelineAgrégation (Fonction)](../pages/1000025267.md) — *MongoAggregationPipeline*
+- [mongoRésultat (Type de variable)](../pages/1000022415.md) — *mongoResult*
+- [MongoSupprimeBase (Fonction)](../pages/1000022444.md) — *MongoDeleteDatabase*
+- [MongoSupprimeCollection (Fonction)](../pages/1000022558.md) — *MongoDeleteCollection*
+- [MongoSupprimeTout (Fonction)](../pages/1000022445.md) — *MongoDeleteAll*
+- [MongoSupprimeUn (Fonction)](../pages/1000022446.md) — *MongoDeleteOne*
+
+## fonctions_redis
+
+- [<redisConnexion>.Abonne (Fonction)](../pages/1410088279.md) — *<redisConnection>.Subscribe*
+- [<redisConnexion>.Affecte (Fonction)](../pages/1410088245.md) — *<redisConnection>.Set*
+- [<redisConnexion>.Connecte (Fonction)](../pages/1410088280.md) — *<redisConnection>.Connect*
+- [<redisConnexion>.Désabonne (Fonction)](../pages/1410088281.md) — *<redisConnection>.Unsubscribe*
+- [<redisConnexion>.ExécuteCommande (Fonction)](../pages/1410088282.md) — *<redisConnection>.ExecuteCommand*
+- [<redisConnexion>.PipelineAjoute (Fonction)](../pages/1410088283.md) — *<redisConnection>.PipelineAdd*
+- [<redisConnexion>.PipelineRAZ (Fonction)](../pages/1410088284.md) — *<redisConnection>.PipelineReset*
+- [<redisConnexion>.PipelineRécupère (Fonction)](../pages/1410088285.md) — *<redisConnection>.PipelineGet*
+- [<redisConnexion>.Publie (Fonction)](../pages/1410088286.md) — *<redisConnection>.Publish*
+- [<redisConnexion>.Récupère (Fonction)](../pages/1410088278.md) — *<redisConnection>.Get*
+- [<Variable redisConnexion>.Déconnecte (Fonction)](../pages/1410090488.md) — *<redisConnection variable>.Disconnect*
+- [Constantes de gestion des bases Big Data Redis](../pages/1000024075.md)
+- [Fonctions de gestion d'une base Big Data Redis](../pages/1000024142.md)
+- [Fonctions de gestion d'une base Big Data Redis (syntaxe préfixée)](../pages/1410088287.md)
+- [RedisAbonne (Fonction)](../pages/1000023552.md) — *RedisSubscribe*
+- [RedisAffecte (Fonction)](../pages/1410088170.md) — *RedisSet*
+- [RedisConnecte (Fonction)](../pages/1000023530.md) — *RedisConnect*
+- [redisConnexion (Type de variable)](../pages/1000023527.md) — *redisConnection*
+- [RedisDéconnecte (Fonction)](../pages/1410089738.md) — *RedisDisconnect*
+- [RedisDésabonne (Fonction)](../pages/1000023553.md) — *RedisUnsubscribe*
+- [RedisExécuteCommande (Fonction)](../pages/1000023541.md) — *RedisExecuteCommand*
+- [RedisPipelineAjoute (Fonction)](../pages/1000023542.md) — *RedisPipelineAdd*
+- [RedisPipelineRAZ (Fonction)](../pages/1000023549.md) — *RedisPipelineReset*
+- [RedisPipelineRécupère (Fonction)](../pages/1000023543.md) — *RedisPipelineGet*
+- [RedisPublie (Fonction)](../pages/1000023551.md) — *RedisPublish*
+- [RedisRécupère (Fonction)](../pages/1410088171.md) — *RedisGet*
+- [redisRéponse (Type de variable)](../pages/1000023534.md) — *redisResponse*
+
+## fonctions_replication
+
+- [<Variable Connection>.RSRenommeNomServeur (Fonction)](../pages/1410088539.md) — *<Connection variable>.RSRenameServer*
+- [<Variable Connexion>.RSAjouteConfig (Fonction)](../pages/1000023471.md) — *<Connection variable>.RSAddConfig*
+- [<Variable Connexion>.RSAttendTraitementDonnées (Fonction)](../pages/1000023528.md) — *<Connection variable>.RSWaitForDataProcess*
+- [<Variable Connexion>.RSDéclenche (Fonction)](../pages/1000023529.md) — *<Connection variable>.RSExecute*
+- [<Variable Connexion>.RSIgnoreErreur (Fonction)](../pages/1410090601.md) — *<Connection variable>.RSIgnoreError*
+- [<Variable Connexion>.RSInfo (Fonction)](../pages/1000023536.md) — *<Connection variable>.RSInfo*
+- [<Variable Connexion>.RSInit (Fonction)](../pages/1000023550.md) — *<Connection variable>.RSInit*
+- [<Variable Connexion>.RSListeConfig (Fonction)](../pages/1000023554.md) — *<Connection variable>.RSListConfig*
+- [<Variable Connexion>.RSModifieConfig (Fonction)](../pages/1000023574.md) — *<Connection variable>.RSModifyConfig*
+- [<Variable Connexion>.RSSupprimeConfig (Fonction)](../pages/1000023579.md) — *<Connection variable>.RSDeleteConfig*
+- [<Variable Connexion>.RSTransformeSpareEnServeur (Fonction)](../pages/1410091036.md) — *<Connection variable>.RSTransformSpareIntoServer*
+- [Constantes de la réplication assistée](../pages/1000017223.md)
+- [Constantes utilisées par la réplication entre serveurs HFSQL](../pages/1000020586.md)
+- [Fonctions de gestion de la réplication](../pages/1000017222.md)
+- [HRplAjouteFichier (Fonction)](../pages/1410090462.md) — *HRplAddFile*
+- [HRplDéclareLiaison (Fonction)](../pages/3044299.md) — *HRplDeclareLink*
+- [HRplGestionFichier (Fonction)](../pages/1000017215.md) — *HRplManageFile*
+- [HRplGestionRubrique (Fonction)](../pages/1000017216.md) — *HRplManageItem*
+- [HRplPasse (Fonction)](../pages/3044342.md) — *HRplPass*
+- [HRplProcédureFiltre (Fonction)](../pages/3044300.md) — *HRplFilterProcedure*
+- [HRSAjouteConfig (Fonction)](../pages/1000020492.md) — *HRSAddConfig*
+- [HRSAttendTraitementDonnées (Fonction)](../pages/1000023446.md) — *HRSWaitForDataProcess*
+- [HRSDéclenche (Fonction)](../pages/1000020556.md) — *HRSExecute*
+- [HRSIgnoreErreur (Fonction)](../pages/1410090182.md) — *HRSIgnoreError*
+- [HRSInfo (Fonction)](../pages/1000020574.md) — *HRSInfo*
+- [HRSInit (Fonction)](../pages/1000020541.md) — *HRSInit*
+- [HRSListeConfig (Fonction)](../pages/1000020497.md) — *HRSListConfig*
+- [HRSModifieConfig (Fonction)](../pages/1000020495.md) — *HRSModifyConfig*
+- [HRSRenommeNomServeur (Fonction)](../pages/1410088521.md) — *HRSRenameServer*
+- [HRSSupprimeConfig (Fonction)](../pages/1000020493.md) — *HRSDeleteConfig*
+- [HRSTransformeSpareEnServeur (Fonction)](../pages/1410091035.md) — *HRSTransformSpareIntoServer*
+- [Mettre en place la réplication journalée : Modifier l'analyse](../pages/3044246.md)
+- [Réplication : Les différents types disponibles](../pages/3044266.md)
+- [Réplication de serveurs HFSQL](../pages/1000020588.md)
+- [Réplication de serveurs HFSQL (Programmation)](../pages/1000020587.md)
+- [Réplication des données mobiles (Android ou iOS)](../pages/1000021071.md)
+- [Réplication journalée](../pages/3044256.md)
+- [Réplication journalée : Programmer la réplication journalée en WLangage](../pages/3044279.md)
+- [Réplication universelle](../pages/9000032.md)
+- [Réplication universelle assistée](../pages/9000045.md)
+- [Réplication universelle assistée : spécificités](../pages/9000048.md)
+- [Réplication universelle assistée automatique](../pages/9000046.md)
+- [Réplication universelle assistée par programmation](../pages/9000047.md)
+- [RéplicInfo (Fonction)](../pages/1000017197.md) — *ReplicInfo*
+- [RéplicInitialise (Fonction)](../pages/1000017195.md) — *ReplicInitialize*
+- [RéplicOuvre (Fonction)](../pages/1000017194.md) — *ReplicOpen*
+- [RéplicSupprimeAbonnement (Fonction)](../pages/1000022268.md) — *ReplicDeleteSubscription*
+- [RéplicSynchronise (Fonction)](../pages/1000017196.md) — *ReplicSynchronize*
+- [Serveur de réplication pour la réplication universelle assistée](../pages/1000017227.md)
+
+## fonctions_spatiales
+
+- [<Variable Polygone2D>.Aire (Fonction)](../pages/1410090517.md) — *<Polygon2D variable>.Area*
+- [<Variable Polygone2D>.Chevauche (Fonction)](../pages/1410090519.md) — *<Polygon2D variable>.Overlap*
+- [<Variable Polygone2D>.Contient (Fonction)](../pages/1410090522.md) — *<Polygon2D variable>.Contain*
+- [<Variable Polygone2D>.Corrige (Fonction)](../pages/1410090523.md) — *<Polygon2D variable>.Correct*
+- [<Variable Polygone2D>.Couvre (Fonction)](../pages/1410090526.md) — *<Polygon2D variable>.Cover*
+- [<Variable Polygone2D>.Croise (Fonction)](../pages/1410090527.md) — *<Polygon2D variable>.Cross*
+- [<Variable Polygone2D>.Différence (Fonction)](../pages/1410090530.md) — *<Polygon2D variable>.Difference*
+- [<Variable Polygone2D>.DifférenceSymétrique (Fonction)](../pages/1410090531.md) — *<Polygon2D variable>.SymmetricDifference*
+- [<Variable Polygone2D>.Disjoint (Fonction)](../pages/1410090563.md) — *<Polygon2D variable>.Disjoint*
+- [<Variable Polygone2D>.Distance (Fonction)](../pages/1410090566.md) — *<Polygon2D variable>.Distance*
+- [<Variable Polygone2D>.Egale (Fonction)](../pages/1410090567.md) — *<Polygon2D variable>.Equal*
+- [<Variable Polygone2D>.EnveloppeConvexe (Fonction)](../pages/1410090588.md) — *<Polygon2D variable>.ConvexHull*
+- [<Variable Polygone2D>.EstContenu (Fonction)](../pages/1410090571.md) — *<Polygon2D variable>.Within*
+- [<Variable Polygone2D>.EstCouvert (Fonction)](../pages/1410090572.md) — *<Polygon2D variable>.CoveredBy*
+- [<Variable Polygone2D>.EstValide (Fonction)](../pages/1410090575.md) — *<Polygon2D variable>.IsValid*
+- [<Variable Polygone2D>.Intersecte (Fonction)](../pages/1410090576.md) — *<Polygon2D variable>.Intersect*
+- [<Variable Polygone2D>.Intersection (Fonction)](../pages/1410090579.md) — *<Polygon2D variable>.Intersection*
+- [<Variable Polygone2D>.Périmètre (Fonction)](../pages/1410090580.md) — *<Polygon2D variable>.Perimeter*
+- [<Variable Polygone2D>.SérialiseWKT (Fonction)](../pages/1410090583.md) — *<Polygon2D variable>.SerializeWKT*
+- [<Variable Polygone2D>.Touche (Fonction)](../pages/1410090584.md) — *<Polygon2D variable>.Touch*
+- [<Variable Polygone2D>.Union (Fonction)](../pages/1410090587.md) — *<Polygon2D variable>.Union*
+- [<Variable PolygoneGéo>.Aire (Fonction)](../pages/1410090518.md) — *<PolygonGeo variable>.Area*
+- [<Variable PolygoneGéo>.Chevauche (Fonction)](../pages/1410090520.md) — *<PolygonGeo variable>.Overlap*
+- [<Variable PolygoneGéo>.Contient (Fonction)](../pages/1410090521.md) — *<PolygonGeo variable>.Contain*
+- [<Variable PolygoneGéo>.Corrige (Fonction)](../pages/1410090524.md) — *<PolygonGeo variable>.Correct*
+- [<Variable PolygoneGéo>.Couvre (Fonction)](../pages/1410090525.md) — *<PolygonGeo variable>.Cover*
+- [<Variable PolygoneGéo>.Croise (Fonction)](../pages/1410090528.md) — *<PolygonGeo variable>.Cross*
+- [<Variable PolygoneGéo>.Différence (Fonction)](../pages/1410090529.md) — *<PolygonGeo variable>.Difference*
+- [<Variable PolygoneGéo>.DifférenceSymétrique (Fonction)](../pages/1410090532.md) — *<PolygonGeo variable>.SymmetricDifference*
+- [<Variable PolygoneGéo>.Disjoint (Fonction)](../pages/1410090564.md) — *<PolygonGeo variable>.Disjoint*
+- [<Variable PolygoneGéo>.Distance (Fonction)](../pages/1410090565.md) — *<PolygonGeo variable>.Distance*
+- [<Variable PolygoneGéo>.Egale (Fonction)](../pages/1410090568.md) — *<PolygonGeo variable>.Equal*
+- [<Variable PolygoneGéo>.EnveloppeConvexe (Fonction)](../pages/1410090569.md) — *<PolygonGeo variable>.ConvexHull*
+- [<Variable PolygoneGéo>.EstContenu (Fonction)](../pages/1410090570.md) — *<PolygonGeo variable>.Within*
+- [<Variable PolygoneGéo>.EstCouvert (Fonction)](../pages/1410090573.md) — *<PolygonGeo variable>.CoveredBy*
+- [<Variable PolygoneGéo>.EstValide (Fonction)](../pages/1410090574.md) — *<PolygonGeo variable>.IsValid*
+- [<Variable PolygoneGéo>.Intersecte (Fonction)](../pages/1410090577.md) — *<PolygonGeo variable>.Intersect*
+- [<Variable PolygoneGéo>.Intersection (Fonction)](../pages/1410090578.md) — *<PolygonGeo variable>.Intersection*
+- [<Variable PolygoneGéo>.Périmètre (Fonction)](../pages/1410090581.md) — *<PolygonGeo variable>.Perimeter*
+- [<Variable PolygoneGéo>.SérialiseWKT (Fonction)](../pages/1410090582.md) — *<PolygonGeo variable>.SerializeWKT*
+- [<Variable PolygoneGéo>.Touche (Fonction)](../pages/1410090585.md) — *<PolygonGeo variable>.Touch*
+- [<Variable PolygoneGéo>.Union (Fonction)](../pages/1410090586.md) — *<PolygonGeo variable>.Union*
+- [<Variable Polyligne2D>.AjoutePoint (Fonction)](../pages/1410090485.md) — *<Linestring2D variable>.AddPoint*
+- [<Variable PolyligneGéo>.AjoutePoint (Fonction)](../pages/1410090486.md) — *<LinestringGeo variable>.AddPoint*
+- [Constantes de gestion des données spatiales](../pages/1410090490.md)
+- [Fonctions de gestion des données spatiales](../pages/1410090435.md)
+- [Fonctions de gestion des données spatiales (syntaxe préfixée)](../pages/1410090595.md)
+- [FormatDSV (Type de variable)](../pages/1410090083.md) — *DSVFormat*
+- [Géométrie (Type de variable)](../pages/1410090098.md) — *Geometry*
+- [GéométrieAire (Fonction)](../pages/1410090167.md) — *GeometryArea*
+- [GéométrieChevauche (Fonction)](../pages/1410090308.md) — *GeometryOverlap*
+- [GéométrieContient (Fonction)](../pages/1410090138.md) — *GeometryContain*
+- [GéométrieCorrige (Fonction)](../pages/1410090157.md) — *GeometryCorrect*
+- [GéométrieCouvre (Fonction)](../pages/1410090140.md) — *GeometryCover*
+- [GéométrieCroise (Fonction)](../pages/1410090341.md) — *GeometryCross*
+- [GéométrieDifférence (Fonction)](../pages/1410090156.md) — *GeometryDifference*
+- [GéométrieDifférenceSymétrique (Fonction)](../pages/1410090164.md) — *GeometrySymmetricDifference*
+- [GéométrieDisjoint (Fonction)](../pages/1410090307.md) — *GeometryDisjoint*
+- [GéométrieDistance (Fonction)](../pages/1410090297.md) — *GeometryDistance*
+- [GéométrieDésérialiseWKT2D (Fonction)](../pages/1410090336.md) — *GeometryDeserializeWKT2D*
+- [GéométrieDésérialiseWKTGéo (Fonction)](../pages/1410090335.md) — *GeometryDeserializeWKTGeo*
+- [GéométrieEgale (Fonction)](../pages/1410090295.md) — *GeometryEqual*
+- [GéométrieEnveloppeConvexe (Fonction)](../pages/1410090169.md) — *GeometryConvexHull*
+- [GéométrieEstContenu (Fonction)](../pages/1410090139.md) — *GeometryWithin*
+- [GéométrieEstCouvert (Fonction)](../pages/1410090141.md) — *GeometryCoveredBy*
+- [GéométrieEstValide (Fonction)](../pages/1410090158.md) — *GeometryIsValid*
+- [GéométrieIntersecte (Fonction)](../pages/1410090115.md) — *GeometryIntersect*
+- [GéométrieIntersection (Fonction)](../pages/1410090153.md) — *GeometryIntersection*
+- [GéométrieLongueur (Fonction)](../pages/1410090296.md) — *GeometryLength*
+- [GéométriePérimètre (Fonction)](../pages/1410090168.md) — *GeometryPerimeter*
+- [GéométrieSérialiseDSV (Fonction)](../pages/1410090121.md) — *GeometrySerializeDSV*
+- [GéométrieSérialiseWKT (Fonction)](../pages/1410090108.md) — *GeometrySerializeWKT*
+- [GéométrieTouche (Fonction)](../pages/1410090114.md) — *GeometryTouch*
+- [GéométrieUnion (Fonction)](../pages/1410090155.md) — *GeometryUnion*
+- [Gérer les données spatiales dans les bases de données HFSQL](../pages/1410090447.md)
+- [MultiGéométrie (Type de variable)](../pages/1410090298.md) — *GeometryCollection*
+- [MultiPoint2D (Type de variable)](../pages/1410090129.md) — *MultiPoint2D*
+- [MultiPointGéo (Type de variable)](../pages/1410090130.md) — *MultiPointGeo*
+- [MultiPolygone2D (Type de variable)](../pages/1410090135.md) — *MultiPolygon2D*
+- [MultiPolygoneGéo (Type de variable)](../pages/1410090136.md) — *MultiPolygonGeo*
+- [MultiPolyligne2D (Type de variable)](../pages/1410090131.md) — *MultiLinestring2D*
+- [MultiPolyligneGéo (Type de variable)](../pages/1410090133.md) — *MultiLinestringGeo*
+- [Point2D (Type de variable)](../pages/1410090100.md) — *Point2D*
+- [PointGéo (Type de variable)](../pages/1410090102.md) — *PointGeo*
+- [Polygone2D (Type de variable)](../pages/1410090122.md) — *Polygon2D*
+- [PolygoneGéo (Type de variable)](../pages/1410090127.md) — *PolygonGeo*
+- [Polyligne2D (Type de variable)](../pages/1410090109.md) — *Linestring2D*
+- [Polyligne2DAjoutePoint (Fonction)](../pages/1410090159.md) — *Linestring2DAddPoint*
+- [PolyligneGéo (Type de variable)](../pages/1410090128.md) — *LinestringGeo*
+- [PolyligneGéoAjoutePoint (Fonction)](../pages/1410090160.md) — *LinestringGeoAddPoint*
+
+## fonctions_sql
+
+- [Accès à une base de données via un Webservice](../pages/1000021063.md)
+- [Fonctions SQL d'accès aux bases externes](../pages/3072002.md)
+- [SQLAssocie (Fonction)](../pages/3072004.md) — *SQLAssociate*
+- [SQLAvance (Fonction)](../pages/3072011.md) — *SQLFetch*
+- [SQLBloque (Fonction)](../pages/3072003.md) — *SQLLock*
+- [SQLChangeConnexion (Fonction)](../pages/3072016.md) — *SQLChangeConnection*
+- [SQLCol (Fonction)](../pages/3072018.md) — *SQLCol*
+- [SQLColonne (Fonction)](../pages/3072001.md) — *SQLColumn*
+- [SQLConnecte (Exemple)](../pages/1000003072005.md)
+- [SQLConnecte (Fonction)](../pages/3072005.md) — *SQLConnect*
+- [SQLConnecteWS (Fonction)](../pages/1000021031.md) — *SQLConnectWS*
+- [SQLDernier (Fonction)](../pages/3072009.md) — *SQLLast*
+- [SQLDéconnecte (Fonction)](../pages/3072008.md) — *SQLDisconnect*
+- [SQLExec (Exemple)](../pages/1000003072007.md)
+- [SQLExec (Fonction)](../pages/3072007.md) — *SQLExec*
+- [SQLExecWDR (Fonction)](../pages/3072010.md) — *SQLExecWDR*
+- [SQLFerme (Fonction)](../pages/3072015.md) — *SQLClose*
+- [SQLFormatColonne (Fonction)](../pages/3072006.md) — *SQLColumnFormat*
+- [SQLInfoGene (Fonction)](../pages/3072028.md) — *SQLInfo*
+- [SQLListeSource (Fonction)](../pages/3072027.md) — *SQLListSource*
+- [SQLListeTable (Fonction)](../pages/3072021.md) — *SQLListTable*
+- [SQLLitCol (Fonction)](../pages/3072019.md) — *SQLGetCol*
+- [SQLLitMémo (Fonction)](../pages/3072020.md) — *SQLGetMemo*
+- [SQLLitMémoTexte (Fonction)](../pages/3072012.md) — *SQLGetTextMemo*
+- [SQLModifie (Exemple)](../pages/1000003072023.md)
+- [SQLModifie (Fonction)](../pages/3072023.md) — *SQLModify*
+- [SQLPositionne (Fonction)](../pages/3072024.md) — *SQLSeek*
+- [SQLPremier (Exemple)](../pages/1000003072017.md)
+- [SQLPremier (Fonction)](../pages/3072017.md) — *SQLFirst*
+- [SQLPrécédent (Fonction)](../pages/3072022.md) — *SQLPrevious*
+- [SQLReqExiste (Fonction)](../pages/3072026.md) — *SQLReqExists*
+- [SQLSuivant (Fonction)](../pages/3072030.md) — *SQLNext*
+- [SQLTable (Fonction)](../pages/3072031.md) — *SQLTable*
+- [SQLTransaction (Exemple)](../pages/1000003072029.md)
+- [SQLTransaction (Fonction)](../pages/3072029.md) — *SQLTransaction*
+
+## themes
+
+- [Accès aux bases de données : résumé](../pages/3044202.md)
+- [Accès en mode local à une base de données (SQLite)](../pages/9000119.md)
+- [Accès Natif xBase/FoxPro : Spécificités et remarques](../pages/3044249.md)
+- [Accès Natif XML](../pages/9000029.md)
+- [Accéder à des fichiers de données HFSQL via SAMBA sur Linux](../pages/3044207.md)
+- [Alias sur les fichiers de données : fonction HAlias](../pages/3044180.md)
+- [Analyse partagée entre des applications WINDEV antérieures et WINDEV 2025](../pages/3044208.md)
+- [Anonymisation automatique des données](../pages/9000215.md)
+- [Authentification par Active Directory](../pages/9000182.md)
+- [Blocage des fichiers de données : correspondance WINDEV 5.5 et les versions supérieures](../pages/3044040.md)
+- [Connecteur Natif Access](../pages/3072013.md)
+- [Connecteur Natif xBase/FoxPro](../pages/3044262.md)
+- [Convertir une base HFSQL Classic en HFSQL Client/Serveur](../pages/9000155.md)
+- [Driver ODBC pour HFSQL Classic et pour HFSQL Client/Serveur (Linux)](../pages/9000160.md)
+- [Driver ODBC pour HFSQL Classic et pour HFSQL Client/Serveur (Windows)](../pages/3044179.md)
+- [Erreurs de gestion des fichiers de données](../pages/3044177.md)
+- [Erreurs de gestion spécifiques aux Connecteurs Natifs](../pages/3044361.md)
+- [Exemples d'utilisation du provider OLE DB pour HFSQL](../pages/9000064.md)
+- [Fichiers de données HFSQL de plus de 2 Giga](../pages/3044189.md)
+- [Fichiers de données inaltérables](../pages/9000181.md)
+- [Fichiers xBase : Limites](../pages/3044247.md)
+- [Filtrer un fichier de données, une vue ou une requête](../pages/3044196.md)
+- [Fonctions de gestion des fichiers Hyper File conservées pour compatibilité uniquement](../pages/3044145.md)
+- [Fonctions SQL : Cas particulier](../pages/3072014.md)
+- [Gestion assistée des erreurs HFSQL](../pages/3044188.md)
+- [Gestion de l'Unicode dans les fichiers de données HFSQL](../pages/3044371.md)
+- [Gestion des connexions](../pages/3044349.md)
+- [Gestion des espaces dans les recherches ?](../pages/3044190.md)
+- [Gestion des identifiants automatiques lors de l'ajout d'un enregistrement](../pages/3044183.md)
+- [Gestion du NULL dans HFSQL](../pages/3044187.md)
+- [HFSQL : Changement de nom](../pages/9000151.md)
+- [HFSQL Client/Serveur : Optimisation planifiée](../pages/9000223.md)
+- [Indexation partielle des mémos](../pages/3044380.md)
+- [Informations optionnelles de connexion](../pages/9000124.md)
+- [Keep-alive sur connexion](../pages/9000184.md)
+- [La journalisation](../pages/3044184.md)
+- [Le fichier .REP](../pages/3044186.md)
+- [Les clés composées](../pages/3044178.md)
+- [Les différents types de parcours disponibles en SQL](../pages/3072025.md)
+- [Les triggers](../pages/3044272.md)
+- [Les vues HFSQL](../pages/3044248.md)
+- [LINUX : Accès aux bases de données ODBC](../pages/3044370.md)
+- [Mettre en place la journalisation dans une application](../pages/3044181.md)
+- [Modification automatique des fichiers de données](../pages/3044195.md)
+- [Modification automatique des fichiers de données : nouveau format de date](../pages/3044250.md)
+- [Modifier le contenu d'une requête](../pages/3044234.md)
+- [ODBC sur HFSQL via Visual .NET (en C#)](../pages/3044313.md)
+- [OLE DB : Configuration nécessaire](../pages/3044268.md)
+- [Parcours de fichiers de données HFSQL](../pages/3044267.md)
+- [Provider OLE DB pour HFSQL](../pages/9000059.md)
+- [Recherche et index full-text](../pages/3044375.md)
+- [Structure des fichiers journal (HFSQL Classic)](../pages/3044182.md)
+- [Structure des fichiers journal (HFSQL Client/Serveur)](../pages/3044197.md)
+- [Transactions : Manipuler les transactions par programmation](../pages/3044336.md)
+- [Transactions : Sécurisez vos traitements sur des fichiers de données HFSQL](../pages/3044335.md)
+- [Triggers applicatifs](../pages/3044271.md)
+- [Utiliser ODBC sur HFSQL Classic via JDBC](../pages/3044273.md)
+- [Vignettes HFSQL](../pages/3044348.md)
+- [Vue matérialisée](../pages/9000159.md)
+- [Vue SQL](../pages/9000157.md)
+- [WDModFic : Outil de modification automatique des fichiers de données](../pages/3044270.md)
+
+## type_de_variable
+
+- [Connexion (Type de variable)](../pages/1514073.md) — *Connection*
+- [Description d'IndexFullText (Type de variable)](../pages/1000017461.md) — *Description of FullTextIndex (Type of variable)*
+- [Description de Fichier (Type de variable)](../pages/1514065.md) — *File Description (Type of variable)*
+- [Description de Liaison (Type de variable)](../pages/1514039.md) — *Link Description (Type of variable)*
+- [Description de Rubrique (Type de variable)](../pages/1514071.md) — *Item Description (Type of variable)*
+- [Enregistrement (Type de variable)](../pages/1000020962.md) — *Record*
+- [hDescriptionSauvegarde (Type de variable)](../pages/1000017455.md) — *hBackupDescription*
+- [hHistoriquePlanification (Type de variable)](../pages/1410090764.md) — *hSchedulingHistory*
+- [hHistoriqueRéindexation (Type de variable)](../pages/1410091059.md) — *hReindexingHistory*
+- [hOptimisationPlanifiée (Type de variable)](../pages/1000018854.md) — *hScheduledOptimization*
+- [hParamètreFichier (Type de variable)](../pages/1000018900.md) — *hFileParameter*
+- [hPlanification (Type de variable)](../pages/1000018853.md) — *hScheduling*
+- [hPlanificationVueMatérialisée (Type de variable)](../pages/1000021444.md) — *hScheduleMaterializedView*
+- [hRSConfig (Type de variable)](../pages/1000020484.md) — *hRSConfig*
+- [hTâchePlanifiée (Type de variable)](../pages/1000017448.md) — *hScheduledTask*
+- [Source de données (Exemple)](../pages/1000001514053.md)
+- [Source de Données (Type de variable)](../pages/1514053.md) — *Data Source*
+- [Type Alias](../pages/1000021446.md) — *Alias*
+
+## variables
+
+- [H.CréationLangueUnicode (Variable)](../pages/3044382.md) — *H.LanguageCreationUnicode*
+- [H.ErrIgnore (Variable)](../pages/3044023.md) — *H.ErrIgnore*
+- [H.LimiteRéindexationAutomatique (Variable)](../pages/3044024.md) — *H.AutoIndexingLimit*
+- [H.ModeSQLServer (Variable)](../pages/3044276.md) — *H.SQLServerMode*
+- [H.NbEnregRequêteModification](../pages/3087002.md) — *H.NbRecModificationQuery*
+- [H.NbEssais (Variable)](../pages/3044075.md) — *H.NbRetry*
+- [H.NbEssaisLecture (Variable)](../pages/3044269.md) — *H.NbRetryRead*
+- [H.NumEnr (Variable)](../pages/3044076.md) — *H.NumRec*
+- [H.RéindexationAutomatiqueVisible (Variable)](../pages/3044070.md) — *H.VisibleAutoIndexing*
+- [H.RépertoireTemporaire (Variable)](../pages/3044381.md) — *H.TemporaryDirectory*
